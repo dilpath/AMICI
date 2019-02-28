@@ -25,9 +25,10 @@ options.sensi = 1;
 
 % load mex into memory
 [~] = which('simulate_model_caspase8'); % fix for inaccessability problems
-sol = simulate_model_caspase8(t,p,k,[],options);
-disp(['Event triggered, time of event:' sol.z])
-disp(['Value of trigger function:' sol.rz])
+D = []; %amidata(length(t), 6, 1, 1, 1);
+sol = simulate_model_caspase8(t, p, k, D, options);
+disp(['Event triggered, time of event:' num2str(sol.z)])
+disp(['Value of trigger function:' num2str(sol.rz)])
 
 %% plot
 figure()
@@ -47,9 +48,9 @@ p_mod(10) = p_mod(10) - 10;
 
 % load mex into memory
 [~] = which('simulate_model_caspase8'); % fix for inaccessability problems
-sol = simulate_model_caspase8(t,p_mod,k,[],options);
-disp(['Event triggered, time of event:' sol.z])
-disp(['Value of trigger function:' sol.rz])
+sol = simulate_model_caspase8(t, p_mod, k, D, options);
+disp(['Event triggered, time of event:' num2str(sol.z)])
+disp(['Value of trigger function:' num2str(sol.rz)])
 
 %% plot
 figure()
