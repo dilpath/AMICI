@@ -97,10 +97,10 @@ class my_build_clib(build_clib):
         distutils.ccompiler.CCompiler.compile = compile_parallel
 
         # start new code
-        compilerType = self.compiler.compiler_type
+        compiler_type = self.compiler.compiler_type
         for lib in libraries:
             try:
-               lib[1]['cflags'] = lib[1]['cflags'] + lib[1]['cflags_'+compilerType]
+               lib[1]['cflags'] = lib[1]['cflags'] + lib[1]['cflags_'+compiler_type]
             except KeyError: None
         # end new code
 
