@@ -1,0 +1,33 @@
+<map id="printfToString" name="printfToString">
+<area shape="rect" id="node1" title="Format printf&#45;style arguments to std::string." alt="" coords="1140,46,1240,74"/>
+<area shape="rect" id="node2" href="$classamici_1_1_amici_application.html#a329afcc02c7707f74c3bc8d63ea49314" title="printf interface to error()" alt="" coords="934,5,1092,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1_amici_application.html#ac33f281d043d0a504fb47ad30fc66b27" title="printf interface to warning()" alt="" coords="934,72,1092,115"/>
+<area shape="rect" id="node3" href="$interface__matlab_8cpp.html#a6a215cbfde54f82a3ce599228fc3fce5" title=" " alt="" coords="758,13,856,40"/>
+<area shape="rect" id="node5" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="728,707,886,749"/>
+<area shape="rect" id="node29" href="$classamici_1_1_amici_application.html#a025192a6f53e19eae958cd3b14786f80" title=" " alt="" coords="728,68,886,111"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ad5421d929b78eb1533645f2982ac8700" title="Update adjoint quadratures after event." alt="" coords="502,236,668,279"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a69df3d688f14d72236abc49330ff96ed" title="Update adjoint state after event." alt="" coords="502,303,668,345"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a2adb2ac42f3352654d7308ea21c452c4" title="Update state variables after event." alt="" coords="489,369,680,412"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#abc67e0ac06b3391efec41e0b5c8fc3c3" title="Update state sensitivity after event." alt="" coords="224,420,441,463"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a5ae78606b252253dbe24ea999bcbdf40" title="Check if the given array has only finite elements." alt="" coords="499,892,670,919"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a9863a7dcd8e1385435c00a29939a8bae" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="497,942,673,970"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a3c192b268face826f5adc0eff0395a27" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="512,993,658,1020"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#abb22422c569ab3fac8a439cb25c1f65d" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. standard deviation sigma." alt="" coords="5,740,176,767"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#ac45aff20b906c9a9ec7abb5b1a1d3116" title="Partial derivative of time&#45;resolved measurement negative log&#45;likelihood Jy." alt="" coords="20,816,162,843"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#aaa7bf3bdc44879d66b3821a095039898" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="499,1044,670,1071"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#a0c44c0a2afed13fbc92f449789566fad" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="514,1094,656,1122"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#a71d62a12725171bcbfd8820576d9cbac" title="Sensitivity of event&#45;resolved root output w.r.t. to model parameters p." alt="" coords="515,1145,655,1172"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#a34052813fd772e249e8a1f18d086ee57" title="Sensitivity of event&#45;resolved measurements rz w.r.t. to model states x." alt="" coords="515,1196,655,1223"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#a635d31c36e49ca982b244b4789b9aeeb" title="Partial derivative of standard deviation of measurements w.r.t. model." alt="" coords="499,1246,671,1274"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model.html#aa3eda4b933956ecd898a14b7d46f37ae" title="Sensitivity of standard deviation of events measurements w.r.t. model parameters p." alt="" coords="499,1297,671,1324"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model.html#aa6c5486532d5e6da745ff545bf64182f" title="Recurring terms in xdot, parameter derivative." alt="" coords="263,486,402,514"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model.html#a3d49dd3885ecf07f14e3fde288450be1" title="Partial derivative of observables y w.r.t. model parameters p." alt="" coords="23,486,159,514"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model.html#a7afd5fb5b12531657d3536508fd7a066" title="Recurring terms in xdot, state derivative." alt="" coords="264,638,402,666"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model.html#a4c5dcc630cd7c535b0003b29d9f37603" title="Partial derivative of observables y w.r.t. state variables x." alt="" coords="23,638,159,666"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model.html#a3564a48408fdd80f51b0a24a216f40fe" title="Partial derivative of event&#45;resolved output z w.r.t. to model parameters p." alt="" coords="517,134,653,162"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model.html#a1449de2b0a762697c2d8f39efb3f405f" title="Partial derivative of event&#45;resolved output z w.r.t. to model states x." alt="" coords="517,185,653,212"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model.html#a6806017c602b7dcfa09339b93d612910" title="Recurring terms in xdot." alt="" coords="526,588,643,615"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model.html#a50bf3da6e8796026853b5faec49095d0" title="Observables / measurements." alt="" coords="276,790,390,818"/>
+<area shape="rect" id="node30" href="$namespaceamici.html#a025192a6f53e19eae958cd3b14786f80" title=" " alt="" coords="517,17,653,44"/>
+<area shape="rect" id="node31" href="$classamici_1_1_amici_application.html#a8f9dcb693a4bba91fe1b4fdd47e96ed9" title=" " alt="" coords="506,68,664,111"/>
+</map>

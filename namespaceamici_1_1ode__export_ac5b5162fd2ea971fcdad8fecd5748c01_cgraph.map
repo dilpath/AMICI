@@ -1,0 +1,4 @@
+<map id="get_model_override_implementation" name="get_model_override_implementation">
+<area shape="rect" id="node1" title="Constructs amici::Model::* override implementation for a given function." alt="" coords="5,5,145,48"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1ode__export.html#abc24b0bdf0ef2b473259caa60888eeb0" title="Strips typedef info from a function signature." alt="" coords="193,13,316,40"/>
+</map>

@@ -1,0 +1,127 @@
+\hypertarget{classamici_1_1_newton_solver_dense}{}\doxysubsection{Newton\+Solver\+Dense Class Reference}
+\label{classamici_1_1_newton_solver_dense}\index{NewtonSolverDense@{NewtonSolverDense}}
+
+
+The \mbox{\hyperlink{classamici_1_1_newton_solver_dense}{Newton\+Solver\+Dense}} provides access to the dense linear solver for the Newton method.  
+
+
+
+
+{\ttfamily \#include $<$newton\+\_\+solver.\+h$>$}
+
+
+
+Inheritance diagram for Newton\+Solver\+Dense\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{classamici_1_1_newton_solver_dense__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_newton_solver_dense_ad5a38fed10e08e345dfefe89569eb8ad}{Newton\+Solver\+Dense}} (\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_newton_solver_ad94d61da9b85c1a151ffd8e228758c7c}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$\mbox{\hyperlink{classamici_1_1_newton_solver_af64268982dd7b9be1690573763982e0b}{x}}, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$\mbox{\hyperlink{classamici_1_1_newton_solver_a7b56c3ca57dde73bdbc8dbe9772bca19}{model}}, \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$\mbox{\hyperlink{classamici_1_1_newton_solver_a4c0807651f0594a186e8856f22e442cc}{rdata}})
+\item 
+void \mbox{\hyperlink{classamici_1_1_newton_solver_dense_ab46a7b328bc1be64b6b9e4ee8213626a}{solve\+Linear\+System}} (\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&rhs) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_newton_solver_dense_a0b900656d018299b08d0f027e95bd347}{prepare\+Linear\+System}} (int ntry, int nnewt) override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+
+
+\doxysubsubsection{Detailed Description}
+
+
+Definition at line 136 of file newton\+\_\+solver.\+h.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_newton_solver_dense_ad5a38fed10e08e345dfefe89569eb8ad}\label{classamici_1_1_newton_solver_dense_ad5a38fed10e08e345dfefe89569eb8ad}} 
+\index{NewtonSolverDense@{NewtonSolverDense}!NewtonSolverDense@{NewtonSolverDense}}
+\index{NewtonSolverDense@{NewtonSolverDense}!NewtonSolverDense@{NewtonSolverDense}}
+\doxyparagraph{\texorpdfstring{NewtonSolverDense()}{NewtonSolverDense()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_newton_solver_dense}{Newton\+Solver\+Dense}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} $\ast$}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata }\end{DoxyParamCaption})}
+
+Constructor, initializes all members with the provided objects and initializes temporary storage objects
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to time variable \\
+\hline
+{\em x} & pointer to state variables \\
+\hline
+{\em model} & pointer to the A\+M\+I\+CI model object \\
+\hline
+{\em rdata} & pointer to the return data object \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 141 of file newton\+\_\+solver.\+cpp.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_newton_solver_dense_ab46a7b328bc1be64b6b9e4ee8213626a}\label{classamici_1_1_newton_solver_dense_ab46a7b328bc1be64b6b9e4ee8213626a}} 
+\index{NewtonSolverDense@{NewtonSolverDense}!solveLinearSystem@{solveLinearSystem}}
+\index{solveLinearSystem@{solveLinearSystem}!NewtonSolverDense@{NewtonSolverDense}}
+\doxyparagraph{\texorpdfstring{solveLinearSystem()}{solveLinearSystem()}}
+{\footnotesize\ttfamily void solve\+Linear\+System (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Solves the linear system for the Newton step
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & containing the R\+HS of the linear system, will be overwritten by solution to the linear system \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_newton_solver_addfdd7afbe1eff3d47b0f28b6191793f}{Newton\+Solver}}.
+
+
+
+Definition at line 163 of file newton\+\_\+solver.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_newton_solver_dense_ab46a7b328bc1be64b6b9e4ee8213626a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_newton_solver_dense_a0b900656d018299b08d0f027e95bd347}\label{classamici_1_1_newton_solver_dense_a0b900656d018299b08d0f027e95bd347}} 
+\index{NewtonSolverDense@{NewtonSolverDense}!prepareLinearSystem@{prepareLinearSystem}}
+\index{prepareLinearSystem@{prepareLinearSystem}!NewtonSolverDense@{NewtonSolverDense}}
+\doxyparagraph{\texorpdfstring{prepareLinearSystem()}{prepareLinearSystem()}}
+{\footnotesize\ttfamily void prepare\+Linear\+System (\begin{DoxyParamCaption}\item[{int}]{ntry,  }\item[{int}]{nnewt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Writes the Jacobian for the Newton iteration and passes it to the linear solver
+
+
+\begin{DoxyParams}{Parameters}
+{\em ntry} & integer newton\+\_\+try integer start number of Newton solver (1 or 2) \\
+\hline
+{\em nnewt} & integer number of current Newton step \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_newton_solver_a4aed46b0343374f171f9b4b51fa009e7}{Newton\+Solver}}.
+
+
+
+Definition at line 154 of file newton\+\_\+solver.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_newton_solver_dense_a0b900656d018299b08d0f027e95bd347_cgraph}
+\end{center}
+\end{figure}

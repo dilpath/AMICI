@@ -1,0 +1,9 @@
+<map id="fsigmay" name="fsigmay">
+<area shape="rect" id="node1" title="Standard deviation of measurements." alt="" coords="5,123,73,150"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="145,5,330,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_exp_data.html#ad0ca0d6d8d5b6bb5587570d70bd3a4fc" title="get function that returns a pointer to standard deviation of observed data at index" alt="" coords="140,56,335,99"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a8e09d89b5ae9c916cf031eaf8c806440" title="get simulation timepoint for time index it" alt="" coords="189,123,287,150"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#aedcda756b6356d6e147f2f4eb7658500" title="get function that checks whether data at specified indices has been set" alt="" coords="121,173,355,201"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#a75808a32f77afa60bb736a1dfbce9aba" title="get function that checks whether standard deviation of data at specified indices has been set" alt="" coords="135,224,341,267"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="403,203,499,230"/>
+</map>

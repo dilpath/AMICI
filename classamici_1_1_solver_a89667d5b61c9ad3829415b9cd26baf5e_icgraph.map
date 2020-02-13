@@ -1,0 +1,13 @@
+<map id="getAdjInitDone" name="getAdjInitDone">
+<area shape="rect" id="node1" title="checks whether memory for forward interpolation has been allocated" alt="" coords="711,109,819,137"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a2bd5a83137150255276abb215c85939c" title="updates ASA quadrature solver tolerances according to the currently specified member variables" alt="" coords="486,8,663,35"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#ac4719da01affd1bb5e47a90903a95387" title="updates ASA solver tolerances according to the currently specified member variables" alt="" coords="502,59,646,86"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#a59922504af5d337cbdddcb72b6f75a99" title="runs a forward simulation until the specified timepoint" alt="" coords="554,109,594,137"/>
+<area shape="rect" id="node9" href="$classamici_1_1_solver.html#a763da71f524172180c85a2bf54cc3775" title="sets the maximum number of solver steps for the forward problem" alt="" coords="277,157,375,185"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#acba96a996e86d06866334c3534dc731f" title="makes a single step in the simulation" alt="" coords="551,212,597,239"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a086428d30274f2b7e6f94e8e7593dd8b" title="sets the relative tolerance for the quadrature problem" alt="" coords="217,5,436,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a24382c0c42c9c60990ce2019fa2c0062" title="Initialises the AMI memory object for the backwards problem." alt="" coords="295,56,358,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object" alt="" coords="5,107,167,134"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#af425163c5d98c472d17e080da4ee3b78" title="sets the absolute tolerance for the quadrature problem" alt="" coords="215,107,438,134"/>
+<area shape="rect" id="node11" href="$classamici_1_1_steadystate_problem.html#aaa96e719e7f016de86389e09ab9e51a6" title=" " alt="" coords="236,208,416,251"/>
+</map>

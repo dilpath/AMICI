@@ -1,0 +1,4 @@
+<map id="checkLibSBMLErrors" name="checkLibSBMLErrors">
+<area shape="rect" id="node1" title="Checks the error log in the current self.sbml_doc." alt="" coords="5,5,152,33"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1sbml__import.html#ade83a7deb61b7942e383d5c4f838cde5" title="Collect data into fixed&#45;length chunks or blocks." alt="" coords="200,5,267,33"/>
+</map>

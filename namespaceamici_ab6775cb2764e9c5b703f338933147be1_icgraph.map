@@ -1,0 +1,8 @@
+<map id="regexErrorToString" name="regexErrorToString">
+<area shape="rect" id="node1" title="Convert std::regex_constants::error_type to string." alt="" coords="462,113,595,140"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a8d94e36b43d1223764e485c02962d16b" title="local helper function to set parameters via regex" alt="" coords="276,113,414,140"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#acda9b9debfd3d6ac77e2d27a48bfb5d6" title="Set values of all fixed parameters with the id matching the specified regex." alt="" coords="5,5,228,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a4802f7d56264e3b592c167da8166cb73" title="Set value of all fixed parameters with name matching the specified regex,." alt="" coords="5,72,228,115"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#ab66d6b754637ed68449af96f5887a0be" title="Set all values of model parameters with ids matching the specified regex." alt="" coords="22,139,212,181"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a1307ed45ccda80e84174d6b495c85d8d" title="Set all values of all model parameters with names matching the specified regex." alt="" coords="22,205,212,248"/>
+</map>

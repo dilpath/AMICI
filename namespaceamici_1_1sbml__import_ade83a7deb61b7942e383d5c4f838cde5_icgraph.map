@@ -1,0 +1,5 @@
+<map id="grouper" name="grouper">
+<area shape="rect" id="node1" title="Collect data into fixed&#45;length chunks or blocks." alt="" coords="510,13,577,40"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1sbml__import.html#ade50d6eafb9bcd9f1f6f13d08b0a3910" title="Checks the error log in the current self.sbml_doc." alt="" coords="315,13,462,40"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae28a0768f7b6b440f759b0487ec67bbc" title="Validate and simplify document." alt="" coords="5,5,267,48"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="copy" name="copy">
+<area shape="rect" id="node1" title="copies data from another AmiVectorArray" alt="" coords="463,42,512,70"/>
+<area shape="rect" id="node2" href="$classamici_1_1_steadystate_problem.html#aadb44253176a7440d1ec46d64dd1336e" title="routine that writes solutions of steadystate problem to target vectors" alt="" coords="234,5,414,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a6420585ef573cc6fb8e299d82b3050e9" title="write solution from forward simulation" alt="" coords="233,72,415,99"/>
+<area shape="rect" id="node4" href="$classamici_1_1_steadystate_problem.html#aaa96e719e7f016de86389e09ab9e51a6" title=" " alt="" coords="5,64,185,107"/>
+</map>

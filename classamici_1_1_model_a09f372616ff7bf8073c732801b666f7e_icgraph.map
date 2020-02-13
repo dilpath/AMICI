@@ -1,0 +1,5 @@
+<map id="getReinitializeFixedParameterInitialStates" name="getReinitializeFixedParameterInitialStates">
+<area shape="rect" id="node1" title="Get whether initial states depending on fixedParmeters are to be reinitialized after preequilibration..." alt="" coords="204,23,403,66"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a79d8a1d0d4ef31605f9c21e2f6828ae0" title="Sets only those initial states sensitivities that are affected from fx0 fixedParmeters." alt="" coords="5,5,156,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a137d6ba3f54998477871f0387c01628c" title="Sets only those initial states that are specified via fixedParmeters." alt="" coords="9,56,152,83"/>
+</map>

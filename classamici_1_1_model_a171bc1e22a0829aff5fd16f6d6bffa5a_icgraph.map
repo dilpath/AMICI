@@ -1,0 +1,12 @@
+<map id="fz" name="fz">
+<area shape="rect" id="node1" title="Event&#45;resolved output." alt="" coords="536,81,575,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ace9763a0ecf7efeb69ead8a721da6916" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="355,5,488,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#aaa7bf3bdc44879d66b3821a095039898" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="377,56,466,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a0c44c0a2afed13fbc92f449789566fad" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="392,107,452,134"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#ac0c041886a527c0517aac6312d59185d" title="Event&#45;resolved observables." alt="" coords="385,157,459,185"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ab59ce7dce76df68b92b0b7404f9f8a19" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. parameters." alt="" coords="247,56,307,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,81,199,109"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="16,15,187,58"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#aa4c825912365c05bf472568ef1adb929" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="247,107,307,134"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="8,132,196,159"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="fxdot" name="fxdot">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,134"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a0259cf8f0b132a25345ddc30c91febe8" title="Computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="104,56,296,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a6806017c602b7dcfa09339b93d612910" title="Recurring terms in xdot." alt="" coords="141,161,258,189"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model___o_d_e.html#a9afb205ee882a3bd6adc542c98dcd635" title="Residual function." alt="" coords="175,107,225,134"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#aa1f33dc2530301e51e2077a5576d99d0" title="accessor to data elements of the vector" alt="" coords="372,5,511,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="347,56,535,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#a831a0391e277bda7766d7ee9638a9eb9" title="N_Vector accessor." alt="" coords="344,107,538,134"/>
+<area shape="rect" id="node7" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="362,158,520,200"/>
+<area shape="rect" id="node8" href="$namespaceamici.html#a10c0a2eb43575a155a34f5bb280f7973" title=" " alt="" coords="623,115,707,142"/>
+<area shape="rect" id="node9" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="617,165,713,193"/>
+<area shape="rect" id="node10" href="$classamici_1_1_amici_application.html#ac33f281d043d0a504fb47ad30fc66b27" title="printf interface to warning()" alt="" coords="586,216,744,259"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="getObservable" name="getObservable">
+<area shape="rect" id="node1" title="Time&#45;resolved observables,." alt="" coords="5,132,113,159"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a50bf3da6e8796026853b5faec49095d0" title="Observables / measurements." alt="" coords="201,81,239,109"/>
+<area shape="rect" id="node9" href="$namespaceamici.html#ab6363cf4e0abdfd138fb33270bb425a6" title="local helper function to write computed slice to provided buffer" alt="" coords="161,157,278,185"/>
+<area shape="rect" id="node3" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="530,48,688,91"/>
+<area shape="rect" id="node7" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="327,56,481,83"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a6806017c602b7dcfa09339b93d612910" title="Recurring terms in xdot." alt="" coords="385,107,424,134"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a10c0a2eb43575a155a34f5bb280f7973" title=" " alt="" coords="773,5,857,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="767,56,863,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_amici_application.html#ac33f281d043d0a504fb47ad30fc66b27" title="printf interface to warning()" alt="" coords="736,107,894,150"/>
+<area shape="rect" id="node10" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="326,157,482,185"/>
+<area shape="rect" id="node11" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="361,208,448,235"/>
+</map>

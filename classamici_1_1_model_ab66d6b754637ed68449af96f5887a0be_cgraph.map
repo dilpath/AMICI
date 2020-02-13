@@ -1,0 +1,10 @@
+<map id="setParametersByIdRegex" name="setParametersByIdRegex">
+<area shape="rect" id="node1" title="Set all values of model parameters with ids matching the specified regex." alt="" coords="5,81,179,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a2c3cf99676168a01fccf6f4217f85297" title="Get ids of the model parameters." alt="" coords="489,5,609,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a2bd3836db435507277d0e5c9fa139cb9" title="Reports whether the model has parameter ids set. Also returns true if the number of corresponding var..." alt="" coords="253,56,376,83"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a8d94e36b43d1223764e485c02962d16b" title="local helper function to set parameters via regex" alt="" coords="227,107,403,134"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#ad1acbd1f317ba4fa5ea410911a5af275" title="Remove parameter scaling according to the parameter scaling in pscale." alt="" coords="227,157,402,185"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ae296546c9fd4d7c4ad3b7000aa9e22ef" title="Total number of model parameters." alt="" coords="529,56,568,83"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#ab6775cb2764e9c5b703f338933147be1" title="Convert std::regex_constants::error_type to string." alt="" coords="463,107,635,134"/>
+<area shape="rect" id="node8" href="$namespaceamici.html#a7e1720941869974da1ca8dbd6cd9e936" title="Remove parameter scaling according to scaling" alt="" coords="451,157,647,185"/>
+</map>

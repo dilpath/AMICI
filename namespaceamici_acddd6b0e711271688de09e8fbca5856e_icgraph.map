@@ -1,0 +1,8 @@
+<map id="setValueById" name="setValueById">
+<area shape="rect" id="node1" title="local helper function to set parameters" alt="" coords="528,93,627,121"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#adc0d24343c6fed2e797fb402f7c2d256" title="Set value of first fixed parameter with the specified id." alt="" coords="237,5,480,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#af1225439bd6deceb98b224e75a960800" title="Set value of first fixed parameter with the specified name,." alt="" coords="250,56,467,99"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a995357a19663980279249d4b89a88f7a" title="Set value of first model parameter with the specified id." alt="" coords="253,123,464,150"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a6c5ceb2ba684cf68a7f21ad865091200" title="Set value of first model parameter with the specified name." alt="" coords="267,174,450,216"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a6dfba36ac3e392b85bb33f84bb778e77" title="Sets model parameters according to the parameter name and mapped values." alt="" coords="5,174,189,216"/>
+</map>

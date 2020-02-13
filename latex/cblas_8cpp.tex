@@ -1,0 +1,30 @@
+\hypertarget{cblas_8cpp}{}\doxysubsection{cblas.\+cpp File Reference}
+\label{cblas_8cpp}\index{cblas.cpp@{cblas.cpp}}
+
+
+B\+L\+AS routines required by A\+M\+I\+CI.  
+
+
+{\ttfamily \#include \char`\"{}amici/cblas.\+h\char`\"{}}\newline
+Include dependency graph for cblas.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{cblas_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceamici}{amici}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceamici_a1e23c7855010fa95b35bc376ba1f9999}{amici\+\_\+dgemm}} (B\+L\+A\+S\+Layout layout, B\+L\+A\+S\+Transpose TransA, B\+L\+A\+S\+Transpose TransB, int M, int N, int K, double alpha, const double $\ast$A, int lda, const double $\ast$B, int ldb, double beta, double $\ast$C, int ldc)
+\item 
+void \mbox{\hyperlink{namespaceamici_aa75b712257b2598fd92cc40407954690}{amici\+\_\+dgemv}} (B\+L\+A\+S\+Layout layout, B\+L\+A\+S\+Transpose TransA, int M, int N, double alpha, const double $\ast$A, int lda, const double $\ast$X, int incX, double beta, double $\ast$Y, int incY)
+\item 
+void \mbox{\hyperlink{namespaceamici_a3c93e9131a1466a175b1d096c21bcf79}{amici\+\_\+daxpy}} (int n, double alpha, const double $\ast$x, int incx, double $\ast$y, int incy)
+\begin{DoxyCompactList}\small\item\em Compute y = a$\ast$x + y. \end{DoxyCompactList}\end{DoxyCompactItemize}

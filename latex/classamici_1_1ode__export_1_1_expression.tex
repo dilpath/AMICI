@@ -1,0 +1,61 @@
+\hypertarget{classamici_1_1ode__export_1_1_expression}{}\doxysubsection{Expression Class Reference}
+\label{classamici_1_1ode__export_1_1_expression}\index{Expression@{Expression}}
+
+
+An Expressions is a recurring elements in symbolic formulas.  
+
+
+
+
+Inheritance diagram for Expression\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classamici_1_1ode__export_1_1_expression__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression_a258843a3afab00b576ccf386e8673a64}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, identifier, name, value)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression}{Expression}} instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+Specifying this may yield more compact expression which may lead to substantially shorter model compilation times, but may also reduce model simulation time, abbreviated by {\ttfamily w} 
+
+Definition at line 533 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_expression_a258843a3afab00b576ccf386e8673a64}\label{classamici_1_1ode__export_1_1_expression_a258843a3afab00b576ccf386e8673a64}} 
+\index{Expression@{Expression}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Expression@{Expression}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{identifier,  }\item[{}]{name,  }\item[{}]{value }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & unique identifier of the \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression}{Expression}} ~\newline
+{\bfseries{Type}}\+: sympy.\+Symbol\\
+\hline
+{\em name} & individual name of the \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression}{Expression}} (does not need to be unique) ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em value} & formula ~\newline
+{\bfseries{Type}}\+: symengine.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if input types do not match documented types 
+\end{DoxyParagraph}
+
+
+Reimplemented from \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}{Model\+Quantity}}.
+
+
+
+Definition at line 548 of file ode\+\_\+export.\+py.
+

@@ -1,0 +1,4 @@
+<map id="writeMatlabField1" name="writeMatlabField1">
+<area shape="rect" id="node1" title="initialise vector and attach to the field" alt="" coords="5,5,131,33"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a10c4b68cefb537f43f52c1f2f23db5f9" title="initialises the field fieldName in matlabStruct with dimension dim" alt="" coords="179,5,311,33"/>
+</map>

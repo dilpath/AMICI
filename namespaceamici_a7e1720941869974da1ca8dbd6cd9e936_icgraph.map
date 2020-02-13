@@ -1,0 +1,13 @@
+<map id="getUnscaledParameter" name="getUnscaledParameter">
+<area shape="rect" id="node1" title="Remove parameter scaling according to scaling" alt="" coords="699,175,856,203"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#ad1acbd1f317ba4fa5ea410911a5af275" title="Remove parameter scaling according to the parameter scaling in pscale." alt="" coords="515,175,651,203"/>
+<area shape="rect" id="node3" href="$classamici_1_1_return_data.html#adce202dc864a1e65d8453f597de271f5" title="applies the chain rule to account for parameter transformation in the sensitivities of simulation res..." alt="" coords="237,5,467,63"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a995357a19663980279249d4b89a88f7a" title="Set value of first model parameter with the specified id." alt="" coords="247,87,457,115"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a6c5ceb2ba684cf68a7f21ad865091200" title="Set value of first model parameter with the specified name." alt="" coords="260,138,444,181"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#af1e95f6479d442fcb4c63d16763d4acd" title="Sets the parameter vector." alt="" coords="257,205,447,232"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#ab66d6b754637ed68449af96f5887a0be" title="Set all values of model parameters with ids matching the specified regex." alt="" coords="257,256,447,298"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a1307ed45ccda80e84174d6b495c85d8d" title="Set all values of all model parameters with names matching the specified regex." alt="" coords="257,322,447,365"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a6dfba36ac3e392b85bb33f84bb778e77" title="Sets model parameters according to the parameter name and mapped values." alt="" coords="5,130,189,173"/>
+<area shape="rect" id="node8" href="$classamici_1_1_condition_context.html#a3afbbd4b46cbd46cbc07960705492843" title="Apply condition&#45;specific settings from edata to the constructor&#45;supplied model, not changing the sett..." alt="" coords="16,197,178,240"/>
+<area shape="rect" id="node9" href="$classamici_1_1_condition_context.html#afd3595051be2709847c2de4352f27cf5" title="Restore original settings on constructor&#45;supplied amici::Model. Will be called during destruction...." alt="" coords="16,264,178,306"/>
+</map>

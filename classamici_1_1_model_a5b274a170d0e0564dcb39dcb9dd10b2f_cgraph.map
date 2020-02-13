@@ -1,0 +1,12 @@
+<map id="addEventObjectiveRegularization" name="addEventObjectiveRegularization">
+<area shape="rect" id="node1" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="5,123,224,150"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a4c330baa70af09f9cef7be3d4da674c7" title="Regularization of negative log&#45;likelihood with roots of event&#45;resolved measurements rz." alt="" coords="284,47,327,74"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a74340e771fd77e724bf1461dc9518769" title="Event root function of events (equal to froot but does not include non&#45;output events)" alt="" coords="286,97,325,125"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a33ebc7e2d021c9d8fd0aa4ee136da6c7" title="Standard deviation of events." alt="" coords="272,148,339,175"/>
+<area shape="rect" id="node8" href="$classamici_1_1_exp_data.html#a7270ea1362212e4dc344e24dc01b70ee" title="get function that checks whether event data at specified indices has been set" alt="" coords="387,240,593,283"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="413,5,567,33"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="397,56,583,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#aabab4dfc080fdf961b6a3bbf1aebd631" title="get function that returns a pointer to standard deviation of observed event data at ieth occurence" alt="" coords="393,107,587,150"/>
+<area shape="rect" id="node10" href="$classamici_1_1_exp_data.html#a29530529cf50b9fa791e02fed620ea7a" title="get function that checks whether standard deviation of even data at specified indices has been set" alt="" coords="387,174,593,216"/>
+<area shape="rect" id="node9" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="641,215,737,242"/>
+</map>

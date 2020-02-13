@@ -1,0 +1,7 @@
+<map id="fdsigmaydp" name="fdsigmaydp">
+<area shape="rect" id="node1" title="Partial derivative of standard deviation of measurements w.r.t. model." alt="" coords="535,60,624,87"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="353,35,414,62"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a438cbd56ad9ee77f9ee2a8a5d919584b" title="Sensitivity of time&#45;resolved observable standard deviation, total derivative (can be used with both a..." alt="" coords="281,85,487,113"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,5,233,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="16,56,222,99"/>
+</map>

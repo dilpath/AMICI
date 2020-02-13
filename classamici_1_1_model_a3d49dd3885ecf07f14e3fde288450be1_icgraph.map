@@ -1,0 +1,7 @@
+<map id="fdydp" name="fdydp">
+<area shape="rect" id="node1" title="Partial derivative of observables y w.r.t. model parameters p." alt="" coords="497,60,551,87"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="334,35,395,62"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a23f9b1f2f061cc04f42fe32e1549bf80" title="Sensitivity of time&#45;resolved observables, total derivative sy = dydx * sx + dydp (only for forward se..." alt="" coords="281,85,449,113"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,5,233,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="16,56,222,99"/>
+</map>

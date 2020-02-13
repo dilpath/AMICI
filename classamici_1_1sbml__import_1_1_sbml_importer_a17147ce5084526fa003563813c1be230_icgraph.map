@@ -1,0 +1,4 @@
+<map id="reset_symbols" name="reset_symbols">
+<area shape="rect" id="node1" title="Reset the symbols attribute to default values." alt="" coords="141,5,249,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7a5d0fdedc31c1f787b68ad3cba228b8" title="Generate AMICI C++ files for the model provided to the constructor." alt="" coords="5,5,93,33"/>
+</map>

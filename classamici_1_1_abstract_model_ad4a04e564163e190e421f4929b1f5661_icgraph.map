@@ -1,0 +1,4 @@
+<map id="isFixedParameterStateReinitializationAllowed" name="isFixedParameterStateReinitializationAllowed">
+<area shape="rect" id="node1" title="Function indicating whether reinitialization of states depending on fixed parameters is permissible." alt="" coords="239,5,482,48"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aaf26e3d4c8b574bc7e63f8beea677bcb" title="Set whether initial states depending on fixedParmeters are to be reinitialized after preequilibration..." alt="" coords="5,5,191,48"/>
+</map>

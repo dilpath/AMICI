@@ -1,0 +1,5 @@
+<map id="ExpData" name="ExpData">
+<area shape="rect" id="node1" title="constructor that initializes with returnData, adds noise according to specified sigmas" alt="" coords="5,31,78,58"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="126,5,311,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_exp_data.html#a4c23d300cbe15b0afb1ee3731d47cc93" title="number of timepoints" alt="" coords="199,56,238,83"/>
+</map>

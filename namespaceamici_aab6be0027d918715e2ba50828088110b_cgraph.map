@@ -1,0 +1,38 @@
+<map id="setSolverOptions" name="setSolverOptions">
+<area shape="rect" id="node1" title="setSolverOptions solver options from the matlab call to a solver object" alt="" coords="5,1253,128,1281"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a204c68962100d0020a37392fef2e95e2" title=" " alt="" coords="258,40,319,67"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#afe0fd2fad6ce110ad8421f5979945f90" title="Sets the absolute tolerances for the forward problem." alt="" coords="201,158,376,200"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#af425163c5d98c472d17e080da4ee3b78" title="sets the absolute tolerance for the quadrature problem" alt="" coords="201,1363,376,1406"/>
+<area shape="rect" id="node11" href="$classamici_1_1_solver.html#ab114a079f23232a521ad2e81a0a30e36" title="sets the internal sensitivity method" alt="" coords="205,1246,372,1288"/>
+<area shape="rect" id="node18" href="$classamici_1_1_solver.html#a9d9a0a5f8cdfdb993960706c646e240f" title="sets the interpolation of the forward solution that is used for the backwards problem" alt="" coords="176,891,401,918"/>
+<area shape="rect" id="node19" href="$classamici_1_1_solver.html#a2143a6f85b81c24611aad5689865953c" title="sets the linear system multistep method" alt="" coords="209,824,369,867"/>
+<area shape="rect" id="node20" href="$classamici_1_1_solver.html#acc8ecf11ad5a8480dd02f757faa264b2" title="setLinearSolver" alt="" coords="209,1144,369,1187"/>
+<area shape="rect" id="node21" href="$classamici_1_1_solver.html#a763da71f524172180c85a2bf54cc3775" title="sets the maximum number of solver steps for the forward problem" alt="" coords="198,1312,380,1339"/>
+<area shape="rect" id="node22" href="$classamici_1_1_solver.html#a164ee7aa0e28fa3d04035dcc379ea42f" title="sets the maximum number of solver steps for the backward problem" alt="" coords="198,1496,380,1539"/>
+<area shape="rect" id="node24" href="$classamici_1_1_solver.html#af9143ab28630d5db394f641df0a8e477" title="Set maximum number of allowed linear steps per Newton step for steady state computation." alt="" coords="205,1563,373,1606"/>
+<area shape="rect" id="node25" href="$classamici_1_1_solver.html#abf2e868e186c724c8ab939ba261ef314" title="Set maximum number of allowed Newton steps for steady state computation." alt="" coords="205,1630,373,1672"/>
+<area shape="rect" id="node26" href="$classamici_1_1_solver.html#a1dc7983f545ee95f7e6fb38cfb0b3286" title="sets the nonlinear system solution method" alt="" coords="199,942,379,984"/>
+<area shape="rect" id="node27" href="$classamici_1_1_solver.html#a51dcc1e7d2a04fbc0253a36bacb08737" title="Enable/disable model preequilibration." alt="" coords="181,1696,397,1723"/>
+<area shape="rect" id="node28" href="$classamici_1_1_solver.html#afb5f0c48f24e4bc3efad8ef599adde56" title="Sets the relative tolerances for the forward problem." alt="" coords="203,91,374,134"/>
+<area shape="rect" id="node29" href="$classamici_1_1_solver.html#a086428d30274f2b7e6f94e8e7593dd8b" title="sets the relative tolerance for the quadrature problem" alt="" coords="203,1430,374,1472"/>
+<area shape="rect" id="node31" href="$classamici_1_1_solver.html#a3a7713f2ce77ffade77445a825ad289d" title="Set sensitivity method." alt="" coords="197,672,380,715"/>
+<area shape="rect" id="node32" href="$classamici_1_1_solver.html#a26129f061fdf7869be2d3e4aa22532b6" title="Set the sensitvity order." alt="" coords="197,368,380,411"/>
+<area shape="rect" id="node33" href="$classamici_1_1_solver.html#a618a94f1d84f9c71230d476f9a0205ce" title="set stability limit detection mode" alt="" coords="204,1766,374,1808"/>
+<area shape="rect" id="node36" href="$classamici_1_1_solver.html#a3e9dfd8bfca1b7bc1c37243624dbf82c" title="Sets KLU / SuperLUMT state ordering mode." alt="" coords="186,1832,392,1859"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#afaf648266a045d246ff24e38b8ba3077" title="updates all senstivivity solver tolerances according to the currently specified member variables" alt="" coords="465,158,662,200"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a61eeb2f4cd6bb29b4042340f756fdbe0" title="updates solver tolerances according to the currently specified member variables" alt="" coords="463,5,664,33"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#aea8f6f9bb1b00f58ea0ae27faf11b65f" title="checks whether memory for the forward problem has been allocated" alt="" coords="740,81,913,109"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a9165e303f0d9fa9427c55a94debdea4c" title="sets scalar relative and absolute tolerances for the forward problem" alt="" coords="725,5,928,33"/>
+<area shape="rect" id="node9" href="$classamici_1_1_solver.html#ac4719da01affd1bb5e47a90903a95387" title="updates ASA solver tolerances according to the currently specified member variables" alt="" coords="449,1608,677,1635"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#a89667d5b61c9ad3829415b9cd26baf5e" title="checks whether memory for forward interpolation has been allocated" alt="" coords="730,1608,923,1635"/>
+<area shape="rect" id="node12" href="$classamici_1_1_solver.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of parameters with which the solver was initialized" alt="" coords="758,731,895,758"/>
+<area shape="rect" id="node14" href="$classamici_1_1_solver.html#a5df527ca34def937e6ca2835fc644ec3" title="number of quadratures with which the solver was initialized" alt="" coords="755,905,898,933"/>
+<area shape="rect" id="node16" href="$classamici_1_1_solver.html#ad5665a34d43b7022af0fc096c204ee34" title="number of states with which the solver was initialized" alt="" coords="767,985,886,1013"/>
+<area shape="rect" id="node17" href="$classamici_1_1_solver.html#adadf5f53f5e713fdca870877af5563a1" title="resets solverMemory and solverMemoryB" alt="" coords="472,883,654,926"/>
+<area shape="rect" id="node13" href="$classamici_1_1_ami_vector_array.html#a5f00d4dc3e7866d193ce926f35542801" title="length of AmiVectorArray" alt="" coords="993,723,1145,766"/>
+<area shape="rect" id="node15" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="976,945,1163,973"/>
+<area shape="rect" id="node23" href="$classamici_1_1_solver.html#a2a9ffb6a2338f474b724170bdd616f05" title="specifies the maximum number of steps for the forward problem" alt="" coords="475,1726,651,1768"/>
+<area shape="rect" id="node30" href="$classamici_1_1_solver.html#a2bd5a83137150255276abb215c85939c" title="updates ASA quadrature solver tolerances according to the currently specified member variables" alt="" coords="479,1659,648,1702"/>
+<area shape="rect" id="node34" href="$classamici_1_1_solver.html#a3955db277ad185ff754aa6564328b286" title="activates stability limit detection for the forward problem" alt="" coords="467,1792,660,1819"/>
+<area shape="rect" id="node35" href="$classamici_1_1_solver.html#aec8a73079ae66d08f34ad7144af42bf9" title="activates stability limit detection for the backward problem" alt="" coords="463,1843,664,1870"/>
+</map>

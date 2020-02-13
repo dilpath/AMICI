@@ -1,0 +1,8 @@
+<map id="resetMutableMemory" name="resetMutableMemory">
+<area shape="rect" id="node1" title="resets solverMemory and solverMemoryB" alt="" coords="5,64,152,91"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of parameters with which the solver was initialized" alt="" coords="203,13,255,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a5df527ca34def937e6ca2835fc644ec3" title="number of quadratures with which the solver was initialized" alt="" coords="200,64,258,91"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#ad5665a34d43b7022af0fc096c204ee34" title="number of states with which the solver was initialized" alt="" coords="210,114,248,142"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector_array.html#a5f00d4dc3e7866d193ce926f35542801" title="length of AmiVectorArray" alt="" coords="324,5,476,48"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="306,93,494,120"/>
+</map>

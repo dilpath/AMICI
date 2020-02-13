@@ -1,0 +1,15 @@
+<map id="ExpData" name="ExpData">
+<area shape="rect" id="node1" title="constructor that initializes timepoints and data from vectors" alt="" coords="5,208,78,235"/>
+<area shape="rect" id="node2" href="$classamici_1_1_exp_data.html#a81a6a21cd5d905d5b6199f3a97030f61" title="resizes observedData, observedDataStdDev, observedEvents and observedEventsStdDev" alt="" coords="155,56,278,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#a85ca23791c279fe94e5d9f8e528ca63e" title="set function that copies data from input to ExpData::my" alt="" coords="154,157,279,185"/>
+<area shape="rect" id="node9" href="$classamici_1_1_exp_data.html#a5d84a162eb705e032820acd004603f29" title="set function that copies data from input to ExpData::observedDataStdDev" alt="" coords="132,208,301,235"/>
+<area shape="rect" id="node11" href="$classamici_1_1_exp_data.html#ae621c2d67f85f390d01a97658c956098" title="set function that copies observed event data from input to ExpData::observedEvents" alt="" coords="148,309,285,337"/>
+<area shape="rect" id="node13" href="$classamici_1_1_exp_data.html#af55c1775810031cd4b6e283f6dd220be" title="set function that copies data from input to ExpData::observedEventsStdDev" alt="" coords="126,259,307,286"/>
+<area shape="rect" id="node3" href="$classamici_1_1_exp_data.html#ae0f51d05d7fbaf7f61e0795301bad084" title="resizes observedData and observedDataStdDev" alt="" coords="376,56,520,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_exp_data.html#ae872e294aa6f34e90844905fd203eb16" title="resizes observedEvents and observedEventsStdDev" alt="" coords="373,5,523,33"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#ad41a03e53c2aaeeb82aad5791bf3ee28" title=" " alt="" coords="588,44,693,71"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#a4c23d300cbe15b0afb1ee3731d47cc93" title="number of timepoints" alt="" coords="621,120,660,147"/>
+<area shape="rect" id="node8" href="$classamici_1_1_exp_data.html#aafed26d24a9ff2c6548e44ba51868b8f" title="checker for dimensions of input observedData or observedDataStdDev" alt="" coords="374,157,521,185"/>
+<area shape="rect" id="node10" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="355,259,540,286"/>
+<area shape="rect" id="node12" href="$classamici_1_1_exp_data.html#a6049771289d4eb666e72771be9228f53" title="checker for dimensions of input observedEvents or observedEventsStdDev" alt="" coords="368,309,528,337"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="writeSlice" name="writeSlice">
+<area shape="rect" id="node1" title="local helper function to write computed slice to provided buffer" alt="" coords="244,138,322,166"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="19,5,182,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#ac66f4b4fe55ee5a1e6527b4fb743d215" title="State sensitivity of the negative loglikelihood Jy, partial derivative (to be used with adjoint senst..." alt="" coords="19,72,182,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a27a73579cfa3fbec5d9fd4e0edeee4e0" title="Time&#45;resolved observables,." alt="" coords="5,138,196,166"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a6d69e9d069a75dc6f2856a16ddf01e0c" title="Time&#45;resolved observable standard deviations." alt="" coords="5,189,196,232"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a438cbd56ad9ee77f9ee2a8a5d919584b" title="Sensitivity of time&#45;resolved observable standard deviation, total derivative (can be used with both a..." alt="" coords="5,256,196,299"/>
+</map>

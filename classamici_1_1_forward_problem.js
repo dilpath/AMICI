@@ -1,0 +1,25 @@
+var classamici_1_1_forward_problem =
+[
+    [ "ForwardProblem", "classamici_1_1_forward_problem.html#a315030da8410dce7baa8eb1dd630994b", null ],
+    [ "~ForwardProblem", "classamici_1_1_forward_problem.html#a92e1b3f3ee606fb62d661169f42c1a3c", null ],
+    [ "workForwardProblem", "classamici_1_1_forward_problem.html#a4ef001eef23bc48270159d6193036858", null ],
+    [ "getTime", "classamici_1_1_forward_problem.html#a1bc77462943aa0bae032ffa5d6e887ee", null ],
+    [ "getStateSensitivity", "classamici_1_1_forward_problem.html#a3c364a12c650f9f247f664cedb6d81d3", null ],
+    [ "getStatesAtDiscontinuities", "classamici_1_1_forward_problem.html#ae983e618f5d4161e92b3a86f4abd1048", null ],
+    [ "getRHSAtDiscontinuities", "classamici_1_1_forward_problem.html#aaf71ce300e66a3034148c77417294897", null ],
+    [ "getRHSBeforeDiscontinuities", "classamici_1_1_forward_problem.html#a082b9f4f0d51fc8e2bf46f9f8e700d06", null ],
+    [ "getNumberOfRoots", "classamici_1_1_forward_problem.html#ac5b41527ea8caadc2484221795a9e94f", null ],
+    [ "getDiscontinuities", "classamici_1_1_forward_problem.html#abe84b94f1305622d5b143081992d495b", null ],
+    [ "getRootIndexes", "classamici_1_1_forward_problem.html#a81f0a7c547a343c3bcd179ba5439beb3", null ],
+    [ "getDJydx", "classamici_1_1_forward_problem.html#afb4ec4e3a67624dddea0cd64fca29ae9", null ],
+    [ "getDJzdx", "classamici_1_1_forward_problem.html#a3ea9fa40cc5f7ce1f4e1bd0a6db0f785", null ],
+    [ "getRootCounter", "classamici_1_1_forward_problem.html#a9ba8c1d4ef2ba23e6f4faaaefd28aae9", null ],
+    [ "getStatePointer", "classamici_1_1_forward_problem.html#a0efbb7c64b718e9b8b8020acd59afb78", null ],
+    [ "getStateDerivativePointer", "classamici_1_1_forward_problem.html#a096d23f8405c903ca5d5d4efec5facc0", null ],
+    [ "getStateSensitivityPointer", "classamici_1_1_forward_problem.html#a5ef9198bc0b08dc9e67efcd5dcf64ced", null ],
+    [ "getStateDerivativeSensitivityPointer", "classamici_1_1_forward_problem.html#a440eebbd8bf6a343ff7ee80ddc39b0a0", null ],
+    [ "model", "classamici_1_1_forward_problem.html#a7b56c3ca57dde73bdbc8dbe9772bca19", null ],
+    [ "rdata", "classamici_1_1_forward_problem.html#a4c0807651f0594a186e8856f22e442cc", null ],
+    [ "solver", "classamici_1_1_forward_problem.html#ae1ad25a4dd6b076c27672dc94d11dad0", null ],
+    [ "edata", "classamici_1_1_forward_problem.html#a9ec6aee8cd7c91d0e49aed6e3d0db4ce", null ]
+];

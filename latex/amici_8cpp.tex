@@ -1,0 +1,44 @@
+\hypertarget{amici_8cpp}{}\doxysubsection{amici.\+cpp File Reference}
+\label{amici_8cpp}\index{amici.cpp@{amici.cpp}}
+
+
+core routines for integration  
+
+
+{\ttfamily \#include \char`\"{}amici/amici.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/backwardproblem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/forwardproblem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/misc.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cvodes/cvodes.\+h$>$}\newline
+{\ttfamily \#include $<$sundials/sundials\+\_\+types.\+h$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cstdarg$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+Include dependency graph for amici.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{amici_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceamici}{amici}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ Return\+Data $>$ \mbox{\hyperlink{namespaceamici_a025192a6f53e19eae958cd3b14786f80}{run\+Amici\+Simulation}} (Solver \&solver, const Exp\+Data $\ast$edata, Model \&model, bool rethrow=false)
+\item 
+void \mbox{\hyperlink{namespaceamici_a299cdcd262bf385baf4c4e16a6ddddc5}{print\+Err\+Msg\+Id\+And\+Txt}} (std\+::string const \&id, std\+::string const \&message)
+\begin{DoxyCompactList}\small\item\em Prints a specified error message associated with the specified identifier. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespaceamici_a1bdd1b329fbb335268989524ad4f752b}{print\+Warn\+Msg\+Id\+And\+Txt}} (std\+::string const \&id, std\+::string const \&message)
+\begin{DoxyCompactList}\small\item\em Prints a specified warning message associated with the specified identifier. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ Return\+Data $>$ $>$ \mbox{\hyperlink{namespaceamici_a8f9dcb693a4bba91fe1b4fdd47e96ed9}{run\+Amici\+Simulations}} (Solver const \&solver, const std\+::vector$<$ Exp\+Data $\ast$ $>$ \&edatas, Model const \&model, bool failfast, int num\+\_\+threads)
+\end{DoxyCompactItemize}

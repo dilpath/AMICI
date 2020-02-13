@@ -1,0 +1,7 @@
+<map id="frz" name="frz">
+<area shape="rect" id="node1" title="Event root function of events (equal to froot but does not include non&#45;output events)" alt="" coords="272,81,310,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a5b274a170d0e0564dcb39dcb9dd10b2f" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="5,5,224,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a9863a7dcd8e1385435c00a29939a8bae" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="68,56,161,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a3c192b268face826f5adc0eff0395a27" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="82,107,147,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a2c8c64a4176f95eb0615762b4ac2dcef" title="Regularization for event&#45;resolved observables." alt="" coords="35,157,194,185"/>
+</map>

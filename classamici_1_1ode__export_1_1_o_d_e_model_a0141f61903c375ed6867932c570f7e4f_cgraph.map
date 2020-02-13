@@ -1,0 +1,4 @@
+<map id="add_conservation_law" name="add_conservation_law">
+<area shape="rect" id="node1" title="Adds a new conservation law to the model." alt="" coords="5,5,159,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2731bd07d8e64b54d6b455d6d8441f13" title="Adds a new ModelQuantity to the model." alt="" coords="207,5,324,33"/>
+</map>

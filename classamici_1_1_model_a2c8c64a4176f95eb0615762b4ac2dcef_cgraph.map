@@ -1,0 +1,8 @@
+<map id="getEventRegularization" name="getEventRegularization">
+<area shape="rect" id="node1" title="Regularization for event&#45;resolved observables." alt="" coords="5,31,165,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a74340e771fd77e724bf1461dc9518769" title="Event root function of events (equal to froot but does not include non&#45;output events)" alt="" coords="249,5,288,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a2054555e8d40c4ea6e7f562c335ab984" title="Writes part of a slice to a buffer according to indices specified in z2event." alt="" coords="213,56,325,83"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="374,5,528,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="373,56,529,83"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="408,107,494,134"/>
+</map>

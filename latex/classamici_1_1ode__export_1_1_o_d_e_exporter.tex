@@ -1,0 +1,276 @@
+\hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter}{}\doxysubsection{O\+D\+E\+Exporter Class Reference}
+\label{classamici_1_1ode__export_1_1_o_d_e_exporter}\index{ODEExporter@{ODEExporter}}
+
+
+The \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}} class generates A\+M\+I\+CI C++ files for O\+DE model as defined in symbolic expressions.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_ade5a56f9eda68f70b441b904113d766b}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, ode\+\_\+model, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_aac4f80ee02f9c658ec0633be070b1c1b}{outdir}}=None, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_aa9e289eddb591991c9bc7321dc5b186b}{verbose}}=False, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a29c4626a170365ee3773218f11565690}{assume\+\_\+pow\+\_\+positivity}}=False, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a3da8f16c6fe93b3b56fc83d5ceda9ead}{compiler}}=None, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a50ba58e6df269149d17dda632a15620a}{allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond}}=True)
+\begin{DoxyCompactList}\small\item\em Generate A\+M\+I\+CI C++ files for the O\+DE provided to the constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a3ec6677c764c1a2d57a51d8a9f468310}{generate\+Model\+Code}} (self)
+\begin{DoxyCompactList}\small\item\em Generates the native C++ code for the loaded model and a Matlab script that can be run to compile a mex file from the C++ code. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a61bf03049b9989d73b584fbca9f8d499}{compile\+Model}} (self)
+\begin{DoxyCompactList}\small\item\em Compiles the generated code it into a simulatable module. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a30886da9525f87826d3da2543a4aebbd}{set\+Paths}} (self, output\+\_\+dir)
+\begin{DoxyCompactList}\small\item\em Set output paths for the model and create if necessary. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_af9ec4a20beb62b41663733ecfc8e1713}{set\+Name}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_adefaf64a0bbe772b9463fa2a9cba904e}{model\+Name}})
+\begin{DoxyCompactList}\small\item\em Sets the model name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_aac4f80ee02f9c658ec0633be070b1c1b}{outdir}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_aa9e289eddb591991c9bc7321dc5b186b}{verbose}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a29c4626a170365ee3773218f11565690}{assume\+\_\+pow\+\_\+positivity}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a3da8f16c6fe93b3b56fc83d5ceda9ead}{compiler}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_adefaf64a0bbe772b9463fa2a9cba904e}{model\+Name}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a4fd2ce211a04a67045edfa0a7417b758}{model\+Path}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a0c640398b3d2778368436b5ed35c7daa}{model\+Swig\+Path}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a508cc3106d2c29fe07dc87cbe3ea6927}{model}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a2cb6c540c07a402759bab624703ecdb2}{functions}}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter_a50ba58e6df269149d17dda632a15620a}{allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+\begin{DoxyVerb}    initial states depending on fixedParameters is allowed for this model
+    <br><b>Type</b>: bool
+\end{DoxyVerb}
+ 
+
+Definition at line 1933 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_ade5a56f9eda68f70b441b904113d766b}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_ade5a56f9eda68f70b441b904113d766b}} 
+\index{ODEExporter@{ODEExporter}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ode\+\_\+model,  }\item[{}]{outdir = {\ttfamily None},  }\item[{}]{verbose = {\ttfamily False},  }\item[{}]{assume\+\_\+pow\+\_\+positivity = {\ttfamily False},  }\item[{}]{compiler = {\ttfamily None},  }\item[{}]{allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond = {\ttfamily True} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ode\+\_\+model} & O\+DE definition ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}}\\
+\hline
+{\em outdir} & see sbml\+\_\+import.\+set\+Paths() ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em verbose} & verbosity level for logging, True/\+False default to logging.\+Error/logging.D\+E\+B\+UG\\
+\hline
+{\em assume\+\_\+pow\+\_\+positivity} & if set to true, a special pow function is used to avoid problems with state variables that may become negative due to numerical errors ~\newline
+{\bfseries{Type}}\+: bool\\
+\hline
+{\em compiler} & distutils/setuptools compiler selection to build the python extension ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond} & see \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 2015 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a3ec6677c764c1a2d57a51d8a9f468310}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a3ec6677c764c1a2d57a51d8a9f468310}} 
+\index{ODEExporter@{ODEExporter}!generateModelCode@{generateModelCode}}
+\index{generateModelCode@{generateModelCode}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{generateModelCode()}{generateModelCode()}}
+{\footnotesize\ttfamily def generate\+Model\+Code (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2058 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classamici_1_1ode__export_1_1_o_d_e_exporter_a3ec6677c764c1a2d57a51d8a9f468310_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a61bf03049b9989d73b584fbca9f8d499}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a61bf03049b9989d73b584fbca9f8d499}} 
+\index{ODEExporter@{ODEExporter}!compileModel@{compileModel}}
+\index{compileModel@{compileModel}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{compileModel()}{compileModel()}}
+{\footnotesize\ttfamily def compile\+Model (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2073 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_exporter_a61bf03049b9989d73b584fbca9f8d499_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a30886da9525f87826d3da2543a4aebbd}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a30886da9525f87826d3da2543a4aebbd}} 
+\index{ODEExporter@{ODEExporter}!setPaths@{setPaths}}
+\index{setPaths@{setPaths}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{setPaths()}{setPaths()}}
+{\footnotesize\ttfamily def set\+Paths (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{output\+\_\+dir }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em output\+\_\+dir} & relative or absolute path where the generated model code is to be placed. will be created if does not exists. ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2772 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_af9ec4a20beb62b41663733ecfc8e1713}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_af9ec4a20beb62b41663733ecfc8e1713}} 
+\index{ODEExporter@{ODEExporter}!setName@{setName}}
+\index{setName@{setName}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily def set\+Name (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model\+Name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em model\+Name} & name of the model (must only contain valid filename characters) ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2791 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_aac4f80ee02f9c658ec0633be070b1c1b}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_aac4f80ee02f9c658ec0633be070b1c1b}} 
+\index{ODEExporter@{ODEExporter}!outdir@{outdir}}
+\index{outdir@{outdir}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{outdir}{outdir}}
+{\footnotesize\ttfamily outdir}
+
+see sbml\+\_\+import.\+set\+Paths() ~\newline
+{\bfseries{Type}}\+: str 
+
+Definition at line 2018 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_aa9e289eddb591991c9bc7321dc5b186b}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_aa9e289eddb591991c9bc7321dc5b186b}} 
+\index{ODEExporter@{ODEExporter}!verbose@{verbose}}
+\index{verbose@{verbose}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{verbose}{verbose}}
+{\footnotesize\ttfamily verbose}
+
+more verbose output if True ~\newline
+{\bfseries{Type}}\+: bool 
+
+Definition at line 2019 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a29c4626a170365ee3773218f11565690}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a29c4626a170365ee3773218f11565690}} 
+\index{ODEExporter@{ODEExporter}!assume\_pow\_positivity@{assume\_pow\_positivity}}
+\index{assume\_pow\_positivity@{assume\_pow\_positivity}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{assume\_pow\_positivity}{assume\_pow\_positivity}}
+{\footnotesize\ttfamily assume\+\_\+pow\+\_\+positivity}
+
+if set to true, a special pow function is 
+
+Definition at line 2020 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a3da8f16c6fe93b3b56fc83d5ceda9ead}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a3da8f16c6fe93b3b56fc83d5ceda9ead}} 
+\index{ODEExporter@{ODEExporter}!compiler@{compiler}}
+\index{compiler@{compiler}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{compiler}{compiler}}
+{\footnotesize\ttfamily compiler}
+
+distutils/setuptools compiler selection to build the 
+
+Definition at line 2021 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_adefaf64a0bbe772b9463fa2a9cba904e}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_adefaf64a0bbe772b9463fa2a9cba904e}} 
+\index{ODEExporter@{ODEExporter}!modelName@{modelName}}
+\index{modelName@{modelName}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{modelName}{modelName}}
+{\footnotesize\ttfamily model\+Name}
+
+name of the model that will be used for compilation 
+
+Definition at line 2023 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a4fd2ce211a04a67045edfa0a7417b758}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a4fd2ce211a04a67045edfa0a7417b758}} 
+\index{ODEExporter@{ODEExporter}!modelPath@{modelPath}}
+\index{modelPath@{modelPath}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{modelPath}{modelPath}}
+{\footnotesize\ttfamily model\+Path}
+
+path to the generated model specific files ~\newline
+{\bfseries{Type}}\+: str 
+
+Definition at line 2026 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a0c640398b3d2778368436b5ed35c7daa}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a0c640398b3d2778368436b5ed35c7daa}} 
+\index{ODEExporter@{ODEExporter}!modelSwigPath@{modelSwigPath}}
+\index{modelSwigPath@{modelSwigPath}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{modelSwigPath}{modelSwigPath}}
+{\footnotesize\ttfamily model\+Swig\+Path}
+
+path to the generated swig files ~\newline
+{\bfseries{Type}}\+: str 
+
+Definition at line 2027 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a508cc3106d2c29fe07dc87cbe3ea6927}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a508cc3106d2c29fe07dc87cbe3ea6927}} 
+\index{ODEExporter@{ODEExporter}!model@{model}}
+\index{model@{model}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily model}
+
+O\+DE definition ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} 
+
+Definition at line 2032 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a2cb6c540c07a402759bab624703ecdb2}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a2cb6c540c07a402759bab624703ecdb2}} 
+\index{ODEExporter@{ODEExporter}!functions@{functions}}
+\index{functions@{functions}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{functions}{functions}}
+{\footnotesize\ttfamily functions}
+
+carries C++ function signatures and other specifications 
+
+Definition at line 2035 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_exporter_a50ba58e6df269149d17dda632a15620a}\label{classamici_1_1ode__export_1_1_o_d_e_exporter_a50ba58e6df269149d17dda632a15620a}} 
+\index{ODEExporter@{ODEExporter}!allow\_reinit\_fixpar\_initcond@{allow\_reinit\_fixpar\_initcond}}
+\index{allow\_reinit\_fixpar\_initcond@{allow\_reinit\_fixpar\_initcond}!ODEExporter@{ODEExporter}}
+\doxyparagraph{\texorpdfstring{allow\_reinit\_fixpar\_initcond}{allow\_reinit\_fixpar\_initcond}}
+{\footnotesize\ttfamily allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond}
+
+indicates whether reinitialization of 
+
+Definition at line 2037 of file ode\+\_\+export.\+py.
+

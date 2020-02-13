@@ -1,0 +1,4 @@
+<map id="setAbsoluteToleranceQuadratures" name="setAbsoluteToleranceQuadratures">
+<area shape="rect" id="node1" title="sets the absolute tolerance for the quadrature problem" alt="" coords="215,5,438,33"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object" alt="" coords="5,5,167,33"/>
+</map>

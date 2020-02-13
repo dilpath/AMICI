@@ -1,0 +1,7 @@
+<map id="import_from_sbml_importer" name="import_from_sbml_importer">
+<area shape="rect" id="node1" title="Imports a model specification from a amici.SBMLImporter instance." alt="" coords="5,56,190,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2731bd07d8e64b54d6b455d6d8441f13" title="Adds a new ModelQuantity to the model." alt="" coords="260,5,377,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#af3b774d51a546704413dc57f93dc427d" title="Generates the symbolic identifiers for all variables in ODEModel.variable_prototype." alt="" coords="238,56,399,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a0d7b434e30dc96e47c86d6e083004c2e" title="Returns (and constructs if necessary) the identifiers for a symbolic entity." alt="" coords="295,107,341,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2abe6260f663dfbcd7e984e0e690ef58" title="Generates the symbolic identifiers for a symbolic variable." alt="" coords="447,81,573,109"/>
+</map>

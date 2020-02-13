@@ -1,0 +1,14 @@
+<map id="amici_dgemm" name="amici_dgemm">
+<area shape="rect" id="node1" title=" " alt="" coords="507,209,611,236"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,272,221,315"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="16,72,210,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="293,49,435,76"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a8c8c787118aab8354f41a60ba41849c3" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. state variables." alt="" coords="293,150,435,178"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#ab59ce7dce76df68b92b0b7404f9f8a19" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. parameters." alt="" coords="293,209,435,236"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#aa4c825912365c05bf472568ef1adb929" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="293,310,435,338"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a23f9b1f2f061cc04f42fe32e1549bf80" title="Sensitivity of time&#45;resolved observables, total derivative sy = dydx * sx + dydp (only for forward se..." alt="" coords="269,361,459,404"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="11,5,216,48"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#ac66f4b4fe55ee5a1e6527b4fb743d215" title="State sensitivity of the negative loglikelihood Jy, partial derivative (to be used with adjoint senst..." alt="" coords="31,139,195,181"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="28,205,199,248"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="32,339,195,381"/>
+</map>

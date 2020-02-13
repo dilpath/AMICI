@@ -1,0 +1,4 @@
+<map id="getNewtonDampingFactorMode" name="getNewtonDampingFactorMode">
+<area shape="rect" id="node1" title="Get a state of the damping factor used in the Newton solver." alt="" coords="233,13,443,40"/>
+<area shape="rect" id="node2" href="$classamici_1_1_steadystate_problem.html#aa2630b3401b8f0a50bf50c73d4f39790" title=" " alt="" coords="5,5,185,48"/>
+</map>

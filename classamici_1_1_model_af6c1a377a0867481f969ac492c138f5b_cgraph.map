@@ -1,0 +1,10 @@
+<map id="getInitialStates" name="getInitialStates">
+<area shape="rect" id="node1" title="Get the initial states." alt="" coords="5,114,114,142"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aa7f0fd75cc6f00cee8807c6d54f3ac94" title="Initial states." alt="" coords="162,114,201,142"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a5ae78606b252253dbe24ea999bcbdf40" title="Check if the given array has only finite elements." alt="" coords="297,13,386,40"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="264,64,418,91"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ab7c357d92ab37cfe9728a31e4232cfe9" title="Model specific implementation of ftotal_cl." alt="" coords="308,114,375,142"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#ac08ad3aa4016a5a3ff89d601e15971cc" title="Model specific implementation of fx_solver." alt="" coords="304,165,379,192"/>
+<area shape="rect" id="node8" href="$classamici_1_1_ami_vector.html#ac78bc5616c51637c63c4d61d92b4693d" title="Vector accessor." alt="" coords="249,216,434,243"/>
+<area shape="rect" id="node4" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="482,5,639,48"/>
+</map>

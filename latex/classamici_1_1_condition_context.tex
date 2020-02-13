@@ -1,0 +1,90 @@
+\hypertarget{classamici_1_1_condition_context}{}\doxysubsection{Condition\+Context Class Reference}
+\label{classamici_1_1_condition_context}\index{ConditionContext@{ConditionContext}}
+
+
+The \mbox{\hyperlink{classamici_1_1_condition_context}{Condition\+Context}} class applies condition-\/specific \mbox{\hyperlink{classamici_1_1_model}{amici\+::\+Model}} settings and restores them when going out of scope.  
+
+
+
+
+{\ttfamily \#include $<$edata.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_condition_context_a00922f8e090c4171074b23690161c3bd}{Condition\+Context}} (\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model, const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$edata=nullptr)
+\begin{DoxyCompactList}\small\item\em Apply condition-\/specific settings from edata to model while keeping a backup of the original values. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classamici_1_1_condition_context_a3afbbd4b46cbd46cbc07960705492843}{apply\+Condition}} (const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$edata)
+\begin{DoxyCompactList}\small\item\em Apply condition-\/specific settings from edata to the constructor-\/supplied model, not changing the settings which were backed-\/up in the constructor call. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1_condition_context_afd3595051be2709847c2de4352f27cf5}\label{classamici_1_1_condition_context_afd3595051be2709847c2de4352f27cf5}} 
+void \mbox{\hyperlink{classamici_1_1_condition_context_afd3595051be2709847c2de4352f27cf5}{restore}} ()
+\begin{DoxyCompactList}\small\item\em Restore original settings on constructor-\/supplied \mbox{\hyperlink{classamici_1_1_model}{amici\+::\+Model}}. Will be called during destruction. Explicit call is generally not necessary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+
+
+Definition at line 492 of file edata.\+h.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_condition_context_a00922f8e090c4171074b23690161c3bd}\label{classamici_1_1_condition_context_a00922f8e090c4171074b23690161c3bd}} 
+\index{ConditionContext@{ConditionContext}!ConditionContext@{ConditionContext}}
+\index{ConditionContext@{ConditionContext}!ConditionContext@{ConditionContext}}
+\doxyparagraph{\texorpdfstring{ConditionContext()}{ConditionContext()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_condition_context}{Condition\+Context}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$}]{edata = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & \\
+\hline
+{\em edata} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 323 of file edata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_condition_context_a00922f8e090c4171074b23690161c3bd_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_condition_context_a3afbbd4b46cbd46cbc07960705492843}\label{classamici_1_1_condition_context_a3afbbd4b46cbd46cbc07960705492843}} 
+\index{ConditionContext@{ConditionContext}!applyCondition@{applyCondition}}
+\index{applyCondition@{applyCondition}!ConditionContext@{ConditionContext}}
+\doxyparagraph{\texorpdfstring{applyCondition()}{applyCondition()}}
+{\footnotesize\ttfamily void apply\+Condition (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$}]{edata }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em edata} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 345 of file edata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_condition_context_a3afbbd4b46cbd46cbc07960705492843_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{classamici_1_1_condition_context_a3afbbd4b46cbd46cbc07960705492843_icgraph}
+\end{center}
+\end{figure}

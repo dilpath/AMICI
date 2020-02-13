@@ -1,0 +1,12 @@
+<map id="getObservedDataPtr" name="getObservedDataPtr">
+<area shape="rect" id="node1" title="get function that returns a pointer to observed data at index" alt="" coords="691,97,834,124"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a9c35c337e4c9568d94fb8ad985cc500d" title="Time&#45;resolved measurement negative log&#45;likelihood Jy." alt="" coords="449,5,643,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#abb22422c569ab3fac8a439cb25c1f65d" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. standard deviation sigma." alt="" coords="461,72,632,99"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#ac45aff20b906c9a9ec7abb5b1a1d3116" title="Partial derivative of time&#45;resolved measurement negative log&#45;likelihood Jy." alt="" coords="475,122,617,150"/>
+<area shape="rect" id="node10" href="$classamici_1_1_return_data.html#abe58b01c60c7729f99d024e7428171c3" title=" " alt="" coords="467,173,625,200"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="258,72,401,99"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="11,89,205,132"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="5,23,210,65"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a8c8c787118aab8354f41a60ba41849c3" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. state variables." alt="" coords="259,122,401,150"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#ac66f4b4fe55ee5a1e6527b4fb743d215" title="State sensitivity of the negative loglikelihood Jy, partial derivative (to be used with adjoint senst..." alt="" coords="26,156,190,199"/>
+</map>

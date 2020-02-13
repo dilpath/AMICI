@@ -1,0 +1,50 @@
+<map id="getLength" name="getLength">
+<area shape="rect" id="node1" title="returns the length of the vector" alt="" coords="1007,1237,1088,1265"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a0259cf8f0b132a25345ddc30c91febe8" title="Computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="767,461,959,489"/>
+<area shape="rect" id="node32" href="$classamici_1_1_ami_vector.html#a30c98bf8f33d174e936f8a0522085396" title="copies data from another AmiVector" alt="" coords="838,1009,888,1037"/>
+<area shape="rect" id="node37" href="$classamici_1_1_solver.html#a5df527ca34def937e6ca2835fc644ec3" title="number of quadratures with which the solver was initialized" alt="" coords="792,1440,934,1467"/>
+<area shape="rect" id="node48" href="$classamici_1_1_solver.html#ad5665a34d43b7022af0fc096c204ee34" title="number of states with which the solver was initialized" alt="" coords="804,1549,923,1577"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___d_a_e.html#a8620db421a61b89420be89f9b2d8306b" title=" " alt="" coords="523,613,713,641"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model___o_d_e.html#ab36987125ea3360ae5f03b0019513891" title=" " alt="" coords="261,816,452,843"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model___o_d_e.html#a058f15dc1efb9ec2ddd2bdccec53cffb" title=" " alt="" coords="522,816,715,843"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model___d_a_e.html#ada5cd49cad6c0b8e60cdb5bc8d0c7301" title="Jacobian of xdot with respect to states x." alt="" coords="544,867,693,894"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model___o_d_e.html#a067d153d4e5576a23947c5ca5d0a59ca" title="Implementation of fJ at the N_Vector level." alt="" coords="543,5,693,33"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model___o_d_e.html#ae32c409195dda73cf01af3233abb8a53" title=" " alt="" coords="539,56,698,83"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model___d_a_e.html#ac7f558db012edb1dbb88759df0b188a1" title="Jacobian of xBdot with respect to adjoint state xB." alt="" coords="539,107,697,134"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model___o_d_e.html#a894cb7158f20a976348caa9d73520d40" title=" " alt="" coords="529,157,707,185"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model___d_a_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title=" " alt="" coords="530,208,706,235"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model___o_d_e.html#a34b8cc80bcd4074c2c4be1938f418a27" title=" " alt="" coords="522,259,714,286"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model___d_a_e.html#add6365696a699381f4a3a9b96094b63b" title="J in sparse form (for sparse solvers from the SuiteSparse Package)" alt="" coords="523,309,714,337"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model___o_d_e.html#aa64bd4d26ed1342671ba6aa255a36434" title=" " alt="" coords="518,360,719,387"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model___d_a_e.html#ab638f22b268d6191b14b9a64e076cbc3" title=" " alt="" coords="518,715,718,742"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model___d_a_e.html#a82db0639f98056acc376569457c95ca4" title="Mass matrix for DAE systems." alt="" coords="542,664,695,691"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model___d_a_e.html#aeefb058200a0d762e4318c950cf4afa2" title=" " alt="" coords="536,411,701,438"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model___o_d_e.html#ae7066bdefea6368f5568ca254738f8ec" title="implementation of froot at the N_Vector level" alt="" coords="535,461,701,489"/>
+<area shape="rect" id="node30" href="$classamici_1_1_model___d_a_e.html#a5c4a9276e3053be8f0ad12cb91761647" title="Residual function of the DAE." alt="" coords="535,512,702,539"/>
+<area shape="rect" id="node31" href="$classamici_1_1_model___o_d_e.html#aa08f195ec3f1e9ec3d208abfbf27b23a" title=" " alt="" coords="534,563,703,590"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model___d_a_e.html#a063b47198b54603cf42ecf49d1e3e046" title="Model specific sparse implementation of explicit parameter derivative of right hand side." alt="" coords="262,563,452,590"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model___d_a_e.html#ae3dc4629c9c56a4af01350b8c49f49a8" title=" " alt="" coords="268,613,445,641"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title=" " alt="" coords="270,664,444,691"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model___o_d_e.html#a2feef05eaf143813199126109ef64bb3" title="Model specific sparse implementation of explicit parameter derivative of right hand side." alt="" coords="5,765,196,793"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model___o_d_e.html#a9d0e4612af8d7b3c418d000b5e9ba84f" title=" " alt="" coords="12,816,190,843"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="implementation of fsxdot at the N_Vector level" alt="" coords="13,867,189,894"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model___o_d_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title="diagonalized Jacobian (for preconditioning)" alt="" coords="268,157,446,185"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___o_d_e.html#af9c1f29040dc3c6c8bca0703676843be" title="implementation of fJvB at the N_Vector level" alt="" coords="274,335,440,362"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___o_d_e.html#a433a0e1e4330ef433823a61f1fc45a5a" title=" " alt="" coords="268,385,446,413"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___d_a_e.html#a837e1b2b4f0e13b64180040a9cb8e6b2" title=" " alt="" coords="275,765,439,793"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model___d_a_e.html#acc0b085abdde1955773d61f3e3bac21b" title=" " alt="" coords="269,715,445,742"/>
+<area shape="rect" id="node33" href="$classamici_1_1_steadystate_problem.html#aadb44253176a7440d1ec46d64dd1336e" title="routine that writes solutions of steadystate problem to target vectors" alt="" coords="528,918,708,960"/>
+<area shape="rect" id="node34" href="$classamici_1_1_solver.html#a6420585ef573cc6fb8e299d82b3050e9" title="write solution from forward simulation" alt="" coords="528,984,709,1011"/>
+<area shape="rect" id="node36" href="$classamici_1_1_solver.html#af892618e72c2824035f019a4fa3af7b3" title="write solution from forward simulation" alt="" coords="523,1035,713,1062"/>
+<area shape="rect" id="node35" href="$classamici_1_1_steadystate_problem.html#aaa96e719e7f016de86389e09ab9e51a6" title=" " alt="" coords="267,976,447,1019"/>
+<area shape="rect" id="node38" href="$classamici_1_1_solver.html#adadf5f53f5e713fdca870877af5563a1" title="resets solverMemory and solverMemoryB" alt="" coords="527,1542,709,1584"/>
+<area shape="rect" id="node39" href="$classamici_1_1_solver.html#ab114a079f23232a521ad2e81a0a30e36" title="sets the internal sensitivity method" alt="" coords="273,1600,441,1643"/>
+<area shape="rect" id="node40" href="$classamici_1_1_solver.html#a9d9a0a5f8cdfdb993960706c646e240f" title="sets the interpolation of the forward solution that is used for the backwards problem" alt="" coords="244,1549,470,1577"/>
+<area shape="rect" id="node41" href="$classamici_1_1_solver.html#a2143a6f85b81c24611aad5689865953c" title="sets the linear system multistep method" alt="" coords="277,1179,437,1222"/>
+<area shape="rect" id="node42" href="$classamici_1_1_solver.html#acc8ecf11ad5a8480dd02f757faa264b2" title="setLinearSolver" alt="" coords="277,1904,437,1947"/>
+<area shape="rect" id="node43" href="$classamici_1_1_solver.html#a763da71f524172180c85a2bf54cc3775" title="sets the maximum number of solver steps for the forward problem" alt="" coords="266,1288,448,1315"/>
+<area shape="rect" id="node44" href="$classamici_1_1_solver.html#a1dc7983f545ee95f7e6fb38cfb0b3286" title="sets the nonlinear system solution method" alt="" coords="267,1483,447,1526"/>
+<area shape="rect" id="node45" href="$classamici_1_1_solver.html#a3a7713f2ce77ffade77445a825ad289d" title="Set sensitivity method." alt="" coords="266,1702,448,1744"/>
+<area shape="rect" id="node46" href="$classamici_1_1_solver.html#a26129f061fdf7869be2d3e4aa22532b6" title="Set the sensitvity order." alt="" coords="266,1803,448,1846"/>
+<area shape="rect" id="node47" href="$classamici_1_1_solver.html#add1a21548bb13b646662836fb51933f1" title="Initialises the ami memory object and applies specified options." alt="" coords="288,1389,426,1417"/>
+</map>

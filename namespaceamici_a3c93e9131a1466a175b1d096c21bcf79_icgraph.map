@@ -1,0 +1,8 @@
+<map id="amici_daxpy" name="amici_daxpy">
+<area shape="rect" id="node1" title="Compute y = a*x + y." alt="" coords="523,80,619,107"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a2adb2ac42f3352654d7308ea21c452c4" title="Update state variables after event." alt="" coords="271,5,462,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#abc67e0ac06b3391efec41e0b5c8fc3c3" title="Update state sensitivity after event." alt="" coords="258,72,475,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a1416f0dc348c39f150f323bd5d533260" title="Seperates first and second order objective sensitivity information and writes them into the respectiv..." alt="" coords="259,139,475,181"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="22,105,193,148"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="5,172,210,215"/>
+</map>

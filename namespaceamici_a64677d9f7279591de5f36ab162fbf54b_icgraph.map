@@ -1,0 +1,6 @@
+<map id="writeMatlabField1" name="writeMatlabField1">
+<area shape="rect" id="node1" title="initialise vector and attach to the field" alt="" coords="509,31,634,58"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#aa12d4917fed647a1edeaaa26a261c770" title="allocates and initialises diagnosis mxArray with the corresponding fields" alt="" coords="288,5,461,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a7449834fca1e0bde53d5f73ae0d2b929" title="allocates and initialises solution mxArray with the corresponding fields" alt="" coords="297,56,451,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a698409f4b9ce06055bcebcee39f81a91" title="generates matlab mxArray from a ReturnData object" alt="" coords="5,56,240,83"/>
+</map>

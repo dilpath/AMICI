@@ -1,0 +1,11 @@
+<map id="applyNewtonsMethod" name="applyNewtonsMethod">
+<area shape="rect" id="node1" title=" " alt="" coords="5,189,155,217"/>
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver.html#a5d7771aef57a9dd773fedb39323b3a04" title=" " alt="" coords="210,90,353,132"/>
+<area shape="rect" id="node6" href="$classamici_1_1_steadystate_problem.html#afd3dce48510d1fce72b18049b40fff5a" title=" " alt="" coords="228,189,335,217"/>
+<area shape="rect" id="node8" href="$classamici_1_1_ami_vector.html#ad20897c5c8bd47f5d4005989bead0e55" title="resets the Vector by filling with zero values" alt="" coords="203,240,361,267"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a19ad39a609bfc430ed6f7992e841b024" title="changes the sign of data elements" alt="" coords="424,5,587,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver.html#a4aed46b0343374f171f9b4b51fa009e7" title=" " alt="" coords="427,56,584,99"/>
+<area shape="rect" id="node5" href="$classamici_1_1_newton_solver.html#addfdd7afbe1eff3d47b0f28b6191793f" title=" " alt="" coords="434,123,577,166"/>
+<area shape="rect" id="node7" href="$classamici_1_1_ami_vector.html#a831a0391e277bda7766d7ee9638a9eb9" title="N_Vector accessor." alt="" coords="409,189,603,217"/>
+<area shape="rect" id="node9" href="$classamici_1_1_ami_vector.html#a11418c829db7c2891d63491cf12d29b4" title="sets all data elements to a specific value" alt="" coords="433,240,578,267"/>
+</map>

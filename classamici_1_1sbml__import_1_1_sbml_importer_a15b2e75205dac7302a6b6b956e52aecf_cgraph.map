@@ -1,0 +1,6 @@
+<map id="processObservables" name="processObservables">
+<area shape="rect" id="node1" title="Perform symbolic computations required for objective function evaluation." alt="" coords="5,72,148,99"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1sbml__import.html#a6bff3fedaa877c35e5ea7bc112ec4adf" title="Transforms a list into list of strings." alt="" coords="210,5,359,33"/>
+<area shape="rect" id="node3" href="$namespaceamici_1_1sbml__import.html#afb74d227d2686e72d08814dafe09fc73" title="Parse noise distribution string to a cost function definition amici can work with." alt="" coords="202,57,366,115"/>
+<area shape="rect" id="node4" href="$namespaceamici_1_1sbml__import.html#a178c633ce1bc7f2af378ce56bd404541" title="Replace log(a, b) in the given string by ln(b)/ln(a)" alt="" coords="196,139,372,182"/>
+</map>

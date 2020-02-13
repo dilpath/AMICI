@@ -1,0 +1,5 @@
+<map id="getNumRhsEvals" name="getNumRhsEvals">
+<area shape="rect" id="node1" title="reports the number of right hand evaluations" alt="" coords="161,31,285,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#ae3a2238d4440af570b2c520d7b9e21eb" title="Extracts diagnosis information from solver memory block and writes them into the return data object." alt="" coords="10,5,108,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#af76411d61ff6528d2b8a07740138c98b" title="Extracts diagnosis information from solver memory block and writes them into the return data object f..." alt="" coords="5,56,113,83"/>
+</map>

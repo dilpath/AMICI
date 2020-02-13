@@ -1,0 +1,4 @@
+<map id="setInterpolationType" name="setInterpolationType">
+<area shape="rect" id="node1" title="sets the interpolation of the forward solution that is used for the backwards problem" alt="" coords="215,5,356,33"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object" alt="" coords="5,5,167,33"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="setParameterScale" name="setParameterScale">
+<area shape="rect" id="node1" title="Set ParameterScale for each parameter, resets initial state sensitivities." alt="" coords="5,5,140,33"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a81b693c85f958b71217d08e617254b68" title="Apply parameter scaling according to scaling" alt="" coords="188,5,348,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a9ef646fefe61eae18051851bbb2f3e5b" title="Apply parameter scaling according to scaling" alt="" coords="396,5,577,33"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="getRuleVars" name="getRuleVars">
+<area shape="rect" id="node1" title="Extract free symbols in SBML rule formulas." alt="" coords="992,13,1086,40"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7df6b4ae4e3e757bc8de5e0cc54fe16b" title="Process Rules defined in the SBML model." alt="" coords="682,5,944,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a16cb82ff3cdcbfb74092526334df2a99" title="Read parameters, species, reactions, and so on from SBML model." alt="" coords="335,13,634,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7a5d0fdedc31c1f787b68ad3cba228b8" title="Generate AMICI C++ files for the model provided to the constructor." alt="" coords="5,13,287,40"/>
+</map>

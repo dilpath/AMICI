@@ -1,0 +1,7 @@
+<map id="writeSolution" name="writeSolution">
+<area shape="rect" id="node1" title="routine that writes solutions of steadystate problem to target vectors" alt="" coords="5,35,103,62"/>
+<area shape="rect" id="node2" href="$classamici_1_1_ami_vector.html#a30c98bf8f33d174e936f8a0522085396" title="copies data from another AmiVector" alt="" coords="151,5,307,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector_array.html#aaa979b44841f94510b6481c53d826075" title="copies data from another AmiVectorArray" alt="" coords="153,56,305,99"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="355,5,543,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector_array.html#a5f00d4dc3e7866d193ce926f35542801" title="length of AmiVectorArray" alt="" coords="373,56,525,99"/>
+</map>

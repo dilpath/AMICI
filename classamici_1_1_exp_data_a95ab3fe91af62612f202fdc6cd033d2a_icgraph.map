@@ -1,0 +1,11 @@
+<map id="getObservedEventsPtr" name="getObservedEventsPtr">
+<area shape="rect" id="node1" title="get function that returns a pointer to observed data at ieth occurence" alt="" coords="723,56,879,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ace9763a0ecf7efeb69ead8a721da6916" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="460,5,675,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#aaa7bf3bdc44879d66b3821a095039898" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="482,56,653,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a0c44c0a2afed13fbc92f449789566fad" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="496,107,639,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ab59ce7dce76df68b92b0b7404f9f8a19" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. parameters." alt="" coords="269,56,412,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,74,221,116"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="28,7,199,50"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#aa4c825912365c05bf472568ef1adb929" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="269,107,411,134"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="32,140,195,183"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="checkFinite" name="checkFinite">
+<area shape="rect" id="node1" title="Check if the given array has only finite elements." alt="" coords="643,81,732,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model___d_a_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title=" " alt="" coords="418,5,594,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___o_d_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title="diagonalized Jacobian (for preconditioning)" alt="" coords="417,56,595,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#aa7f0fd75cc6f00cee8807c6d54f3ac94" title="Initial states." alt="" coords="487,107,526,134"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#aa4712b7550fba7e9c0dd733b2714461e" title="Expands conservation law for states." alt="" coords="472,157,541,185"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#af6c1a377a0867481f969ac492c138f5b" title="Get the initial states." alt="" coords="243,56,352,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a1c572664ecc01f787199f0b7fc209ac7" title=" " alt="" coords="244,107,351,134"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a1d8b7271972a7882f18e1c9ea3308e38" title="Get the initial states sensitivities." alt="" coords="5,56,178,83"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a76f3aa67bb6232cce1f56cc1ec9c9c4e" title=" " alt="" coords="57,107,126,134"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#ae7e44973e14be3f1575c3356f3dc8e2e" title="Model specific implementation of fsx_solver." alt="" coords="260,157,336,185"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a137d6ba3f54998477871f0387c01628c" title="Sets only those initial states that are specified via fixedParmeters." alt="" coords="226,208,369,235"/>
+</map>

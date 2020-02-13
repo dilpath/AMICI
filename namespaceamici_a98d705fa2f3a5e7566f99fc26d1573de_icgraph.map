@@ -1,0 +1,6 @@
+<map id="max" name="max">
+<area shape="rect" id="node1" title=" " alt="" coords="399,46,445,74"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a0e1665a05c4dfee1572bea48f7930502" title=" " alt="" coords="308,46,351,74"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_exporter.html#a61bf03049b9989d73b584fbca9f8d499" title="Compiles the generated code it into a simulatable module." alt="" coords="5,5,260,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2223bbe62f3234b8f40c5a566064a481" title="Returns a list of names of generated symbolic variables." alt="" coords="23,72,243,115"/>
+</map>

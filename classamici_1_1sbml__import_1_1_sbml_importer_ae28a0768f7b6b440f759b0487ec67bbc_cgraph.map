@@ -1,0 +1,5 @@
+<map id="process_document" name="process_document">
+<area shape="rect" id="node1" title="Validate and simplify document." alt="" coords="5,13,139,40"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1sbml__import.html#ade50d6eafb9bcd9f1f6f13d08b0a3910" title="Checks the error log in the current self.sbml_doc." alt="" coords="187,5,372,48"/>
+<area shape="rect" id="node3" href="$namespaceamici_1_1sbml__import.html#ade83a7deb61b7942e383d5c4f838cde5" title="Collect data into fixed&#45;length chunks or blocks." alt="" coords="420,13,599,40"/>
+</map>

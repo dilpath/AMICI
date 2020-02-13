@@ -1,0 +1,5 @@
+<map id="applyChainRuleFactorToSimulationResults" name="applyChainRuleFactorToSimulationResults">
+<area shape="rect" id="node1" title="applies the chain rule to account for parameter transformation in the sensitivities of simulation res..." alt="" coords="5,5,235,48"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#ad1acbd1f317ba4fa5ea410911a5af275" title="Remove parameter scaling according to the parameter scaling in pscale." alt="" coords="283,13,458,40"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a7e1720941869974da1ca8dbd6cd9e936" title="Remove parameter scaling according to scaling" alt="" coords="506,13,702,40"/>
+</map>

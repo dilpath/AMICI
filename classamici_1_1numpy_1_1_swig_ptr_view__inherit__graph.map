@@ -1,0 +1,6 @@
+<map id="SwigPtrView" name="SwigPtrView">
+<area shape="rect" id="node1" title="Interface class to expose std::vector&lt;double&gt; and scalar members of swig wrapped C++ objects as numpy..." alt="" coords="75,81,171,108"/>
+<area shape="rect" id="node3" href="$classamici_1_1numpy_1_1_exp_data_view.html" title="Interface class for C++ Exp Data objects that avoids possibly costly copies of member data." alt="" coords="5,156,106,183"/>
+<area shape="rect" id="node4" href="$classamici_1_1numpy_1_1_return_data_view.html" title="Interface class for C++ Return Data objects that avoids possibly costly copies of member data." alt="" coords="130,156,248,183"/>
+<area shape="rect" id="node2" title=" " alt="" coords="86,5,159,33"/>
+</map>

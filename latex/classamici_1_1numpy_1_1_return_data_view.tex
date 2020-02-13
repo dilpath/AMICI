@@ -1,0 +1,79 @@
+\hypertarget{classamici_1_1numpy_1_1_return_data_view}{}\doxysubsection{Return\+Data\+View Class Reference}
+\label{classamici_1_1numpy_1_1_return_data_view}\index{ReturnDataView@{ReturnDataView}}
+
+
+Interface class for C++ Return Data objects that avoids possibly costly copies of member data.  
+
+
+
+
+Inheritance diagram for Return\+Data\+View\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=169pt]{classamici_1_1numpy_1_1_return_data_view__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_return_data_view_afc4d2ae1613db26a033272b5e45d2662}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, rdata)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_return_data_view_aab91ae2e037c39b631a69273c277bfe9}{\+\_\+\+\_\+getitem\+\_\+\+\_\+}} (self, item)
+\begin{DoxyCompactList}\small\item\em Custom getitem implementation shim to map {\ttfamily t} to {\ttfamily ts} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+
+
+Definition at line 170 of file numpy.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_return_data_view_afc4d2ae1613db26a033272b5e45d2662}\label{classamici_1_1numpy_1_1_return_data_view_afc4d2ae1613db26a033272b5e45d2662}} 
+\index{ReturnDataView@{ReturnDataView}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!ReturnDataView@{ReturnDataView}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{rdata }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em rdata} & pointer to the \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} instance \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a7969561794fc646bf3f98b83586ba4c1}{Swig\+Ptr\+View}}.
+
+
+
+Definition at line 193 of file numpy.\+py.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_return_data_view_aab91ae2e037c39b631a69273c277bfe9}\label{classamici_1_1numpy_1_1_return_data_view_aab91ae2e037c39b631a69273c277bfe9}} 
+\index{ReturnDataView@{ReturnDataView}!\_\_getitem\_\_@{\_\_getitem\_\_}}
+\index{\_\_getitem\_\_@{\_\_getitem\_\_}!ReturnDataView@{ReturnDataView}}
+\doxyparagraph{\texorpdfstring{\_\_getitem\_\_()}{\_\_getitem\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+getitem\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & field/attribute key\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+self\mbox{[}item\mbox{]} ~\newline
+{\bfseries{Type}}\+: numpy.\+array/float 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9}{Swig\+Ptr\+View}}.
+
+
+
+Definition at line 253 of file numpy.\+py.
+

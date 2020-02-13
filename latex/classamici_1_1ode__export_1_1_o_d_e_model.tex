@@ -1,0 +1,785 @@
+\hypertarget{classamici_1_1ode__export_1_1_o_d_e_model}{}\doxysubsection{O\+D\+E\+Model Class Reference}
+\label{classamici_1_1ode__export_1_1_o_d_e_model}\index{ODEModel@{ODEModel}}
+
+
+An \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} defines an Ordinary Differential Equation as set of Model\+Quantities.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ae1c79250825e4c1e2c6b56581484b37a}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, Optional\mbox{[}Callable\mbox{]} simplify=sp.\+powsimp)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} instance. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a3a3ebfdaf0d1f08adf028afb10d5b5c1}{import\+\_\+from\+\_\+sbml\+\_\+importer}} (self, si)
+\begin{DoxyCompactList}\small\item\em Imports a model specification from a amici.\+S\+B\+M\+L\+Importer instance. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a2731bd07d8e64b54d6b455d6d8441f13}{add\+\_\+component}} (self, component)
+\begin{DoxyCompactList}\small\item\em Adds a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} to the model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a0141f61903c375ed6867932c570f7e4f}{add\+\_\+conservation\+\_\+law}} (self, state, total\+\_\+abundance, state\+\_\+expr, abundance\+\_\+expr)
+\begin{DoxyCompactList}\small\item\em Adds a new conservation law to the model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ab77e1355e82f8fe321044cc622e4446a}{nx\+\_\+rdata}} (self)
+\begin{DoxyCompactList}\small\item\em Number of states. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ae4c34666f3d1d7f0c7a54a0b2322a1f3}{nx\+\_\+solver}} (self)
+\begin{DoxyCompactList}\small\item\em Number of states after applying conservation laws. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a96964f4a635095d20c61f4976fd3070c}{ncl}} (self)
+\begin{DoxyCompactList}\small\item\em Number of conservation laws. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ac3d9b681827ebea0e5bee18c9d7fc44d}{ny}} (self)
+\begin{DoxyCompactList}\small\item\em Number of Observables. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a07767f24c77537a68972e99a79ef93aa}{nk}} (self)
+\begin{DoxyCompactList}\small\item\em Number of Constants. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a7278a09e012ba867faf10d809e13fb81}{np}} (self)
+\begin{DoxyCompactList}\small\item\em Number of Parameters. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a0d7b434e30dc96e47c86d6e083004c2e}{sym}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}}, stripped=False)
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the identifiers for a symbolic entity. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a0a1d830b8c4d1e208e81f48dfea71cf4}{sparsesym}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the sparsified identifiers for a sparsified symbolic variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_addafc9d839b53dbe76461d8ac6dba604}{eq}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the formulas for a symbolic entity. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ade69c458d3c7069f0b062d796f68d1da}{sparseeq}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the sparsified formulas for a sparsified symbolic variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a94cb8da27631a98ccd2ee9b70dfaf9b3}{colptrs}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the column pointers for a sparsified symbolic variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a32f7689d1654af03febe3fc277ff5793}{rowvals}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the row values for a sparsified symbolic variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a8d081fd7c43cbb2bce7b4eca67fb94c5}{val}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}})
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the numeric values of a symbolic entity. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}} (self, name)
+\begin{DoxyCompactList}\small\item\em Returns (and constructs if necessary) the names of a symbolic variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_af3b774d51a546704413dc57f93dc427d}{generate\+Basic\+Variables}} (self)
+\begin{DoxyCompactList}\small\item\em Generates the symbolic identifiers for all variables in O\+D\+E\+Model.\+variable\+\_\+prototype. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a5e124f15318e0b6217db8290b3bbe3b4}{get\+\_\+appearance\+\_\+counts}} (self, idxs)
+\begin{DoxyCompactList}\small\item\em Counts how often a state appears in the time derivative of another state and expressions for a subset of states. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a2223bbe62f3234b8f40c5a566064a481}{sym\+Names}} (self)
+\begin{DoxyCompactList}\small\item\em Returns a list of names of generated symbolic variables. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_ae352b13e8ea2f390c5fa146601817173}{sym\+\_\+or\+\_\+eq}} (self, \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}{name}}, varname)
+\begin{DoxyCompactList}\small\item\em Returns symbols or equations depending on whether a given variable appears in the function signature or not. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_acbd9a0c022a1b5cbc09848bcac0de613}{get\+\_\+conservation\+\_\+laws}} (self)
+\begin{DoxyCompactList}\small\item\em Returns a list of states with conservation law set. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a8b62416531adca2210c28230350b787e}{state\+\_\+has\+\_\+fixed\+\_\+parameter\+\_\+initial\+\_\+condition}} (self, ix)
+\begin{DoxyCompactList}\small\item\em Checks whether the state at specified index has a fixed parameter initial condition. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a6c2d3ae2fc4dc74b8fba88db41ed8fae}{state\+\_\+has\+\_\+conservation\+\_\+law}} (self, ix)
+\begin{DoxyCompactList}\small\item\em Checks whether the state at specified index has a conservation law set. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model_a5d453b4edf6d9cd24e024841a0cd70c6}{state\+\_\+is\+\_\+constant}} (self, ix)
+\begin{DoxyCompactList}\small\item\em Checks whether the temporal derivative of the state is zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This class provides general purpose interfaces to compute arbitrary symbolic derivatives that are necessary for model simulation or sensitivity computation
+
+\begin{DoxyVerb}     derivative expressions. Receives sympy expressions as only argument.
+     To apply multiple simplifications, wrap them in a lambda expression.
+\end{DoxyVerb}
+ \begin{DoxyNote}{Note}
+This does currently not work with Py\+SB symbols. 
+\end{DoxyNote}
+
+
+Definition at line 649 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ae1c79250825e4c1e2c6b56581484b37a}\label{classamici_1_1ode__export_1_1_o_d_e_model_ae1c79250825e4c1e2c6b56581484b37a}} 
+\index{ODEModel@{ODEModel}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Optional\mbox{[}Callable\mbox{]} }]{simplify = {\ttfamily sp.powsimp} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em simplify} & see O\+D\+E\+Model.\+\_\+simplify \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 827 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_ae1c79250825e4c1e2c6b56581484b37a_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a3a3ebfdaf0d1f08adf028afb10d5b5c1}\label{classamici_1_1ode__export_1_1_o_d_e_model_a3a3ebfdaf0d1f08adf028afb10d5b5c1}} 
+\index{ODEModel@{ODEModel}!import\_from\_sbml\_importer@{import\_from\_sbml\_importer}}
+\index{import\_from\_sbml\_importer@{import\_from\_sbml\_importer}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{import\_from\_sbml\_importer()}{import\_from\_sbml\_importer()}}
+{\footnotesize\ttfamily def import\+\_\+from\+\_\+sbml\+\_\+importer (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{si }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em si} & imported S\+B\+ML model ~\newline
+{\bfseries{Type}}\+: amici.\+Sbml\+Importer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 928 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a3a3ebfdaf0d1f08adf028afb10d5b5c1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a2731bd07d8e64b54d6b455d6d8441f13}\label{classamici_1_1ode__export_1_1_o_d_e_model_a2731bd07d8e64b54d6b455d6d8441f13}} 
+\index{ODEModel@{ODEModel}!add\_component@{add\_component}}
+\index{add\_component@{add\_component}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{add\_component()}{add\_component()}}
+{\footnotesize\ttfamily def add\+\_\+component (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{component }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em component} & model quantity to be added ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & invalid component type \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 968 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classamici_1_1ode__export_1_1_o_d_e_model_a2731bd07d8e64b54d6b455d6d8441f13_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a0141f61903c375ed6867932c570f7e4f}\label{classamici_1_1ode__export_1_1_o_d_e_model_a0141f61903c375ed6867932c570f7e4f}} 
+\index{ODEModel@{ODEModel}!add\_conservation\_law@{add\_conservation\_law}}
+\index{add\_conservation\_law@{add\_conservation\_law}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{add\_conservation\_law()}{add\_conservation\_law()}}
+{\footnotesize\ttfamily def add\+\_\+conservation\+\_\+law (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{state,  }\item[{}]{total\+\_\+abundance,  }\item[{}]{state\+\_\+expr,  }\item[{}]{abundance\+\_\+expr }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & symbolic identifier of the state that should be replaced by the conservation law \\
+\hline
+{\em total\+\_\+abundance} & symbolic identifier of the total abundance \\
+\hline
+{\em state\+\_\+expr} & symbolic algebraic formula that replaces the the state \\
+\hline
+{\em abundance\+\_\+expr} & symbolic algebraic formula that computes the total abundance\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyVerb}        Exception if the specified state does not correspond to a valid
+        state in the model
+\end{DoxyVerb}
+ 
+
+Definition at line 995 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{classamici_1_1ode__export_1_1_o_d_e_model_a0141f61903c375ed6867932c570f7e4f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ab77e1355e82f8fe321044cc622e4446a}\label{classamici_1_1ode__export_1_1_o_d_e_model_ab77e1355e82f8fe321044cc622e4446a}} 
+\index{ODEModel@{ODEModel}!nx\_rdata@{nx\_rdata}}
+\index{nx\_rdata@{nx\_rdata}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{nx\_rdata()}{nx\_rdata()}}
+{\footnotesize\ttfamily def nx\+\_\+rdata (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of state variable symbols 
+\end{DoxyReturn}
+
+
+Definition at line 1032 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classamici_1_1ode__export_1_1_o_d_e_model_ab77e1355e82f8fe321044cc622e4446a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_ab77e1355e82f8fe321044cc622e4446a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ae4c34666f3d1d7f0c7a54a0b2322a1f3}\label{classamici_1_1ode__export_1_1_o_d_e_model_ae4c34666f3d1d7f0c7a54a0b2322a1f3}} 
+\index{ODEModel@{ODEModel}!nx\_solver@{nx\_solver}}
+\index{nx\_solver@{nx\_solver}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{nx\_solver()}{nx\_solver()}}
+{\footnotesize\ttfamily def nx\+\_\+solver (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of state variable symbols 
+\end{DoxyReturn}
+
+
+Definition at line 1045 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{classamici_1_1ode__export_1_1_o_d_e_model_ae4c34666f3d1d7f0c7a54a0b2322a1f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_ae4c34666f3d1d7f0c7a54a0b2322a1f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a96964f4a635095d20c61f4976fd3070c}\label{classamici_1_1ode__export_1_1_o_d_e_model_a96964f4a635095d20c61f4976fd3070c}} 
+\index{ODEModel@{ODEModel}!ncl@{ncl}}
+\index{ncl@{ncl}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{ncl()}{ncl()}}
+{\footnotesize\ttfamily def ncl (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of conservation laws 
+\end{DoxyReturn}
+
+
+Definition at line 1058 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a96964f4a635095d20c61f4976fd3070c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classamici_1_1ode__export_1_1_o_d_e_model_a96964f4a635095d20c61f4976fd3070c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ac3d9b681827ebea0e5bee18c9d7fc44d}\label{classamici_1_1ode__export_1_1_o_d_e_model_ac3d9b681827ebea0e5bee18c9d7fc44d}} 
+\index{ODEModel@{ODEModel}!ny@{ny}}
+\index{ny@{ny}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{ny()}{ny()}}
+{\footnotesize\ttfamily def ny (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of observable symbols 
+\end{DoxyReturn}
+
+
+Definition at line 1071 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classamici_1_1ode__export_1_1_o_d_e_model_ac3d9b681827ebea0e5bee18c9d7fc44d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classamici_1_1ode__export_1_1_o_d_e_model_ac3d9b681827ebea0e5bee18c9d7fc44d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a07767f24c77537a68972e99a79ef93aa}\label{classamici_1_1ode__export_1_1_o_d_e_model_a07767f24c77537a68972e99a79ef93aa}} 
+\index{ODEModel@{ODEModel}!nk@{nk}}
+\index{nk@{nk}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{nk()}{nk()}}
+{\footnotesize\ttfamily def nk (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of constant symbols 
+\end{DoxyReturn}
+
+
+Definition at line 1084 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classamici_1_1ode__export_1_1_o_d_e_model_a07767f24c77537a68972e99a79ef93aa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a7278a09e012ba867faf10d809e13fb81}\label{classamici_1_1ode__export_1_1_o_d_e_model_a7278a09e012ba867faf10d809e13fb81}} 
+\index{ODEModel@{ODEModel}!np@{np}}
+\index{np@{np}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{np()}{np()}}
+{\footnotesize\ttfamily def np (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+number of parameter symbols 
+\end{DoxyReturn}
+
+
+Definition at line 1097 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classamici_1_1ode__export_1_1_o_d_e_model_a7278a09e012ba867faf10d809e13fb81_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a0d7b434e30dc96e47c86d6e083004c2e}\label{classamici_1_1ode__export_1_1_o_d_e_model_a0d7b434e30dc96e47c86d6e083004c2e}} 
+\index{ODEModel@{ODEModel}!sym@{sym}}
+\index{sym@{sym}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{sym()}{sym()}}
+{\footnotesize\ttfamily def sym (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name,  }\item[{}]{stripped = {\ttfamily False} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em stripped} & (optional) should additional class information be stripped from the symbolic variables? ~\newline
+{\bfseries{Type}}\+: bool\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+containing the symbolic identifiers ~\newline
+{\bfseries{Type}}\+: symengine.\+Dense\+Matrix
+\end{DoxyReturn}
+\begin{DoxyVerb}    ValueError if stripped symbols not available
+\end{DoxyVerb}
+ 
+
+Definition at line 1114 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{classamici_1_1ode__export_1_1_o_d_e_model_a0d7b434e30dc96e47c86d6e083004c2e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a0d7b434e30dc96e47c86d6e083004c2e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a0a1d830b8c4d1e208e81f48dfea71cf4}\label{classamici_1_1ode__export_1_1_o_d_e_model_a0a1d830b8c4d1e208e81f48dfea71cf4}} 
+\index{ODEModel@{ODEModel}!sparsesym@{sparsesym}}
+\index{sparsesym@{sparsesym}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{sparsesym()}{sparsesym()}}
+{\footnotesize\ttfamily def sparsesym (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+linearized symengine.\+Dense\+Matrix containing the symbolic identifiers 
+\end{DoxyReturn}
+
+
+Definition at line 1138 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classamici_1_1ode__export_1_1_o_d_e_model_a0a1d830b8c4d1e208e81f48dfea71cf4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_addafc9d839b53dbe76461d8ac6dba604}\label{classamici_1_1ode__export_1_1_o_d_e_model_addafc9d839b53dbe76461d8ac6dba604}} 
+\index{ODEModel@{ODEModel}!eq@{eq}}
+\index{eq@{eq}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{eq()}{eq()}}
+{\footnotesize\ttfamily def eq (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+symengine.\+Dense\+Matrix containing the symbolic identifiers 
+\end{DoxyReturn}
+
+
+Definition at line 1157 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{classamici_1_1ode__export_1_1_o_d_e_model_addafc9d839b53dbe76461d8ac6dba604_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_addafc9d839b53dbe76461d8ac6dba604_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ade69c458d3c7069f0b062d796f68d1da}\label{classamici_1_1ode__export_1_1_o_d_e_model_ade69c458d3c7069f0b062d796f68d1da}} 
+\index{ODEModel@{ODEModel}!sparseeq@{sparseeq}}
+\index{sparseeq@{sparseeq}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{sparseeq()}{sparseeq()}}
+{\footnotesize\ttfamily def sparseeq (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+linearized symengine.\+Dense\+Matrix containing the symbolic formulas 
+\end{DoxyReturn}
+
+
+Definition at line 1175 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classamici_1_1ode__export_1_1_o_d_e_model_ade69c458d3c7069f0b062d796f68d1da_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a94cb8da27631a98ccd2ee9b70dfaf9b3}\label{classamici_1_1ode__export_1_1_o_d_e_model_a94cb8da27631a98ccd2ee9b70dfaf9b3}} 
+\index{ODEModel@{ODEModel}!colptrs@{colptrs}}
+\index{colptrs@{colptrs}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{colptrs()}{colptrs()}}
+{\footnotesize\ttfamily def colptrs (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+symengine.\+Dense\+Matrix containing the column pointers 
+\end{DoxyReturn}
+
+
+Definition at line 1194 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{classamici_1_1ode__export_1_1_o_d_e_model_a94cb8da27631a98ccd2ee9b70dfaf9b3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a32f7689d1654af03febe3fc277ff5793}\label{classamici_1_1ode__export_1_1_o_d_e_model_a32f7689d1654af03febe3fc277ff5793}} 
+\index{ODEModel@{ODEModel}!rowvals@{rowvals}}
+\index{rowvals@{rowvals}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{rowvals()}{rowvals()}}
+{\footnotesize\ttfamily def rowvals (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+symengine.\+Dense\+Matrix containing the row values 
+\end{DoxyReturn}
+
+
+Definition at line 1213 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classamici_1_1ode__export_1_1_o_d_e_model_a32f7689d1654af03febe3fc277ff5793_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a8d081fd7c43cbb2bce7b4eca67fb94c5}\label{classamici_1_1ode__export_1_1_o_d_e_model_a8d081fd7c43cbb2bce7b4eca67fb94c5}} 
+\index{ODEModel@{ODEModel}!val@{val}}
+\index{val@{val}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{val()}{val()}}
+{\footnotesize\ttfamily def val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list containing the numeric values 
+\end{DoxyReturn}
+
+
+Definition at line 1232 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classamici_1_1ode__export_1_1_o_d_e_model_a8d081fd7c43cbb2bce7b4eca67fb94c5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}\label{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0}} 
+\index{ODEModel@{ODEModel}!name@{name}}
+\index{name@{name}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily def name (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of names 
+\end{DoxyReturn}
+
+
+Definition at line 1249 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a4d110acf8e52c4d48044071ea06952c0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_af3b774d51a546704413dc57f93dc427d}\label{classamici_1_1ode__export_1_1_o_d_e_model_af3b774d51a546704413dc57f93dc427d}} 
+\index{ODEModel@{ODEModel}!generateBasicVariables@{generateBasicVariables}}
+\index{generateBasicVariables@{generateBasicVariables}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{generateBasicVariables()}{generateBasicVariables()}}
+{\footnotesize\ttfamily def generate\+Basic\+Variables (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 1329 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{classamici_1_1ode__export_1_1_o_d_e_model_af3b774d51a546704413dc57f93dc427d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_af3b774d51a546704413dc57f93dc427d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a5e124f15318e0b6217db8290b3bbe3b4}\label{classamici_1_1ode__export_1_1_o_d_e_model_a5e124f15318e0b6217db8290b3bbe3b4}} 
+\index{ODEModel@{ODEModel}!get\_appearance\_counts@{get\_appearance\_counts}}
+\index{get\_appearance\_counts@{get\_appearance\_counts}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{get\_appearance\_counts()}{get\_appearance\_counts()}}
+{\footnotesize\ttfamily def get\+\_\+appearance\+\_\+counts (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{idxs }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em idxs} & list of state indices for which counts are to be computed\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of counts for the states ordered according to the provided 
+
+indices 
+\end{DoxyReturn}
+
+
+Definition at line 1347 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a5e124f15318e0b6217db8290b3bbe3b4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a2223bbe62f3234b8f40c5a566064a481}\label{classamici_1_1ode__export_1_1_o_d_e_model_a2223bbe62f3234b8f40c5a566064a481}} 
+\index{ODEModel@{ODEModel}!symNames@{symNames}}
+\index{symNames@{symNames}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{symNames()}{symNames()}}
+{\footnotesize\ttfamily def sym\+Names (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+list of names 
+\end{DoxyReturn}
+
+
+Definition at line 1580 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_a2223bbe62f3234b8f40c5a566064a481_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_ae352b13e8ea2f390c5fa146601817173}\label{classamici_1_1ode__export_1_1_o_d_e_model_ae352b13e8ea2f390c5fa146601817173}} 
+\index{ODEModel@{ODEModel}!sym\_or\_eq@{sym\_or\_eq}}
+\index{sym\_or\_eq@{sym\_or\_eq}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{sym\_or\_eq()}{sym\_or\_eq()}}
+{\footnotesize\ttfamily def sym\+\_\+or\+\_\+eq (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name,  }\item[{}]{varname }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of function for which the signature should be checked \\
+\hline
+{\em varname} & name of the variable which should be contained in the function signature\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the variable symbols if the variable is part of the signature and the variable equations otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 1731 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_ae352b13e8ea2f390c5fa146601817173_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{classamici_1_1ode__export_1_1_o_d_e_model_ae352b13e8ea2f390c5fa146601817173_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_acbd9a0c022a1b5cbc09848bcac0de613}\label{classamici_1_1ode__export_1_1_o_d_e_model_acbd9a0c022a1b5cbc09848bcac0de613}} 
+\index{ODEModel@{ODEModel}!get\_conservation\_laws@{get\_conservation\_laws}}
+\index{get\_conservation\_laws@{get\_conservation\_laws}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{get\_conservation\_laws()}{get\_conservation\_laws()}}
+{\footnotesize\ttfamily def get\+\_\+conservation\+\_\+laws (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+list of state identifiers 
+\end{DoxyReturn}
+
+
+Definition at line 1821 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_o_d_e_model_acbd9a0c022a1b5cbc09848bcac0de613_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a8b62416531adca2210c28230350b787e}\label{classamici_1_1ode__export_1_1_o_d_e_model_a8b62416531adca2210c28230350b787e}} 
+\index{ODEModel@{ODEModel}!state\_has\_fixed\_parameter\_initial\_condition@{state\_has\_fixed\_parameter\_initial\_condition}}
+\index{state\_has\_fixed\_parameter\_initial\_condition@{state\_has\_fixed\_parameter\_initial\_condition}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{state\_has\_fixed\_parameter\_initial\_condition()}{state\_has\_fixed\_parameter\_initial\_condition()}}
+{\footnotesize\ttfamily def state\+\_\+has\+\_\+fixed\+\_\+parameter\+\_\+initial\+\_\+condition (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ix }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & state index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean indicating if any of the initial condition free variables is contained in the model constants 
+\end{DoxyReturn}
+
+
+Definition at line 1885 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a6c2d3ae2fc4dc74b8fba88db41ed8fae}\label{classamici_1_1ode__export_1_1_o_d_e_model_a6c2d3ae2fc4dc74b8fba88db41ed8fae}} 
+\index{ODEModel@{ODEModel}!state\_has\_conservation\_law@{state\_has\_conservation\_law}}
+\index{state\_has\_conservation\_law@{state\_has\_conservation\_law}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{state\_has\_conservation\_law()}{state\_has\_conservation\_law()}}
+{\footnotesize\ttfamily def state\+\_\+has\+\_\+conservation\+\_\+law (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ix }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & state index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean indicating if conservation\+\_\+law is not None 
+\end{DoxyReturn}
+
+
+Definition at line 1906 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_o_d_e_model_a5d453b4edf6d9cd24e024841a0cd70c6}\label{classamici_1_1ode__export_1_1_o_d_e_model_a5d453b4edf6d9cd24e024841a0cd70c6}} 
+\index{ODEModel@{ODEModel}!state\_is\_constant@{state\_is\_constant}}
+\index{state\_is\_constant@{state\_is\_constant}!ODEModel@{ODEModel}}
+\doxyparagraph{\texorpdfstring{state\_is\_constant()}{state\_is\_constant()}}
+{\footnotesize\ttfamily def state\+\_\+is\+\_\+constant (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{ix }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & state index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean indicating if constant over time 
+\end{DoxyReturn}
+
+
+Definition at line 1920 of file ode\+\_\+export.\+py.
+

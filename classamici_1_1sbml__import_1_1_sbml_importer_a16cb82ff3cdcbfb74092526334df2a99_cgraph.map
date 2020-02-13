@@ -1,0 +1,16 @@
+<map id="processSBML" name="processSBML">
+<area shape="rect" id="node1" title="Read parameters, species, reactions, and so on from SBML model." alt="" coords="5,259,110,286"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a18a15bc533080ec0002b8cef36020807" title="Populate self.local_symbols with all model entities." alt="" coords="194,5,302,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae9585f937c02f0618abeb06dd48bcd54" title="Check whether all required SBML features are supported." alt="" coords="196,56,299,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a122b9921e2fb5bd0fc75310c47413dd1" title="Remove all reserved symbols from self.symbols." alt="" coords="167,411,328,438"/>
+<area shape="rect" id="node6" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a526afc71a857e7fdefb4754fc2f93882" title="Get compartment information, stoichiometric matrix and fluxes from SBML model." alt="" coords="170,157,325,185"/>
+<area shape="rect" id="node7" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#abcbbe2a2e8bb9b86d728d4f898e5baad" title="Get parameter information from SBML model." alt="" coords="179,208,316,235"/>
+<area shape="rect" id="node8" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#adbdd8e9af99679633109829d94b3fd3e" title="Get reactions from SBML model." alt="" coords="184,259,311,286"/>
+<area shape="rect" id="node9" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7df6b4ae4e3e757bc8de5e0cc54fe16b" title="Process Rules defined in the SBML model." alt="" coords="197,107,299,134"/>
+<area shape="rect" id="node11" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a4912a89bf86ec8e0c1d9758b8090e327" title="Get species information from SBML model." alt="" coords="190,360,305,387"/>
+<area shape="rect" id="node12" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a2819c6ad1b541e49e728aa172e57208e" title="Convert time_symbol into cpp variable." alt="" coords="199,309,296,337"/>
+<area shape="rect" id="node13" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#af2a2cbf8550d30fc0e95a875758b8262" title="Convert equations from amount to volume." alt="" coords="158,461,338,489"/>
+<area shape="rect" id="node14" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a5348e7b5041334f8c54b45c5c928dea0" title="Replace all special constants by their respective SBML csymbol definition." alt="" coords="163,512,332,539"/>
+<area shape="rect" id="node5" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a41af5dd68cabe0c0ce017147e759cd3a" title="Replace &#39;old&#39; by &#39;new&#39; in all symbolic expressions." alt="" coords="406,360,570,387"/>
+<area shape="rect" id="node10" href="$namespaceamici_1_1sbml__import.html#a6da83d9c3cffce0617379a2e56e250ce" title="Extract free symbols in SBML rule formulas." alt="" coords="386,107,590,134"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="storeBacktrace" name="storeBacktrace">
+<area shape="rect" id="node1" title="Stores the current backtrace." alt="" coords="5,5,116,33"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a9335e7034e5f43e2d3712225be0867db" title="Returns the current backtrace as std::string." alt="" coords="164,5,316,33"/>
+</map>

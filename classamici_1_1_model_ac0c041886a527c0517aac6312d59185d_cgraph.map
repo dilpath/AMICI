@@ -1,0 +1,8 @@
+<map id="getEvent" name="getEvent">
+<area shape="rect" id="node1" title="Event&#45;resolved observables." alt="" coords="5,31,79,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a171bc1e22a0829aff5fd16f6d6bffa5a" title="Event&#45;resolved output." alt="" coords="164,5,203,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a2054555e8d40c4ea6e7f562c335ab984" title="Writes part of a slice to a buffer according to indices specified in z2event." alt="" coords="127,56,240,83"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="289,5,443,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="288,56,444,83"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="322,107,409,134"/>
+</map>

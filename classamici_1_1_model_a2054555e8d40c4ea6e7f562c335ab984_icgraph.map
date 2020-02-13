@@ -1,0 +1,6 @@
+<map id="writeSliceEvent" name="writeSliceEvent">
+<area shape="rect" id="node1" title="Writes part of a slice to a buffer according to indices specified in z2event." alt="" coords="213,56,325,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ac0c041886a527c0517aac6312d59185d" title="Event&#45;resolved observables." alt="" coords="48,5,122,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a2c8c64a4176f95eb0615762b4ac2dcef" title="Regularization for event&#45;resolved observables." alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ae365d77c1eb06d0cbe2303ed3627f7ed" title="Event&#45;resolved observable standard deviations." alt="" coords="29,107,141,134"/>
+</map>

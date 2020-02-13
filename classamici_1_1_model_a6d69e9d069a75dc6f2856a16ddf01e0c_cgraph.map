@@ -1,0 +1,13 @@
+<map id="getObservableSigma" name="getObservableSigma">
+<area shape="rect" id="node1" title="Time&#45;resolved observable standard deviations." alt="" coords="5,232,151,259"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ab240fd495111f795bff642c3b4d7c437" title="Standard deviation of measurements." alt="" coords="224,148,291,175"/>
+<area shape="rect" id="node9" href="$namespaceamici.html#ab6363cf4e0abdfd138fb33270bb425a6" title="local helper function to write computed slice to provided buffer" alt="" coords="199,291,316,318"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="389,5,574,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_exp_data.html#ad0ca0d6d8d5b6bb5587570d70bd3a4fc" title="get function that returns a pointer to standard deviation of observed data at index" alt="" coords="384,56,578,99"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a8e09d89b5ae9c916cf031eaf8c806440" title="get simulation timepoint for time index it" alt="" coords="432,123,530,150"/>
+<area shape="rect" id="node6" href="$classamici_1_1_exp_data.html#aedcda756b6356d6e147f2f4eb7658500" title="get function that checks whether data at specified indices has been set" alt="" coords="364,173,598,201"/>
+<area shape="rect" id="node8" href="$classamici_1_1_exp_data.html#a75808a32f77afa60bb736a1dfbce9aba" title="get function that checks whether standard deviation of data at specified indices has been set" alt="" coords="378,224,584,267"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="646,203,742,230"/>
+<area shape="rect" id="node10" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="403,291,559,318"/>
+<area shape="rect" id="node11" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="438,341,524,369"/>
+</map>

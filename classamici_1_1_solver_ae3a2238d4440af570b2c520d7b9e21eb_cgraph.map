@@ -1,0 +1,8 @@
+<map id="getDiagnosis" name="getDiagnosis">
+<area shape="rect" id="node1" title="Extracts diagnosis information from solver memory block and writes them into the return data object." alt="" coords="5,107,104,134"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#afec1f10a92dde9c74299878ba674910a" title="Reports the order of the integration method during the last internal step." alt="" coords="198,5,297,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a1bb97fbc9edbab7a6e049f0662df6e3a" title="reports the number of local error test failures" alt="" coords="178,56,316,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#ae48421bd0bdd321682b872e8256975c7" title="reports the number of nonlinear convergence failures" alt="" coords="152,107,343,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a5089333c391bfce0f52ef4f89e3cdd5e" title="reports the number of right hand evaluations" alt="" coords="185,157,309,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#a8eb2afc1ba83296a5f28b2c7b339e372" title="reports the number of solver steps" alt="" coords="196,208,298,235"/>
+</map>

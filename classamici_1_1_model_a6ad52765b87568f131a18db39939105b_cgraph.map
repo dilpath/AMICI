@@ -1,0 +1,18 @@
+<map id="getAdjointStateEventUpdate" name="getAdjointStateEventUpdate">
+<area shape="rect" id="node1" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="5,292,194,319"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aa4c825912365c05bf472568ef1adb929" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="271,157,331,185"/>
+<area shape="rect" id="node14" href="$namespaceamici.html#ab6363cf4e0abdfd138fb33270bb425a6" title="local helper function to write computed slice to provided buffer" alt="" coords="242,427,359,454"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a1e23c7855010fa95b35bc376ba1f9999" title=" " alt="" coords="433,107,576,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a0c44c0a2afed13fbc92f449789566fad" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="475,296,535,323"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#a7270ea1362212e4dc344e24dc01b70ee" title="get function that checks whether event data at specified indices has been set" alt="" coords="893,200,1099,243"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a1449de2b0a762697c2d8f39efb3f405f" title="Partial derivative of event&#45;resolved output z w.r.t. to model states x." alt="" coords="478,376,531,403"/>
+<area shape="rect" id="node12" href="$classamici_1_1_exp_data.html#abee92d90cb7fe75fa39fb98c2ab0fd0a" title="get function that returns timepoint at index" alt="" coords="407,5,602,33"/>
+<area shape="rect" id="node13" href="$classamici_1_1_exp_data.html#a4c23d300cbe15b0afb1ee3731d47cc93" title="number of timepoints" alt="" coords="440,56,569,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="669,427,826,470"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a33ebc7e2d021c9d8fd0aa4ee136da6c7" title="Standard deviation of events." alt="" coords="714,325,781,353"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a171bc1e22a0829aff5fd16f6d6bffa5a" title="Event&#45;resolved output." alt="" coords="728,376,767,403"/>
+<area shape="rect" id="node10" href="$classamici_1_1_exp_data.html#a95ab3fe91af62612f202fdc6cd033d2a" title="get function that returns a pointer to observed data at ieth occurence" alt="" coords="650,259,845,302"/>
+<area shape="rect" id="node9" href="$classamici_1_1_ami_vector.html#a69be01da2132057196a1bfbb8a94b695" title="data accessor" alt="" coords="919,435,1073,462"/>
+<area shape="rect" id="node15" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="427,427,583,454"/>
+<area shape="rect" id="node16" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="461,477,548,505"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="remove_typedefs" name="remove_typedefs">
+<area shape="rect" id="node1" title="Strips typedef info from a function signature." alt="" coords="495,13,619,40"/>
+<area shape="rect" id="node2" href="$namespaceamici_1_1ode__export.html#ac5b5162fd2ea971fcdad8fecd5748c01" title="Constructs amici::Model::* override implementation for a given function." alt="" coords="308,5,447,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_exporter.html#a61bf03049b9989d73b584fbca9f8d499" title="Compiles the generated code it into a simulatable module." alt="" coords="5,5,260,48"/>
+</map>

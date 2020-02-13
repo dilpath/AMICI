@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classamici_1_1_integration_failure.html" title="Integration failure exception for the forward problem." alt="" coords="5,107,130,134"/>
+<area shape="rect" id="node2" href="$classamici_1_1_ami_exception.html" title="AMICI exception class." alt="" coords="178,107,281,134"/>
+<area shape="rect" id="node3" href="$classamici_1_1_cvode_exception.html" title="cvode exception handler class" alt="" coords="337,5,455,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_i_d_a_exception.html" title="ida exception handler class" alt="" coords="345,56,447,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_integration_failure_b.html" title="Integration failure exception for the backward problem." alt="" coords="329,107,463,134"/>
+<area shape="rect" id="node6" href="$classamici_1_1_newton_failure.html" title="Newton failure exception." alt="" coords="343,157,450,185"/>
+<area shape="rect" id="node7" href="$classamici_1_1_setup_failure.html" title="Setup failure exception." alt="" coords="348,208,445,235"/>
+</map>

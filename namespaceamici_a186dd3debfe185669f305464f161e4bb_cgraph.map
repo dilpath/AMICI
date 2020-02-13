@@ -1,0 +1,5 @@
+<map id="expDataFromMatlabCall" name="expDataFromMatlabCall">
+<area shape="rect" id="node1" title="expDataFromMatlabCall parses the experimental data from the matlab call and writes it to an ExpData c..." alt="" coords="5,31,170,58"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a6afba639d40149cce5a00978bd922ba1" title="Convenience wrapper for ExpData constructors." alt="" coords="244,5,316,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#af8f91dbb6a395a9907c59dd92991ec18" title=" " alt="" coords="218,56,341,83"/>
+</map>

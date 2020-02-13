@@ -1,0 +1,6 @@
+<map id="nx_solver" name="nx_solver">
+<area shape="rect" id="node1" title="Number of states after applying conservation laws." alt="" coords="334,56,412,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#ae1c79250825e4c1e2c6b56581484b37a" title="Create a new ODEModel instance." alt="" coords="218,5,286,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a5e124f15318e0b6217db8290b3bbe3b4" title="Counts how often a state appears in the time derivative of another state and expressions for a subset..." alt="" coords="5,81,170,109"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a96964f4a635095d20c61f4976fd3070c" title="Number of conservation laws." alt="" coords="232,107,271,134"/>
+</map>

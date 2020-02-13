@@ -1,0 +1,5 @@
+<map id="ReturnDataView" name="ReturnDataView">
+<area shape="rect" id="node1" title="Interface class for C++ Return Data objects that avoids possibly costly copies of member data." alt="" coords="5,156,124,183"/>
+<area shape="rect" id="node2" href="$classamici_1_1numpy_1_1_swig_ptr_view.html" title="Interface class to expose std::vector&lt;double&gt; and scalar members of swig wrapped C++ objects as numpy..." alt="" coords="16,81,112,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="28,5,101,33"/>
+</map>

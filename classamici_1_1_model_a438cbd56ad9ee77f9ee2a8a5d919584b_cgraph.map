@@ -1,0 +1,15 @@
+<map id="getObservableSigmaSensitivity" name="getObservableSigmaSensitivity">
+<area shape="rect" id="node1" title="Sensitivity of time&#45;resolved observable standard deviation, total derivative (can be used with both a..." alt="" coords="5,276,211,303"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a635d31c36e49ca982b244b4789b9aeeb" title="Partial derivative of standard deviation of measurements w.r.t. model." alt="" coords="273,196,362,223"/>
+<area shape="rect" id="node11" href="$namespaceamici.html#ab6363cf4e0abdfd138fb33270bb425a6" title="local helper function to write computed slice to provided buffer" alt="" coords="259,327,376,354"/>
+<area shape="rect" id="node3" href="$classamici_1_1_amici_application.html#a7f48f4919daa680eb35a4a03b427e717" title="Checks the values in an array for NaNs and Infs." alt="" coords="448,42,606,84"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a8e09d89b5ae9c916cf031eaf8c806440" title="get simulation timepoint for time index it" alt="" coords="478,108,576,135"/>
+<area shape="rect" id="node8" href="$classamici_1_1_exp_data.html#a75808a32f77afa60bb736a1dfbce9aba" title="get function that checks whether standard deviation of data at specified indices has been set" alt="" coords="424,159,630,202"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a0f8e994055e37954d7746f3c1af27a5c" title="Number of parameters wrt to which sensitivities are computed." alt="" coords="501,225,553,253"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a6ac0de1b7dfddbb4a480657f62573563" title="entry in parameter list" alt="" coords="505,276,550,303"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a10c0a2eb43575a155a34f5bb280f7973" title=" " alt="" coords="715,5,799,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="709,137,805,165"/>
+<area shape="rect" id="node6" href="$classamici_1_1_amici_application.html#ac33f281d043d0a504fb47ad30fc66b27" title="printf interface to warning()" alt="" coords="678,56,836,99"/>
+<area shape="rect" id="node12" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="449,327,605,354"/>
+<area shape="rect" id="node13" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="484,377,570,405"/>
+</map>

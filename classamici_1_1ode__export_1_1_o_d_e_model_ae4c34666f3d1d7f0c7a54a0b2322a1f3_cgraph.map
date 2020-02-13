@@ -1,0 +1,5 @@
+<map id="nx_solver" name="nx_solver">
+<area shape="rect" id="node1" title="Number of states after applying conservation laws." alt="" coords="5,5,84,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a0d7b434e30dc96e47c86d6e083004c2e" title="Returns (and constructs if necessary) the identifiers for a symbolic entity." alt="" coords="132,5,178,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2abe6260f663dfbcd7e984e0e690ef58" title="Generates the symbolic identifiers for a symbolic variable." alt="" coords="226,5,351,33"/>
+</map>

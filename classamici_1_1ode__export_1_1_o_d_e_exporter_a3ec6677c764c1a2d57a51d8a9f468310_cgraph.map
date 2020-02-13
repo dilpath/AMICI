@@ -1,0 +1,6 @@
+<map id="generateModelCode" name="generateModelCode">
+<area shape="rect" id="node1" title="Generates the native C++ code for the loaded model and a Matlab script that can be run to compile a m..." alt="" coords="5,56,147,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_exporter.html#a29f356c91cde8c0ca4f06b7dd77755fb" title="Create C++ code files for the model based on ODEExporter.model." alt="" coords="208,5,331,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_exporter.html#acb492e12550dea981feb87e8ec21ac33" title="Create a Matlab script for compiling code files to a mex file." alt="" coords="208,56,332,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_exporter.html#ad6824501837745f201c295a3ed52ea0e" title="Remove all files from the model folder." alt="" coords="195,107,344,134"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SUNLinSolSPBCGS" name="SUNLinSolSPBCGS">
+<area shape="rect" id="node1" title="SUNDIALS scaled preconditioned Bi&#45;CGStab (Bi&#45;Conjugate Gradient Stable method) (SPBCGS) solver." alt="" coords="5,81,147,108"/>
+<area shape="rect" id="node2" href="$classamici_1_1_s_u_n_lin_sol_wrapper.html" title="A RAII wrapper for SUNLinearSolver structs." alt="" coords="8,5,145,33"/>
+</map>

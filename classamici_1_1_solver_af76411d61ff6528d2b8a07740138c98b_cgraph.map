@@ -1,0 +1,7 @@
+<map id="getDiagnosisB" name="getDiagnosisB">
+<area shape="rect" id="node1" title="Extracts diagnosis information from solver memory block and writes them into the return data object f..." alt="" coords="5,81,113,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a1bb97fbc9edbab7a6e049f0662df6e3a" title="reports the number of local error test failures" alt="" coords="187,5,325,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#ae48421bd0bdd321682b872e8256975c7" title="reports the number of nonlinear convergence failures" alt="" coords="161,56,352,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a5089333c391bfce0f52ef4f89e3cdd5e" title="reports the number of right hand evaluations" alt="" coords="194,107,318,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a8eb2afc1ba83296a5f28b2c7b339e372" title="reports the number of solver steps" alt="" coords="205,157,307,185"/>
+</map>

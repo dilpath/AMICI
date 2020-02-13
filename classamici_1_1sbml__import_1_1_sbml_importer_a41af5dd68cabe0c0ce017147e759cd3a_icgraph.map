@@ -1,0 +1,9 @@
+<map id="replaceInAllExpressions" name="replaceInAllExpressions">
+<area shape="rect" id="node1" title="Replace &#39;old&#39; by &#39;new&#39; in all symbolic expressions." alt="" coords="511,81,674,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a122b9921e2fb5bd0fc75310c47413dd1" title="Remove all reserved symbols from self.symbols." alt="" coords="297,5,459,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7df6b4ae4e3e757bc8de5e0cc54fe16b" title="Process Rules defined in the SBML model." alt="" coords="327,56,429,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a2819c6ad1b541e49e728aa172e57208e" title="Convert time_symbol into cpp variable." alt="" coords="330,107,427,134"/>
+<area shape="rect" id="node7" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a5348e7b5041334f8c54b45c5c928dea0" title="Replace all special constants by their respective SBML csymbol definition." alt="" coords="294,157,463,185"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a16cb82ff3cdcbfb74092526334df2a99" title="Read parameters, species, reactions, and so on from SBML model." alt="" coords="141,81,246,109"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7a5d0fdedc31c1f787b68ad3cba228b8" title="Generate AMICI C++ files for the model provided to the constructor." alt="" coords="5,81,93,109"/>
+</map>

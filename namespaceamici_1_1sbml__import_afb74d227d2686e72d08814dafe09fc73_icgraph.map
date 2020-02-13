@@ -1,0 +1,5 @@
+<map id="noise_distribution_to_cost_function" name="noise_distribution_to_cost_function">
+<area shape="rect" id="node1" title="Parse noise distribution string to a cost function definition amici can work with." alt="" coords="646,5,771,48"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a15b2e75205dac7302a6b6b956e52aecf" title="Perform symbolic computations required for objective function evaluation." alt="" coords="335,5,598,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7a5d0fdedc31c1f787b68ad3cba228b8" title="Generate AMICI C++ files for the model provided to the constructor." alt="" coords="5,13,287,40"/>
+</map>

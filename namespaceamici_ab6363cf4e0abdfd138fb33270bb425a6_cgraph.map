@@ -1,0 +1,5 @@
+<map id="writeSlice" name="writeSlice">
+<area shape="rect" id="node1" title="local helper function to write computed slice to provided buffer" alt="" coords="5,31,84,58"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="132,5,249,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="166,56,214,83"/>
+</map>

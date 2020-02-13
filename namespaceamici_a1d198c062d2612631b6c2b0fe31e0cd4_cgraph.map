@@ -1,0 +1,5 @@
+<map id="writeMatlabField3" name="writeMatlabField3">
+<area shape="rect" id="node1" title="initialise 3D tensor, attach to the field and write data" alt="" coords="5,31,131,58"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#a10c4b68cefb537f43f52c1f2f23db5f9" title="initialises the field fieldName in matlabStruct with dimension dim" alt="" coords="179,5,311,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a34977c9aa241ea37421d94946baa77d2" title="template function that reorders elements in a std::vector" alt="" coords="213,56,277,83"/>
+</map>

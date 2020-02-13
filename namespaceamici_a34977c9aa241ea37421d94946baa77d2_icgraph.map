@@ -1,0 +1,9 @@
+<map id="reorder" name="reorder">
+<area shape="rect" id="node1" title="template function that reorders elements in a std::vector" alt="" coords="682,81,747,109"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#aab2bcdb74e3b44bb65e12b14d3ffb42b" title="initialise matrix, attach to the field and write data" alt="" coords="509,31,634,58"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#a1d198c062d2612631b6c2b0fe31e0cd4" title="initialise 3D tensor, attach to the field and write data" alt="" coords="509,81,634,109"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#aee7f18142ce4446132bb2bd5d3b072d8" title="initialise 4D tensor, attach to the field and write data" alt="" coords="509,132,634,159"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#aa12d4917fed647a1edeaaa26a261c770" title="allocates and initialises diagnosis mxArray with the corresponding fields" alt="" coords="288,5,461,33"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a7449834fca1e0bde53d5f73ae0d2b929" title="allocates and initialises solution mxArray with the corresponding fields" alt="" coords="297,56,451,83"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a698409f4b9ce06055bcebcee39f81a91" title="generates matlab mxArray from a ReturnData object" alt="" coords="5,56,240,83"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="initMatlabDiagnosisFields" name="initMatlabDiagnosisFields">
+<area shape="rect" id="node1" title="allocates and initialises diagnosis mxArray with the corresponding fields" alt="" coords="5,81,178,109"/>
+<area shape="rect" id="node2" href="$namespaceamici.html#ad34a0a8f0a3d44e86371a2ecb5841c09" title="checks whether fieldNames was properly allocated" alt="" coords="226,5,353,33"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#ad2949f3931c6fac6fd12fd7ede47ac30" title="initialise vector and attach to the field" alt="" coords="227,56,352,83"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a64677d9f7279591de5f36ab162fbf54b" title="initialise vector and attach to the field" alt="" coords="227,107,352,134"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#aab2bcdb74e3b44bb65e12b14d3ffb42b" title="initialise matrix, attach to the field and write data" alt="" coords="227,157,352,185"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a10c4b68cefb537f43f52c1f2f23db5f9" title="initialises the field fieldName in matlabStruct with dimension dim" alt="" coords="401,107,533,134"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#a34977c9aa241ea37421d94946baa77d2" title="template function that reorders elements in a std::vector" alt="" coords="435,157,499,185"/>
+</map>

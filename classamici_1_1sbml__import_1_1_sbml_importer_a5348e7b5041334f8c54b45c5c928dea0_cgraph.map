@@ -1,0 +1,4 @@
+<map id="replaceSpecialConstants" name="replaceSpecialConstants">
+<area shape="rect" id="node1" title="Replace all special constants by their respective SBML csymbol definition." alt="" coords="5,5,174,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a41af5dd68cabe0c0ce017147e759cd3a" title="Replace &#39;old&#39; by &#39;new&#39; in all symbolic expressions." alt="" coords="222,5,386,33"/>
+</map>

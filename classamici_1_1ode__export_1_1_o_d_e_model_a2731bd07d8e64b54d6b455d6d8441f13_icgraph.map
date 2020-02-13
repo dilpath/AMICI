@@ -1,0 +1,5 @@
+<map id="add_component" name="add_component">
+<area shape="rect" id="node1" title="Adds a new ModelQuantity to the model." alt="" coords="238,31,355,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a0141f61903c375ed6867932c570f7e4f" title="Adds a new conservation law to the model." alt="" coords="20,5,175,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a3a3ebfdaf0d1f08adf028afb10d5b5c1" title="Imports a model specification from a amici.SBMLImporter instance." alt="" coords="5,56,190,83"/>
+</map>

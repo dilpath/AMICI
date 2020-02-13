@@ -1,0 +1,247 @@
+\hypertarget{classamici_1_1numpy_1_1_swig_ptr_view}{}\doxysubsection{Swig\+Ptr\+View Class Reference}
+\label{classamici_1_1numpy_1_1_swig_ptr_view}\index{SwigPtrView@{SwigPtrView}}
+
+
+Interface class to expose std\+::vector$<$double$>$ and scalar members of swig wrapped C++ objects as numpy array attributes and fields.  
+
+
+
+
+Inheritance diagram for Swig\+Ptr\+View\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classamici_1_1numpy_1_1_swig_ptr_view__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9}{\+\_\+\+\_\+getitem\+\_\+\+\_\+}} (self, item)
+\begin{DoxyCompactList}\small\item\em Access to field names, copies data from C++ object into numpy array, reshapes according to field dimensions and stores values in cache. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a1f99f77692f6c66ef2e309b014f41401}{\+\_\+\+\_\+missing\+\_\+\+\_\+}} (self, key)
+\begin{DoxyCompactList}\small\item\em Default behaviour for missing keys. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_aba9bb031ca4934dd6dcafcf72798c302}{\+\_\+\+\_\+getattr\+\_\+\+\_\+}} (self, item)
+\begin{DoxyCompactList}\small\item\em Attribute accessor for field names. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a7969561794fc646bf3f98b83586ba4c1}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, swigptr)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a810fdc262754b6d21f5acd0e280d4daf}{\+\_\+\+\_\+len\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Returns the number of available keys/fields. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a45163c19b7c87f553c6f1d055d4668cb}{\+\_\+\+\_\+iter\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Create an iterator of the keys/fields. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_ad651373ca1e8f269d0caf549453d2cf1}{\+\_\+\+\_\+copy\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Create a shallow copy. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a1075d973b42990d7d08f5ccf09d8c245}{\+\_\+\+\_\+contains\+\_\+\+\_\+}} (self, item)
+\begin{DoxyCompactList}\small\item\em Faster implementation of {\bfseries{contains}} that avoids copy of the field. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view_a89b13854ff04386fb8373aa8e45ccd2c}{\+\_\+\+\_\+deepcopy\+\_\+\+\_\+}} (self, memo)
+\begin{DoxyCompactList}\small\item\em Create a deep copy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This class is memory efficient as copies of the underlying C++ objects is only created when respective fields are accessed for the first time. Cached copies are used for all subsequent calls. 
+
+Definition at line 15 of file numpy.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a7969561794fc646bf3f98b83586ba4c1}\label{classamici_1_1numpy_1_1_swig_ptr_view_a7969561794fc646bf3f98b83586ba4c1}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{swigptr }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em swigptr} & pointer to the C++ object \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classamici_1_1numpy_1_1_return_data_view_afc4d2ae1613db26a033272b5e45d2662}{Return\+Data\+View}}, and \mbox{\hyperlink{classamici_1_1numpy_1_1_exp_data_view_a907a872fe9b01669709b852427782139}{Exp\+Data\+View}}.
+
+
+
+Definition at line 105 of file numpy.\+py.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9}\label{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_getitem\_\_@{\_\_getitem\_\_}}
+\index{\_\_getitem\_\_@{\_\_getitem\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_getitem\_\_()}{\_\_getitem\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+getitem\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & field name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value ~\newline
+{\bfseries{Type}}\+: numpy.\+array or float 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classamici_1_1numpy_1_1_return_data_view_aab91ae2e037c39b631a69273c277bfe9}{Return\+Data\+View}}.
+
+
+
+Definition at line 56 of file numpy.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{classamici_1_1numpy_1_1_swig_ptr_view_aab91ae2e037c39b631a69273c277bfe9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a1f99f77692f6c66ef2e309b014f41401}\label{classamici_1_1numpy_1_1_swig_ptr_view_a1f99f77692f6c66ef2e309b014f41401}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_missing\_\_@{\_\_missing\_\_}}
+\index{\_\_missing\_\_@{\_\_missing\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_missing\_\_()}{\_\_missing\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+missing\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{key }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & field name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Key\+Error} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 85 of file numpy.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1numpy_1_1_swig_ptr_view_a1f99f77692f6c66ef2e309b014f41401_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_aba9bb031ca4934dd6dcafcf72798c302}\label{classamici_1_1numpy_1_1_swig_ptr_view_aba9bb031ca4934dd6dcafcf72798c302}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_getattr\_\_@{\_\_getattr\_\_}}
+\index{\_\_getattr\_\_@{\_\_getattr\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_getattr\_\_()}{\_\_getattr\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+getattr\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & field name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value ~\newline
+{\bfseries{Type}}\+: numpy.\+array or float 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file numpy.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1numpy_1_1_swig_ptr_view_aba9bb031ca4934dd6dcafcf72798c302_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a810fdc262754b6d21f5acd0e280d4daf}\label{classamici_1_1numpy_1_1_swig_ptr_view_a810fdc262754b6d21f5acd0e280d4daf}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_len\_\_@{\_\_len\_\_}}
+\index{\_\_len\_\_@{\_\_len\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_len\_\_()}{\_\_len\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+len\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+length of \+\_\+field\+\_\+names ~\newline
+{\bfseries{Type}}\+: int 
+\end{DoxyReturn}
+
+
+Definition at line 115 of file numpy.\+py.
+
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a45163c19b7c87f553c6f1d055d4668cb}\label{classamici_1_1numpy_1_1_swig_ptr_view_a45163c19b7c87f553c6f1d055d4668cb}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_iter\_\_@{\_\_iter\_\_}}
+\index{\_\_iter\_\_@{\_\_iter\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_iter\_\_()}{\_\_iter\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+iter\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+iterator over \+\_\+field\+\_\+names ~\newline
+{\bfseries{Type}}\+: iter 
+\end{DoxyReturn}
+
+
+Definition at line 123 of file numpy.\+py.
+
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_ad651373ca1e8f269d0caf549453d2cf1}\label{classamici_1_1numpy_1_1_swig_ptr_view_ad651373ca1e8f269d0caf549453d2cf1}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_copy\_\_@{\_\_copy\_\_}}
+\index{\_\_copy\_\_@{\_\_copy\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_copy\_\_()}{\_\_copy\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+copy\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view}{Swig\+Ptr\+View}} shallow copy ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view}{Swig\+Ptr\+View}} 
+\end{DoxyReturn}
+
+
+Definition at line 133 of file numpy.\+py.
+
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a1075d973b42990d7d08f5ccf09d8c245}\label{classamici_1_1numpy_1_1_swig_ptr_view_a1075d973b42990d7d08f5ccf09d8c245}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_contains\_\_@{\_\_contains\_\_}}
+\index{\_\_contains\_\_@{\_\_contains\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_contains\_\_()}{\_\_contains\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+contains\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & item to check for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+whether item is available as key ~\newline
+{\bfseries{Type}}\+: bool 
+\end{DoxyReturn}
+
+
+Definition at line 148 of file numpy.\+py.
+
+\mbox{\Hypertarget{classamici_1_1numpy_1_1_swig_ptr_view_a89b13854ff04386fb8373aa8e45ccd2c}\label{classamici_1_1numpy_1_1_swig_ptr_view_a89b13854ff04386fb8373aa8e45ccd2c}} 
+\index{SwigPtrView@{SwigPtrView}!\_\_deepcopy\_\_@{\_\_deepcopy\_\_}}
+\index{\_\_deepcopy\_\_@{\_\_deepcopy\_\_}!SwigPtrView@{SwigPtrView}}
+\doxyparagraph{\texorpdfstring{\_\_deepcopy\_\_()}{\_\_deepcopy\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+deepcopy\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{memo }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em memo} & dict with id-\/to-\/object mapping\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view}{Swig\+Ptr\+View}} deep copy ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1numpy_1_1_swig_ptr_view}{Swig\+Ptr\+View}} 
+\end{DoxyReturn}
+
+
+Definition at line 159 of file numpy.\+py.
+

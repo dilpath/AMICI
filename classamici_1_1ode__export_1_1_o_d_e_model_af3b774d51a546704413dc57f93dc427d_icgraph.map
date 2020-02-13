@@ -1,0 +1,4 @@
+<map id="generateBasicVariables" name="generateBasicVariables">
+<area shape="rect" id="node1" title="Generates the symbolic identifiers for all variables in ODEModel.variable_prototype." alt="" coords="238,5,399,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a3a3ebfdaf0d1f08adf028afb10d5b5c1" title="Imports a model specification from a amici.SBMLImporter instance." alt="" coords="5,5,190,33"/>
+</map>

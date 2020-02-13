@@ -1,0 +1,35 @@
+<map id="plist" name="plist">
+<area shape="rect" id="node1" title="entry in parameter list" alt="" coords="802,509,847,536"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ad5421d929b78eb1533645f2982ac8700" title="Update adjoint quadratures after event." alt="" coords="551,5,737,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#abc67e0ac06b3391efec41e0b5c8fc3c3" title="Update state sensitivity after event." alt="" coords="560,72,729,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver.html#a8061901935161d3cbd563daae8fa4e9f" title=" " alt="" coords="562,139,727,181"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a71d62a12725171bcbfd8820576d9cbac" title="Sensitivity of event&#45;resolved root output w.r.t. to model parameters p." alt="" coords="615,205,673,232"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a635d31c36e49ca982b244b4789b9aeeb" title="Partial derivative of standard deviation of measurements w.r.t. model." alt="" coords="599,256,689,283"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#aa3eda4b933956ecd898a14b7d46f37ae" title="Sensitivity of standard deviation of events measurements w.r.t. model parameters p." alt="" coords="599,357,689,384"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#a3d49dd3885ecf07f14e3fde288450be1" title="Partial derivative of observables y w.r.t. model parameters p." alt="" coords="617,306,671,334"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#a3564a48408fdd80f51b0a24a216f40fe" title="Partial derivative of event&#45;resolved output z w.r.t. to model parameters p." alt="" coords="617,408,671,435"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#a647b2865d4c9f26ad461a51246bbefcd" title="Initial value for initial state sensitivities." alt="" coords="621,509,667,536"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model.html#a1d8b7271972a7882f18e1c9ea3308e38" title="Get the initial states sensitivities." alt="" coords="297,484,470,511"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model.html#ac4044c8b06d92618b69d0d4fcc083811" title=" " alt="" coords="298,548,469,575"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model.html#a79d8a1d0d4ef31605f9c21e2f6828ae0" title="Sets only those initial states sensitivities that are affected from fx0 fixedParmeters." alt="" coords="308,636,459,663"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model.html#a904836d6ff6f1414ddffd5e8f39d1754" title="Expands conservation law for state sensitivities." alt="" coords="606,610,682,638"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="implementation of fsxdot at the N_Vector level" alt="" coords="556,712,732,739"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model.html#ab56e70cc5a9d095c9386ab3f7bc01388" title="Sensitivities of regularization for event&#45;resolved observables, total derivative (only forward sensit..." alt="" coords="535,762,754,790"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model.html#a9fc47fbafb63293084d293aa39b5a191" title="Sensitivities of event&#45;resolved observables, total derivative, total derivative (only forward sensiti..." alt="" coords="577,813,711,840"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model.html#a72c88f010184733141e3feccd765ea04" title="Sensitivity of event timepoint, total derivative (only forward sensi)" alt="" coords="563,864,726,891"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model.html#a82941b121d9db31d357642092a2cd41d" title="Set the initial state sensitivities." alt="" coords="558,914,730,942"/>
+<area shape="rect" id="node32" href="$classamici_1_1_model.html#a2afe974183e4bccaf746f6409941fe8f" title="Set the list of parameters for which sensitivities are computed, resets initial state sensitivities." alt="" coords="583,965,705,992"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="353,256,414,283"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a438cbd56ad9ee77f9ee2a8a5d919584b" title="Sensitivity of time&#45;resolved observable standard deviation, total derivative (can be used with both a..." alt="" coords="281,205,487,232"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,226,233,254"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="16,277,222,320"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#ab59ce7dce76df68b92b0b7404f9f8a19" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. parameters." alt="" coords="353,408,414,435"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#a89aad8dfe8896d8682f81eada0ddefab" title="Sensitivities of event&#45;resolved observable standard deviations, total derivative (only forward sensit..." alt="" coords="298,357,470,384"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="22,378,216,406"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="33,429,205,472"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#a23f9b1f2f061cc04f42fe32e1549bf80" title="Sensitivity of time&#45;resolved observables, total derivative sy = dydx * sx + dydp (only for forward se..." alt="" coords="300,306,468,334"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model.html#a76f3aa67bb6232cce1f56cc1ec9c9c4e" title=" " alt="" coords="85,548,153,575"/>
+<area shape="rect" id="node30" href="$classamici_1_1_condition_context.html#a3afbbd4b46cbd46cbc07960705492843" title="Apply condition&#45;specific settings from edata to the constructor&#45;supplied model, not changing the sett..." alt="" coords="303,907,465,949"/>
+<area shape="rect" id="node31" href="$classamici_1_1_condition_context.html#a00922f8e090c4171074b23690161c3bd" title="Apply condition&#45;specific settings from edata to model while keeping a backup of the original values." alt="" coords="38,907,200,949"/>
+<area shape="rect" id="node33" href="$classamici_1_1_condition_context.html#afd3595051be2709847c2de4352f27cf5" title="Restore original settings on constructor&#45;supplied amici::Model. Will be called during destruction...." alt="" coords="303,973,465,1016"/>
+</map>

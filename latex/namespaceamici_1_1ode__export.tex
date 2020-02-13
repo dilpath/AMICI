@@ -1,0 +1,596 @@
+\hypertarget{namespaceamici_1_1ode__export}{}\doxysubsection{amici.\+ode\+\_\+export Namespace Reference}
+\label{namespaceamici_1_1ode__export}\index{amici.ode\_export@{amici.ode\_export}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_conservation_law}{Conservation\+Law}}
+\begin{DoxyCompactList}\small\item\em A conservation law defines the absolute the total amount of a (weighted) sum of states. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_constant}{Constant}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_constant}{Constant}} is a fixed variable in the model with respect to which sensitivites cannot be computed, abbreviated by {\ttfamily k} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression}{Expression}}
+\begin{DoxyCompactList}\small\item\em An Expressions is a recurring elements in symbolic formulas. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_log_likelihood}{Log\+Likelihood}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_log_likelihood}{Log\+Likelihood}} defines the distance between measurements and experiments for a particular observable. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}}
+\begin{DoxyCompactList}\small\item\em Base class for model components. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_observable}{Observable}}
+\begin{DoxyCompactList}\small\item\em An \mbox{\hyperlink{classamici_1_1ode__export_1_1_observable}{Observable}} links model simulations to experimental measurements, abbreviated by {\ttfamily y} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}} class generates A\+M\+I\+CI C++ files for O\+DE model as defined in symbolic expressions. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}}
+\begin{DoxyCompactList}\small\item\em An \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} defines an Ordinary Differential Equation as set of Model\+Quantities. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_parameter}{Parameter}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_parameter}{Parameter}} is a free variable in the model with respect to which sensitivites may be computed, abbreviated by {\ttfamily p} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_sigma_y}{SigmaY}}
+\begin{DoxyCompactList}\small\item\em A Standard Deviation \mbox{\hyperlink{classamici_1_1ode__export_1_1_sigma_y}{SigmaY}} rescales the distance between simulations and measurements when computing residuals, abbreviated by {\ttfamily sigmay} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} variable defines an entity that evolves with time according to the provided time derivative, abbreviated by {\ttfamily x} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_template_amici}{Template\+Amici}}
+\begin{DoxyCompactList}\small\item\em Template format used in A\+M\+I\+CI (see string.\+template for more details). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}{var\+\_\+in\+\_\+function\+\_\+signature}} (name, varname)
+\begin{DoxyCompactList}\small\item\em Checks if the values for a symbolic variable is passed in the signature of a function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}{get\+Symbolic\+Diagonal}} (matrix)
+\begin{DoxyCompactList}\small\item\em Get symbolic matrix with diagonal of matrix {\ttfamily matrix}. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}{apply\+Template}} (source\+File, target\+File, template\+Data)
+\begin{DoxyCompactList}\small\item\em Load source file, apply template substitution as provided in template\+Data and save as target\+File. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_ad632f77725600e4f03e996f4dd88f361}{strip\+\_\+pysb}} (symbol)
+\begin{DoxyCompactList}\small\item\em Strips pysb info from a pysb.\+Component object. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_aadfe7f3501bcbcc217bc513e744c27cd}{get\+\_\+function\+\_\+extern\+\_\+declaration}} (fun, name)
+\begin{DoxyCompactList}\small\item\em Constructs the extern function declaration for a given function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a9fd317f653ade89e0c792ea11760a18b}{get\+\_\+sunindex\+\_\+extern\+\_\+declaration}} (fun, name, indextype)
+\begin{DoxyCompactList}\small\item\em Constructs the function declaration for an index function of a given function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_ac5b5162fd2ea971fcdad8fecd5748c01}{get\+\_\+model\+\_\+override\+\_\+implementation}} (fun, name)
+\begin{DoxyCompactList}\small\item\em Constructs \mbox{\hyperlink{classamici_1_1_model}{amici\+::\+Model}}\+:\+:$\ast$ override implementation for a given function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a2c8601a45c7aa1a5d4fbf8a9527c098c}{get\+\_\+sunindex\+\_\+override\+\_\+implementation}} (fun, name, indextype)
+\begin{DoxyCompactList}\small\item\em Constructs the \mbox{\hyperlink{classamici_1_1_model}{amici\+::\+Model}}\+:\+: function implementation for an index function of a given function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_abc24b0bdf0ef2b473259caa60888eeb0}{remove\+\_\+typedefs}} (signature)
+\begin{DoxyCompactList}\small\item\em Strips typedef info from a function signature. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a31691c711bc7cb4e3a3c32d39815ac89}{get\+Switch\+Statement}} (condition, cases, indentation\+\_\+level=0, indentation\+\_\+step=\textquotesingle{} \textquotesingle{} $\ast$4)
+\begin{DoxyCompactList}\small\item\em Generate code for switch statement. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a16bd8e62e303f78f3720e420753f821e}{csc\+\_\+matrix}} (matrix, name, base\+\_\+index=0, pattern\+\_\+only=False)
+\begin{DoxyCompactList}\small\item\em Generates the sparse symbolic identifiers, symbolic identifiers, sparse matrix, column pointers and row values for a symbolic variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}\label{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}} 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}{pysb}} = None
+\begin{DoxyCompactList}\small\item\em pysb import dummy \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ac3c91ce0c175f7f55f4c422bcda0e631}\label{namespaceamici_1_1ode__export_ac3c91ce0c175f7f55f4c422bcda0e631}} 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_ac3c91ce0c175f7f55f4c422bcda0e631}{C\+X\+X\+\_\+\+M\+A\+I\+N\+\_\+\+T\+E\+M\+P\+L\+A\+T\+E\+\_\+\+F\+I\+LE}} = os.\+path.\+join(\mbox{\hyperlink{namespaceamici_a2dfea9ae83d246c055e3ee84c9c5e9ac}{amici\+Src\+Path}}, \textquotesingle{}main.\+template.\+cpp\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Template for model simulation main.\+cpp file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_a550acd1d03c20bbad9ce09eeed565571}{S\+W\+I\+G\+\_\+\+C\+M\+A\+K\+E\+\_\+\+T\+E\+M\+P\+L\+A\+T\+E\+\_\+\+F\+I\+LE}}
+\begin{DoxyCompactList}\small\item\em Template for model/swig/\+C\+Make\+Lists.\+txt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_a742a0806b5ef13f147de4bb96148e954}{M\+O\+D\+E\+L\+\_\+\+C\+M\+A\+K\+E\+\_\+\+T\+E\+M\+P\+L\+A\+T\+E\+\_\+\+F\+I\+LE}}
+\begin{DoxyCompactList}\small\item\em Template for model/\+C\+Make\+Lists.\+txt. \end{DoxyCompactList}\item 
+dictionary \mbox{\hyperlink{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}{functions}}
+\begin{DoxyCompactList}\small\item\em prototype for generated C++ functions, keys are the names of functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}{sparse\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of sparse functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_a97b6118124fd7a45cdaa06df3e08761e}{nobody\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of nobody functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}{sensi\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of sensitivity functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}{multiobs\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of multiobs functions \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a0b14e488ae28d98d262453f3e9cd6e4d}\label{namespaceamici_1_1ode__export_a0b14e488ae28d98d262453f3e9cd6e4d}} 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_a0b14e488ae28d98d262453f3e9cd6e4d}{logger}} = get\+\_\+logger(\+\_\+\+\_\+name\+\_\+\+\_\+, logging.\+E\+R\+R\+OR)
+\begin{DoxyCompactList}\small\item\em python log manager \end{DoxyCompactList}\item 
+dictionary \mbox{\hyperlink{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}{symbol\+\_\+to\+\_\+type}}
+\begin{DoxyCompactList}\small\item\em indicates which type some attributes in \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} should have \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+The C++ O\+DE export module for python
+
+!/usr/bin/env python3 
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}\label{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}} 
+\index{amici.ode\_export@{amici.ode\_export}!var\_in\_function\_signature@{var\_in\_function\_signature}}
+\index{var\_in\_function\_signature@{var\_in\_function\_signature}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{var\_in\_function\_signature()}{var\_in\_function\_signature()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+var\+\_\+in\+\_\+function\+\_\+signature (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{varname }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the function ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em varname} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 266 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}\label{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}} 
+\index{amici.ode\_export@{amici.ode\_export}!getSymbolicDiagonal@{getSymbolicDiagonal}}
+\index{getSymbolicDiagonal@{getSymbolicDiagonal}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{getSymbolicDiagonal()}{getSymbolicDiagonal()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+Symbolic\+Diagonal (\begin{DoxyParamCaption}\item[{}]{matrix }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Matrix from which to return the diagonal ~\newline
+{\bfseries{Type}}\+: symengine.\+Dense\+Matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Symbolic matrix with the diagonal of {\ttfamily matrix}.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & The provided matrix was not square \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 2807 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}\label{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}} 
+\index{amici.ode\_export@{amici.ode\_export}!applyTemplate@{applyTemplate}}
+\index{applyTemplate@{applyTemplate}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{applyTemplate()}{applyTemplate()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+apply\+Template (\begin{DoxyParamCaption}\item[{}]{source\+File,  }\item[{}]{target\+File,  }\item[{}]{template\+Data }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+File} & relative or absolute path to template file ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em target\+File} & relative or absolute path to output file ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em template\+Data} & template keywords to substitute (key is template variable without \mbox{\hyperlink{classamici_1_1ode__export_1_1_template_amici_aacf4e58be14eef37272a71c004bc3f58}{Template\+Amici.\+delimiter}}) ~\newline
+{\bfseries{Type}}\+: dict\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2844 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ad632f77725600e4f03e996f4dd88f361}\label{namespaceamici_1_1ode__export_ad632f77725600e4f03e996f4dd88f361}} 
+\index{amici.ode\_export@{amici.ode\_export}!strip\_pysb@{strip\_pysb}}
+\index{strip\_pysb@{strip\_pysb}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{strip\_pysb()}{strip\_pysb()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+strip\+\_\+pysb (\begin{DoxyParamCaption}\item[{}]{symbol }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em symbol} & symbolic expression ~\newline
+{\bfseries{Type}}\+: sympy.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+stripped sympy.\+Basic 
+\end{DoxyReturn}
+
+
+Definition at line 2863 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_ad632f77725600e4f03e996f4dd88f361_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aadfe7f3501bcbcc217bc513e744c27cd}\label{namespaceamici_1_1ode__export_aadfe7f3501bcbcc217bc513e744c27cd}} 
+\index{amici.ode\_export@{amici.ode\_export}!get\_function\_extern\_declaration@{get\_function\_extern\_declaration}}
+\index{get\_function\_extern\_declaration@{get\_function\_extern\_declaration}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{get\_function\_extern\_declaration()}{get\_function\_extern\_declaration()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+\_\+function\+\_\+extern\+\_\+declaration (\begin{DoxyParamCaption}\item[{}]{fun,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em fun} & function name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em name} & model name ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+c++ function definition string 
+\end{DoxyReturn}
+
+
+Definition at line 2886 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_aadfe7f3501bcbcc217bc513e744c27cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a9fd317f653ade89e0c792ea11760a18b}\label{namespaceamici_1_1ode__export_a9fd317f653ade89e0c792ea11760a18b}} 
+\index{amici.ode\_export@{amici.ode\_export}!get\_sunindex\_extern\_declaration@{get\_sunindex\_extern\_declaration}}
+\index{get\_sunindex\_extern\_declaration@{get\_sunindex\_extern\_declaration}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{get\_sunindex\_extern\_declaration()}{get\_sunindex\_extern\_declaration()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+\_\+sunindex\+\_\+extern\+\_\+declaration (\begin{DoxyParamCaption}\item[{}]{fun,  }\item[{}]{name,  }\item[{}]{indextype }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em fun} & function name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em name} & model name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em indextype} & index function \{\textquotesingle{}colptrs\textquotesingle{}, \textquotesingle{}rowvals\textquotesingle{}\} ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+c++ function declaration string 
+\end{DoxyReturn}
+
+
+Definition at line 2905 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_a9fd317f653ade89e0c792ea11760a18b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ac5b5162fd2ea971fcdad8fecd5748c01}\label{namespaceamici_1_1ode__export_ac5b5162fd2ea971fcdad8fecd5748c01}} 
+\index{amici.ode\_export@{amici.ode\_export}!get\_model\_override\_implementation@{get\_model\_override\_implementation}}
+\index{get\_model\_override\_implementation@{get\_model\_override\_implementation}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{get\_model\_override\_implementation()}{get\_model\_override\_implementation()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+\_\+model\+\_\+override\+\_\+implementation (\begin{DoxyParamCaption}\item[{}]{fun,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em fun} & function name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em name} & model name ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+c++ function implementation string 
+\end{DoxyReturn}
+
+
+Definition at line 2923 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{namespaceamici_1_1ode__export_ac5b5162fd2ea971fcdad8fecd5748c01_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_ac5b5162fd2ea971fcdad8fecd5748c01_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a2c8601a45c7aa1a5d4fbf8a9527c098c}\label{namespaceamici_1_1ode__export_a2c8601a45c7aa1a5d4fbf8a9527c098c}} 
+\index{amici.ode\_export@{amici.ode\_export}!get\_sunindex\_override\_implementation@{get\_sunindex\_override\_implementation}}
+\index{get\_sunindex\_override\_implementation@{get\_sunindex\_override\_implementation}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{get\_sunindex\_override\_implementation()}{get\_sunindex\_override\_implementation()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+\_\+sunindex\+\_\+override\+\_\+implementation (\begin{DoxyParamCaption}\item[{}]{fun,  }\item[{}]{name,  }\item[{}]{indextype }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em fun} & function name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em name} & model name ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em indextype} & index function \{\textquotesingle{}colptrs\textquotesingle{}, \textquotesingle{}rowvals\textquotesingle{}\} ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+c++ function implementation string 
+\end{DoxyReturn}
+
+
+Definition at line 2951 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_a2c8601a45c7aa1a5d4fbf8a9527c098c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_abc24b0bdf0ef2b473259caa60888eeb0}\label{namespaceamici_1_1ode__export_abc24b0bdf0ef2b473259caa60888eeb0}} 
+\index{amici.ode\_export@{amici.ode\_export}!remove\_typedefs@{remove\_typedefs}}
+\index{remove\_typedefs@{remove\_typedefs}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{remove\_typedefs()}{remove\_typedefs()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+remove\+\_\+typedefs (\begin{DoxyParamCaption}\item[{}]{signature }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em signature} & function signature ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string that can be used to construct function calls with the same variable names and ordering as in the function signature 
+\end{DoxyReturn}
+
+
+Definition at line 2981 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_abc24b0bdf0ef2b473259caa60888eeb0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a31691c711bc7cb4e3a3c32d39815ac89}\label{namespaceamici_1_1ode__export_a31691c711bc7cb4e3a3c32d39815ac89}} 
+\index{amici.ode\_export@{amici.ode\_export}!getSwitchStatement@{getSwitchStatement}}
+\index{getSwitchStatement@{getSwitchStatement}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{getSwitchStatement()}{getSwitchStatement()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+Switch\+Statement (\begin{DoxyParamCaption}\item[{}]{condition,  }\item[{}]{cases,  }\item[{}]{indentation\+\_\+level = {\ttfamily 0},  }\item[{}]{indentation\+\_\+step = {\ttfamily \textquotesingle{}~\textquotesingle{}~$\ast$~4} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em condition} & Condition for switch ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em cases} & Cases as dict with expressions as keys and statement as list of strings ~\newline
+{\bfseries{Type}}\+: dict\\
+\hline
+{\em indentation\+\_\+level} & indentation level\\
+\hline
+{\em indentation\+\_\+step} & indentation whitespace per level\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Code for switch expression as list of strings 
+\end{DoxyReturn}
+
+
+Definition at line 3022 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_a31691c711bc7cb4e3a3c32d39815ac89_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a16bd8e62e303f78f3720e420753f821e}\label{namespaceamici_1_1ode__export_a16bd8e62e303f78f3720e420753f821e}} 
+\index{amici.ode\_export@{amici.ode\_export}!csc\_matrix@{csc\_matrix}}
+\index{csc\_matrix@{csc\_matrix}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{csc\_matrix()}{csc\_matrix()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+csc\+\_\+matrix (\begin{DoxyParamCaption}\item[{}]{matrix,  }\item[{}]{name,  }\item[{}]{base\+\_\+index = {\ttfamily 0},  }\item[{}]{pattern\+\_\+only = {\ttfamily False} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & dense matrix to be sparsified ~\newline
+{\bfseries{Type}}\+: sp.\+Matrix \\
+\hline
+{\em name} & name of the symbolic variable ~\newline
+{\bfseries{Type}}\+: str \\
+\hline
+{\em base\+\_\+index} & index for first symbol name, defaults to 0 \\
+\hline
+{\em pattern\+\_\+only} & flag for computing sparsity pattern without whole matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+
+symbol\+Col\+Ptrs 
+
+symbol\+Row\+Vals 
+
+sparse\+List 
+
+symbol\+List 
+
+sparse\+Matrix 
+\end{DoxyReturn}
+
+
+Definition at line 3066 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{namespaceamici_1_1ode__export_a16bd8e62e303f78f3720e420753f821e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsubsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a550acd1d03c20bbad9ce09eeed565571}\label{namespaceamici_1_1ode__export_a550acd1d03c20bbad9ce09eeed565571}} 
+\index{amici.ode\_export@{amici.ode\_export}!SWIG\_CMAKE\_TEMPLATE\_FILE@{SWIG\_CMAKE\_TEMPLATE\_FILE}}
+\index{SWIG\_CMAKE\_TEMPLATE\_FILE@{SWIG\_CMAKE\_TEMPLATE\_FILE}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{SWIG\_CMAKE\_TEMPLATE\_FILE}{SWIG\_CMAKE\_TEMPLATE\_FILE}}
+{\footnotesize\ttfamily S\+W\+I\+G\+\_\+\+C\+M\+A\+K\+E\+\_\+\+T\+E\+M\+P\+L\+A\+T\+E\+\_\+\+F\+I\+LE}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  os.path.join(amiciSwigPath,}
+\DoxyCodeLine{2                                         \textcolor{stringliteral}{'CMakeLists\_model.cmake'})}
+
+\end{DoxyCode}
+
+
+Definition at line 36 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a742a0806b5ef13f147de4bb96148e954}\label{namespaceamici_1_1ode__export_a742a0806b5ef13f147de4bb96148e954}} 
+\index{amici.ode\_export@{amici.ode\_export}!MODEL\_CMAKE\_TEMPLATE\_FILE@{MODEL\_CMAKE\_TEMPLATE\_FILE}}
+\index{MODEL\_CMAKE\_TEMPLATE\_FILE@{MODEL\_CMAKE\_TEMPLATE\_FILE}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{MODEL\_CMAKE\_TEMPLATE\_FILE}{MODEL\_CMAKE\_TEMPLATE\_FILE}}
+{\footnotesize\ttfamily M\+O\+D\+E\+L\+\_\+\+C\+M\+A\+K\+E\+\_\+\+T\+E\+M\+P\+L\+A\+T\+E\+\_\+\+F\+I\+LE}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  os.path.join(amiciSrcPath,}
+\DoxyCodeLine{2                                          \textcolor{stringliteral}{'CMakeLists.template.cmake'})}
+
+\end{DoxyCode}
+
+
+Definition at line 39 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}\label{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}} 
+\index{amici.ode\_export@{amici.ode\_export}!functions@{functions}}
+\index{functions@{functions}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{functions}{functions}}
+{\footnotesize\ttfamily dictionary functions}
+
+signature\+: defines the argument part of the function signature, input variables should have a const flag
+
+assume\+\_\+pow\+\_\+positivity\+: identifies the functions on which assume\+\_\+pow\+\_\+positivity will have an effect when specified during model generation. generally these are functions that are used for solving the O\+DE, where negative values may negatively affect convergence of the integration algorithm
+
+sparse\+: specifies whether the result of this function will be stored in sparse format. sparse format means that the function will only return an array of nonzero values and not a full matrix. 
+
+Definition at line 57 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}\label{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}} 
+\index{amici.ode\_export@{amici.ode\_export}!sparse\_functions@{sparse\_functions}}
+\index{sparse\_functions@{sparse\_functions}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{sparse\_functions}{sparse\_functions}}
+{\footnotesize\ttfamily list sparse\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions}
+\DoxyCodeLine{3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'sparse'} \textcolor{keywordflow}{in} functions[function].get(\textcolor{stringliteral}{'flags'}, [])}
+\DoxyCodeLine{4 ]}
+
+\end{DoxyCode}
+
+
+Definition at line 226 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a97b6118124fd7a45cdaa06df3e08761e}\label{namespaceamici_1_1ode__export_a97b6118124fd7a45cdaa06df3e08761e}} 
+\index{amici.ode\_export@{amici.ode\_export}!nobody\_functions@{nobody\_functions}}
+\index{nobody\_functions@{nobody\_functions}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{nobody\_functions}{nobody\_functions}}
+{\footnotesize\ttfamily list nobody\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions}
+\DoxyCodeLine{3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'dont\_generate\_body'} \textcolor{keywordflow}{in} functions[function].get(\textcolor{stringliteral}{'flags'}, [])}
+\DoxyCodeLine{4 ]}
+
+\end{DoxyCode}
+
+
+Definition at line 231 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}\label{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}} 
+\index{amici.ode\_export@{amici.ode\_export}!sensi\_functions@{sensi\_functions}}
+\index{sensi\_functions@{sensi\_functions}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{sensi\_functions}{sensi\_functions}}
+{\footnotesize\ttfamily list sensi\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions}
+\DoxyCodeLine{3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'const int ip'} \textcolor{keywordflow}{in} functions[function][\textcolor{stringliteral}{'signature'}]}
+\DoxyCodeLine{4     \textcolor{keywordflow}{and} function \textcolor{keywordflow}{is} \textcolor{keywordflow}{not} \textcolor{stringliteral}{'sxdot'}}
+\DoxyCodeLine{5 ]}
+
+\end{DoxyCode}
+
+
+Definition at line 236 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}\label{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}} 
+\index{amici.ode\_export@{amici.ode\_export}!multiobs\_functions@{multiobs\_functions}}
+\index{multiobs\_functions@{multiobs\_functions}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{multiobs\_functions}{multiobs\_functions}}
+{\footnotesize\ttfamily list multiobs\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions}
+\DoxyCodeLine{3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'const int iy'} \textcolor{keywordflow}{in} functions[function][\textcolor{stringliteral}{'signature'}]}
+\DoxyCodeLine{4 ]}
+
+\end{DoxyCode}
+
+
+Definition at line 242 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}\label{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}} 
+\index{amici.ode\_export@{amici.ode\_export}!symbol\_to\_type@{symbol\_to\_type}}
+\index{symbol\_to\_type@{symbol\_to\_type}!amici.ode\_export@{amici.ode\_export}}
+\doxyparagraph{\texorpdfstring{symbol\_to\_type}{symbol\_to\_type}}
+{\footnotesize\ttfamily dictionary symbol\+\_\+to\+\_\+type}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  \{}
+\DoxyCodeLine{2     \textcolor{stringliteral}{'species'}: State,}
+\DoxyCodeLine{3     \textcolor{stringliteral}{'parameter'}: Parameter,}
+\DoxyCodeLine{4     \textcolor{stringliteral}{'fixed\_parameter'}: Constant,}
+\DoxyCodeLine{5     \textcolor{stringliteral}{'observable'}: Observable,}
+\DoxyCodeLine{6     \textcolor{stringliteral}{'sigmay'}: SigmaY,}
+\DoxyCodeLine{7     \textcolor{stringliteral}{'llhy'}: LogLikelihood,}
+\DoxyCodeLine{8     \textcolor{stringliteral}{'expression'}: Expression,}
+\DoxyCodeLine{9 \}}
+
+\end{DoxyCode}
+
+
+Definition at line 628 of file ode\+\_\+export.\+py.
+

@@ -1,0 +1,7 @@
+<map id="clone" name="clone">
+<area shape="rect" id="node1" title="Clone this instance." alt="" coords="704,46,757,74"/>
+<area shape="rect" id="node2" href="$classamici_1_1_steadystate_problem.html#a13f61ed4b36e090ceeed9cc9fa390745" title=" " alt="" coords="459,5,656,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_amici_application.html#a8f9dcb693a4bba91fe1b4fdd47e96ed9" title=" " alt="" coords="479,72,636,115"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a8f9dcb693a4bba91fe1b4fdd47e96ed9" title=" " alt="" coords="230,80,411,107"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#ac3aa392a881377cdf6153086116798ce" title="Convenience wrapper for loops of amici.runAmiciSimulation." alt="" coords="5,80,182,107"/>
+</map>

@@ -1,0 +1,316 @@
+\hypertarget{classamici_1_1_steadystate_problem}{}\doxysubsection{Steadystate\+Problem Class Reference}
+\label{classamici_1_1_steadystate_problem}\index{SteadystateProblem@{SteadystateProblem}}
+
+
+The \mbox{\hyperlink{classamici_1_1_steadystate_problem}{Steadystate\+Problem}} class solves a steady-\/state problem using Newton\textquotesingle{}s method and falls back to integration on failure.  
+
+
+
+
+{\ttfamily \#include $<$steadystateproblem.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classamici_1_1_steadystate_problem_aa2630b3401b8f0a50bf50c73d4f39790}{work\+Steady\+State\+Problem}} (\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$rdata, \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$solver, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model, int it)
+\item 
+\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} \mbox{\hyperlink{classamici_1_1_steadystate_problem_afd3dce48510d1fce72b18049b40fff5a}{get\+Wrms\+Norm}} (\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} const \&x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} const \&xdot, \mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} atol, \mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} rtol)
+\item 
+bool \mbox{\hyperlink{classamici_1_1_steadystate_problem_a06f944df556560112e76a23213bf3f51}{check\+Convergence}} (const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$solver, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model)
+\item 
+void \mbox{\hyperlink{classamici_1_1_steadystate_problem_a7b4c27de74a8185d0b454426601a187e}{apply\+Newtons\+Method}} (\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$rdata, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model, \mbox{\hyperlink{classamici_1_1_newton_solver}{Newton\+Solver}} $\ast$newton\+Solver, \mbox{\hyperlink{namespaceamici_a3fb34b6904b8b45827b51132977431da}{Newton\+Status}} steadystate\+\_\+try)
+\item 
+void \mbox{\hyperlink{classamici_1_1_steadystate_problem_a3dba8c3909bae68f98d6bf1bb82099da}{write\+Newton\+Output}} (\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$rdata, const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model, \mbox{\hyperlink{namespaceamici_a3fb34b6904b8b45827b51132977431da}{Newton\+Status}} newton\+\_\+status, double run\+\_\+time, int it)
+\item 
+void \mbox{\hyperlink{classamici_1_1_steadystate_problem_aaa96e719e7f016de86389e09ab9e51a6}{get\+Steadystate\+Simulation}} (\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$rdata, \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$solver, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model)
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $>$ \mbox{\hyperlink{classamici_1_1_steadystate_problem_a13f61ed4b36e090ceeed9cc9fa390745}{create\+Steadystate\+Sim\+Solver}} (const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$solver, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model) const
+\item 
+\mbox{\hyperlink{classamici_1_1_steadystate_problem_a457966c4e18c819d089bd58c9e909dd2}{Steadystate\+Problem}} (const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$solver, const \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&x0)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classamici_1_1_steadystate_problem_aadb44253176a7440d1ec46d64dd1336e}{write\+Solution}} (\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} $\ast$t, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&x, \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} \&sx) const
+\begin{DoxyCompactList}\small\item\em routine that writes solutions of steadystate problem to target vectors \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+
+
+Definition at line 25 of file steadystateproblem.\+h.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_a457966c4e18c819d089bd58c9e909dd2}\label{classamici_1_1_steadystate_problem_a457966c4e18c819d089bd58c9e909dd2}} 
+\index{SteadystateProblem@{SteadystateProblem}!SteadystateProblem@{SteadystateProblem}}
+\index{SteadystateProblem@{SteadystateProblem}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{SteadystateProblem()}{SteadystateProblem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_steadystate_problem}{Steadystate\+Problem}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver,  }\item[{const \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&}]{x0 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em solver} & pointer to \mbox{\hyperlink{classamici_1_1_solver}{Solver}} instance \\
+\hline
+{\em x0} & initial state \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file steadystateproblem.\+cpp.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_aa2630b3401b8f0a50bf50c73d4f39790}\label{classamici_1_1_steadystate_problem_aa2630b3401b8f0a50bf50c73d4f39790}} 
+\index{SteadystateProblem@{SteadystateProblem}!workSteadyStateProblem@{workSteadyStateProblem}}
+\index{workSteadyStateProblem@{workSteadyStateProblem}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{workSteadyStateProblem()}{workSteadyStateProblem()}}
+{\footnotesize\ttfamily void work\+Steady\+State\+Problem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata,  }\item[{\mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{int}]{it }\end{DoxyParamCaption})}
+
+Tries to determine the steady state of the O\+DE system by a Newton solver, uses forward intergration, if the Newton solver fails, restarts Newton solver, if integration fails. Computes steady state sensitivities
+
+
+\begin{DoxyParams}{Parameters}
+{\em solver} & pointer to the A\+M\+I\+CI solver object \\
+\hline
+{\em model} & pointer to the A\+M\+I\+CI model object \\
+\hline
+{\em it} & integer with the index of the current time step \\
+\hline
+{\em rdata} & pointer to the return data object\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_aa2630b3401b8f0a50bf50c73d4f39790_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_afd3dce48510d1fce72b18049b40fff5a}\label{classamici_1_1_steadystate_problem_afd3dce48510d1fce72b18049b40fff5a}} 
+\index{SteadystateProblem@{SteadystateProblem}!getWrmsNorm@{getWrmsNorm}}
+\index{getWrmsNorm@{getWrmsNorm}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{getWrmsNorm()}{getWrmsNorm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} get\+Wrms\+Norm (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} const \&}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} const \&}]{xdot,  }\item[{\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}}}]{atol,  }\item[{\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}}}]{rtol }\end{DoxyParamCaption})}
+
+Computes the weighted root mean square of xdot the weights are computed according to x\+: w\+\_\+i = 1 / ( rtol $\ast$ x\+\_\+i + atol )
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & current state \\
+\hline
+{\em xdot} & current rhs \\
+\hline
+{\em atol} & absolute tolerance \\
+\hline
+{\em rtol} & relative tolerance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+root-\/mean-\/square norm 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classamici_1_1_steadystate_problem_afd3dce48510d1fce72b18049b40fff5a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_afd3dce48510d1fce72b18049b40fff5a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_a06f944df556560112e76a23213bf3f51}\label{classamici_1_1_steadystate_problem_a06f944df556560112e76a23213bf3f51}} 
+\index{SteadystateProblem@{SteadystateProblem}!checkConvergence@{checkConvergence}}
+\index{checkConvergence@{checkConvergence}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{checkConvergence()}{checkConvergence()}}
+{\footnotesize\ttfamily bool check\+Convergence (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model }\end{DoxyParamCaption})}
+
+Checks convergence for state and respective sensitivities
+
+
+\begin{DoxyParams}{Parameters}
+{\em solver} & \mbox{\hyperlink{classamici_1_1_solver}{Solver}} instance \\
+\hline
+{\em model} & instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean indicating convergence 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_a06f944df556560112e76a23213bf3f51_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classamici_1_1_steadystate_problem_a06f944df556560112e76a23213bf3f51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_a7b4c27de74a8185d0b454426601a187e}\label{classamici_1_1_steadystate_problem_a7b4c27de74a8185d0b454426601a187e}} 
+\index{SteadystateProblem@{SteadystateProblem}!applyNewtonsMethod@{applyNewtonsMethod}}
+\index{applyNewtonsMethod@{applyNewtonsMethod}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{applyNewtonsMethod()}{applyNewtonsMethod()}}
+{\footnotesize\ttfamily void apply\+Newtons\+Method (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{\mbox{\hyperlink{classamici_1_1_newton_solver}{Newton\+Solver}} $\ast$}]{newton\+Solver,  }\item[{\mbox{\hyperlink{namespaceamici_a3fb34b6904b8b45827b51132977431da}{Newton\+Status}}}]{steadystate\+\_\+try }\end{DoxyParamCaption})}
+
+Runs the Newton solver iterations and checks for convergence to steady state
+
+
+\begin{DoxyParams}{Parameters}
+{\em rdata} & pointer to the return data object \\
+\hline
+{\em model} & pointer to the A\+M\+I\+CI model object \\
+\hline
+{\em newton\+Solver} & pointer to the \mbox{\hyperlink{classamici_1_1_newton_solver}{Newton\+Solver}} object ~\newline
+{\bfseries{Type}}\+: \mbox{\hyperlink{classamici_1_1_newton_solver}{Newton\+Solver}} \\
+\hline
+{\em steadystate\+\_\+try} & start status of Newton solver \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 147 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_a7b4c27de74a8185d0b454426601a187e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_a3dba8c3909bae68f98d6bf1bb82099da}\label{classamici_1_1_steadystate_problem_a3dba8c3909bae68f98d6bf1bb82099da}} 
+\index{SteadystateProblem@{SteadystateProblem}!writeNewtonOutput@{writeNewtonOutput}}
+\index{writeNewtonOutput@{writeNewtonOutput}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{writeNewtonOutput()}{writeNewtonOutput()}}
+{\footnotesize\ttfamily void write\+Newton\+Output (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata,  }\item[{const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{\mbox{\hyperlink{namespaceamici_a3fb34b6904b8b45827b51132977431da}{Newton\+Status}}}]{newton\+\_\+status,  }\item[{double}]{run\+\_\+time,  }\item[{int}]{it }\end{DoxyParamCaption})}
+
+Stores output of work\+Steady\+State\+Problem in return data
+
+
+\begin{DoxyParams}{Parameters}
+{\em newton\+\_\+status} & integer flag indicating when a steady state was found \\
+\hline
+{\em run\+\_\+time} & double coputation time of the solver in milliseconds \\
+\hline
+{\em rdata} & pointer to the return data instance \\
+\hline
+{\em model} & pointer to the model instance \\
+\hline
+{\em it} & current timepoint index, $<$0 indicates preequilibration \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 254 of file steadystateproblem.\+cpp.
+
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_aaa96e719e7f016de86389e09ab9e51a6}\label{classamici_1_1_steadystate_problem_aaa96e719e7f016de86389e09ab9e51a6}} 
+\index{SteadystateProblem@{SteadystateProblem}!getSteadystateSimulation@{getSteadystateSimulation}}
+\index{getSteadystateSimulation@{getSteadystateSimulation}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{getSteadystateSimulation()}{getSteadystateSimulation()}}
+{\footnotesize\ttfamily void get\+Steadystate\+Simulation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata,  }\item[{\mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model }\end{DoxyParamCaption})}
+
+Forward simulation is launched, if Newton solver fails in first try
+
+
+\begin{DoxyParams}{Parameters}
+{\em solver} & pointer to the A\+M\+I\+CI solver object \\
+\hline
+{\em model} & pointer to the A\+M\+I\+CI model object \\
+\hline
+{\em rdata} & pointer to the return data object \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 280 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_aaa96e719e7f016de86389e09ab9e51a6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_a13f61ed4b36e090ceeed9cc9fa390745}\label{classamici_1_1_steadystate_problem_a13f61ed4b36e090ceeed9cc9fa390745}} 
+\index{SteadystateProblem@{SteadystateProblem}!createSteadystateSimSolver@{createSteadystateSimSolver}}
+\index{createSteadystateSimSolver@{createSteadystateSimSolver}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{createSteadystateSimSolver()}{createSteadystateSimSolver()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $>$ create\+Steadystate\+Sim\+Solver (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model }\end{DoxyParamCaption}) const}
+
+initialize C\+Vode\+Solver instance for preequilibration simulation
+
+
+\begin{DoxyParams}{Parameters}
+{\em solver} & pointer to the A\+M\+I\+CI solver object \\
+\hline
+{\em model} & pointer to the A\+M\+I\+CI model object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+solver instance 
+\end{DoxyReturn}
+
+
+Definition at line 314 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_a13f61ed4b36e090ceeed9cc9fa390745_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_steadystate_problem_aadb44253176a7440d1ec46d64dd1336e}\label{classamici_1_1_steadystate_problem_aadb44253176a7440d1ec46d64dd1336e}} 
+\index{SteadystateProblem@{SteadystateProblem}!writeSolution@{writeSolution}}
+\index{writeSolution@{writeSolution}!SteadystateProblem@{SteadystateProblem}}
+\doxyparagraph{\texorpdfstring{writeSolution()}{writeSolution()}}
+{\footnotesize\ttfamily void write\+Solution (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_ad6e63899f0eb2412d050a2b2d5753a59}{realtype}} $\ast$}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} \&}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} \&}]{sx }\end{DoxyParamCaption}) const}
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & final timepoint \\
+\hline
+{\em x} & steadystate state \\
+\hline
+{\em sx} & steadystate state sensitivity \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 341 of file steadystateproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_steadystate_problem_aadb44253176a7440d1ec46d64dd1336e_cgraph}
+\end{center}
+\end{figure}

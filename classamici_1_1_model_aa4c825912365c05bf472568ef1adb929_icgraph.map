@@ -1,0 +1,5 @@
+<map id="fdJzdx" name="fdJzdx">
+<area shape="rect" id="node1" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="247,31,306,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,5,199,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="8,56,196,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="get_conservation_laws" name="get_conservation_laws">
+<area shape="rect" id="node1" title="Returns a list of states with conservation law set." alt="" coords="277,5,434,33"/>
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#ae352b13e8ea2f390c5fa146601817173" title="Returns symbols or equations depending on whether a given variable appears in the function signature ..." alt="" coords="141,5,229,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2223bbe62f3234b8f40c5a566064a481" title="Returns a list of names of generated symbolic variables." alt="" coords="5,5,93,33"/>
+</map>

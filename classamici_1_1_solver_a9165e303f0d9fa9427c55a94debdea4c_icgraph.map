@@ -1,0 +1,8 @@
+<map id="setSStolerances" name="setSStolerances">
+<area shape="rect" id="node1" title="sets scalar relative and absolute tolerances for the forward problem" alt="" coords="577,56,696,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a61eeb2f4cd6bb29b4042340f756fdbe0" title="updates solver tolerances according to the currently specified member variables" alt="" coords="412,56,529,83"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#afe0fd2fad6ce110ad8421f5979945f90" title="Sets the absolute tolerances for the forward problem." alt="" coords="215,5,364,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#afb5f0c48f24e4bc3efad8ef599adde56" title="Sets the relative tolerances for the forward problem." alt="" coords="217,56,362,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#add1a21548bb13b646662836fb51933f1" title="Initialises the ami memory object and applies specified options." alt="" coords="262,107,316,134"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object" alt="" coords="5,31,167,58"/>
+</map>

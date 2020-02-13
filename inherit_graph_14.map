@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classamici_1_1_newton_solver.html" title="The NewtonSolver class sets up the linear solver for the Newton method." alt="" coords="5,56,110,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver_dense.html" title="The NewtonSolverDense provides access to the dense linear solver for the Newton method." alt="" coords="162,5,305,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_newton_solver_iterative.html" title="The NewtonSolverIterative provides access to the iterative linear solver for the Newton method." alt="" coords="158,56,309,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver_sparse.html" title="The NewtonSolverSparse provides access to the sparse linear solver for the Newton method." alt="" coords="160,107,307,134"/>
+</map>

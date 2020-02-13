@@ -1,0 +1,13 @@
+<map id="set" name="set">
+<area shape="rect" id="node1" title="sets all data elements to a specific value" alt="" coords="706,56,745,83"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model___d_a_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title=" " alt="" coords="482,5,658,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_newton_solver_iterative.html#ab68ad71ea2f99072fc98845c2c360030" title=" " alt="" coords="244,7,434,50"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#ad20897c5c8bd47f5d4005989bead0e55" title="resets the Vector by filling with zero values" alt="" coords="545,148,595,175"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver_iterative.html#ab46a7b328bc1be64b6b9e4ee8213626a" title=" " alt="" coords="5,7,196,50"/>
+<area shape="rect" id="node6" href="$classamici_1_1_steadystate_problem.html#a7b4c27de74a8185d0b454426601a187e" title=" " alt="" coords="249,74,429,116"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a6954ec01ccea10a0313b20b6156acd23" title="Access adjoint derivative solution at time t." alt="" coords="257,140,421,183"/>
+<area shape="rect" id="node9" href="$classamici_1_1_solver.html#a38b593eacf28433f2417c83133982d06" title="Access adjoint quadrature solution at time t." alt="" coords="257,207,421,250"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#a9168eb08135dfbbc2f43b6ad1dd33db6" title="Access adjoint solution at time t." alt="" coords="257,274,421,316"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#afba8f4b37b6e985be046039d98ab2b86" title=" " alt="" coords="259,340,419,367"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#af892618e72c2824035f019a4fa3af7b3" title="write solution from forward simulation" alt="" coords="5,215,196,242"/>
+</map>

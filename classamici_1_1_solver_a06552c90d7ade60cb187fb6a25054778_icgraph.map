@@ -1,0 +1,4 @@
+<map id="getMaxSteps" name="getMaxSteps">
+<area shape="rect" id="node1" title="returns the maximum number of solver steps for the forward problem" alt="" coords="233,13,332,40"/>
+<area shape="rect" id="node2" href="$classamici_1_1_steadystate_problem.html#aaa96e719e7f016de86389e09ab9e51a6" title=" " alt="" coords="5,5,185,48"/>
+</map>

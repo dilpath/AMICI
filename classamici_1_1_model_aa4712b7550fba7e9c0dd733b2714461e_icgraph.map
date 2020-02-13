@@ -1,0 +1,5 @@
+<map id="fx_rdata" name="fx_rdata">
+<area shape="rect" id="node1" title="Expands conservation law for states." alt="" coords="197,31,266,58"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ae7e44973e14be3f1575c3356f3dc8e2e" title="Model specific implementation of fsx_solver." alt="" coords="39,5,115,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a137d6ba3f54998477871f0387c01628c" title="Sets only those initial states that are specified via fixedParmeters." alt="" coords="5,56,149,83"/>
+</map>

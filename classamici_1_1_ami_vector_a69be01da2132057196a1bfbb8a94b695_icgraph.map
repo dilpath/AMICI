@@ -1,0 +1,54 @@
+<map id="data" name="data">
+<area shape="rect" id="node1" title="data accessor" alt="" coords="1049,601,1096,628"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#ad5421d929b78eb1533645f2982ac8700" title="Update adjoint quadratures after event." alt="" coords="797,5,964,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a69df3d688f14d72236abc49330ff96ed" title="Update adjoint state after event." alt="" coords="797,72,964,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a2adb2ac42f3352654d7308ea21c452c4" title="Update state variables after event." alt="" coords="785,139,976,181"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#abc67e0ac06b3391efec41e0b5c8fc3c3" title="Update state sensitivity after event." alt="" coords="772,205,989,248"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a71d62a12725171bcbfd8820576d9cbac" title="Sensitivity of event&#45;resolved root output w.r.t. to model parameters p." alt="" coords="810,272,951,299"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a34052813fd772e249e8a1f18d086ee57" title="Sensitivity of event&#45;resolved measurements rz w.r.t. to model states x." alt="" coords="810,322,950,350"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a3d49dd3885ecf07f14e3fde288450be1" title="Partial derivative of observables y w.r.t. model parameters p." alt="" coords="812,626,948,654"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#a4c5dcc630cd7c535b0003b29d9f37603" title="Partial derivative of observables y w.r.t. state variables x." alt="" coords="813,525,948,552"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#a3564a48408fdd80f51b0a24a216f40fe" title="Partial derivative of event&#45;resolved output z w.r.t. to model parameters p." alt="" coords="523,1064,659,1091"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model.html#a1449de2b0a762697c2d8f39efb3f405f" title="Partial derivative of event&#45;resolved output z w.r.t. to model states x." alt="" coords="523,1013,659,1040"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___d_a_e.html#adaf8ba29af3b621a30e183d7e2f789f5" title=" " alt="" coords="792,576,968,603"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model.html#a74340e771fd77e724bf1461dc9518769" title="Event root function of events (equal to froot but does not include non&#45;output events)" alt="" coords="821,474,939,502"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model.html#a647b2865d4c9f26ad461a51246bbefcd" title="Initial value for initial state sensitivities." alt="" coords="816,424,944,451"/>
+<area shape="rect" id="node33" href="$classamici_1_1_model.html#a79d8a1d0d4ef31605f9c21e2f6828ae0" title="Sets only those initial states sensitivities that are affected from fx0 fixedParmeters." alt="" coords="816,728,944,771"/>
+<area shape="rect" id="node34" href="$classamici_1_1_model.html#aa7f0fd75cc6f00cee8807c6d54f3ac94" title="Initial states." alt="" coords="820,373,941,400"/>
+<area shape="rect" id="node37" href="$classamici_1_1_model.html#a137d6ba3f54998477871f0387c01628c" title="Sets only those initial states that are specified via fixedParmeters." alt="" coords="478,693,704,720"/>
+<area shape="rect" id="node38" href="$classamici_1_1_model.html#aa4712b7550fba7e9c0dd733b2714461e" title="Expands conservation law for states." alt="" coords="804,794,956,822"/>
+<area shape="rect" id="node40" href="$classamici_1_1_model.html#a50bf3da6e8796026853b5faec49095d0" title="Observables / measurements." alt="" coords="823,853,937,880"/>
+<area shape="rect" id="node45" href="$classamici_1_1_model.html#a171bc1e22a0829aff5fd16f6d6bffa5a" title="Event&#45;resolved output." alt="" coords="823,1100,937,1127"/>
+<area shape="rect" id="node50" href="$classamici_1_1_model.html#ab56e70cc5a9d095c9386ab3f7bc01388" title="Sensitivities of regularization for event&#45;resolved observables, total derivative (only forward sensit..." alt="" coords="760,1151,1001,1193"/>
+<area shape="rect" id="node51" href="$classamici_1_1_model.html#a9fc47fbafb63293084d293aa39b5a191" title="Sensitivities of event&#45;resolved observables, total derivative, total derivative (only forward sensiti..." alt="" coords="772,1217,988,1244"/>
+<area shape="rect" id="node52" href="$classamici_1_1_model.html#a72c88f010184733141e3feccd765ea04" title="Sensitivity of event timepoint, total derivative (only forward sensi)" alt="" coords="788,1268,973,1311"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a00e6579fcfb0bb339e621cf194b9ee40" title="Compute sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t...." alt="" coords="274,912,417,939"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a23f9b1f2f061cc04f42fe32e1549bf80" title="Sensitivity of time&#45;resolved observables, total derivative sy = dydx * sx + dydp (only for forward se..." alt="" coords="496,576,686,619"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a988eda03ed572429aa769efc1709daba" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="16,845,210,888"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#ab829ab8d949e9eef10b38e68d4a68526" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="11,912,216,955"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#a8c8c787118aab8354f41a60ba41849c3" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. state variables." alt="" coords="274,820,417,847"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#ac66f4b4fe55ee5a1e6527b4fb743d215" title="State sensitivity of the negative loglikelihood Jy, partial derivative (to be used with adjoint senst..." alt="" coords="31,779,195,821"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#ab59ce7dce76df68b92b0b7404f9f8a19" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. parameters." alt="" coords="274,1165,417,1192"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#ad39fc588eb292abfbe6d820f8cf179e1" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, total derivative (to be used wit..." alt="" coords="5,1128,221,1171"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#aac922fea8ccc5edc05c9647c437e158f" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy, partial derivative (to be used w..." alt="" coords="28,1195,199,1237"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model.html#aa4c825912365c05bf472568ef1adb929" title="Sensitivity of event&#45;resolved measurement negative log&#45;likelihood Jz w.r.t. state variables." alt="" coords="274,1106,417,1134"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="32,1061,195,1104"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model.html#a5b274a170d0e0564dcb39dcb9dd10b2f" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="483,357,699,400"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model.html#a9863a7dcd8e1385435c00a29939a8bae" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="503,424,679,451"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model.html#a3c192b268face826f5adc0eff0395a27" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="518,474,664,502"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model.html#a2c8c64a4176f95eb0615762b4ac2dcef" title="Regularization for event&#45;resolved observables." alt="" coords="470,306,712,334"/>
+<area shape="rect" id="node30" href="$classamici_1_1_model.html#a1d8b7271972a7882f18e1c9ea3308e38" title="Get the initial states sensitivities." alt="" coords="269,215,422,257"/>
+<area shape="rect" id="node31" href="$classamici_1_1_model.html#ac4044c8b06d92618b69d0d4fcc083811" title=" " alt="" coords="515,189,666,232"/>
+<area shape="rect" id="node32" href="$classamici_1_1_model.html#a76f3aa67bb6232cce1f56cc1ec9c9c4e" title=" " alt="" coords="270,97,421,124"/>
+<area shape="rect" id="node35" href="$classamici_1_1_model.html#af6c1a377a0867481f969ac492c138f5b" title="Get the initial states." alt="" coords="514,123,667,165"/>
+<area shape="rect" id="node36" href="$classamici_1_1_model.html#a1c572664ecc01f787199f0b7fc209ac7" title=" " alt="" coords="515,56,666,99"/>
+<area shape="rect" id="node39" href="$classamici_1_1_model.html#ae7e44973e14be3f1575c3356f3dc8e2e" title="Model specific implementation of fsx_solver." alt="" coords="512,744,670,771"/>
+<area shape="rect" id="node41" href="$classamici_1_1_model.html#a9c35c337e4c9568d94fb8ad985cc500d" title="Time&#45;resolved measurement negative log&#45;likelihood Jy." alt="" coords="494,845,688,888"/>
+<area shape="rect" id="node42" href="$classamici_1_1_model.html#abb22422c569ab3fac8a439cb25c1f65d" title="Sensitivity of time&#45;resolved measurement negative log&#45;likelihood Jy w.r.t. standard deviation sigma." alt="" coords="505,962,676,990"/>
+<area shape="rect" id="node43" href="$classamici_1_1_model.html#ac45aff20b906c9a9ec7abb5b1a1d3116" title="Partial derivative of time&#45;resolved measurement negative log&#45;likelihood Jy." alt="" coords="520,912,662,939"/>
+<area shape="rect" id="node44" href="$classamici_1_1_model.html#a27a73579cfa3fbec5d9fd4e0edeee4e0" title="Time&#45;resolved observables,." alt="" coords="496,794,686,822"/>
+<area shape="rect" id="node46" href="$classamici_1_1_model.html#ace9763a0ecf7efeb69ead8a721da6916" title="Event&#45;resolved observable negative log&#45;likelihood,." alt="" coords="483,1266,699,1294"/>
+<area shape="rect" id="node47" href="$classamici_1_1_model.html#aaa7bf3bdc44879d66b3821a095039898" title="Sensitivity of event measurement negative log&#45;likelihood Jz w.r.t. standard deviation sigmaz." alt="" coords="505,1216,676,1243"/>
+<area shape="rect" id="node48" href="$classamici_1_1_model.html#a0c44c0a2afed13fbc92f449789566fad" title="Partial derivative of event measurement negative log&#45;likelihood Jz." alt="" coords="520,1165,662,1192"/>
+<area shape="rect" id="node49" href="$classamici_1_1_model.html#ac0c041886a527c0517aac6312d59185d" title="Event&#45;resolved observables." alt="" coords="513,1114,669,1142"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="getEventSigma" name="getEventSigma">
+<area shape="rect" id="node1" title="Event&#45;resolved observable standard deviations." alt="" coords="5,193,117,221"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a33ebc7e2d021c9d8fd0aa4ee136da6c7" title="Standard deviation of events." alt="" coords="188,131,255,158"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a2054555e8d40c4ea6e7f562c335ab984" title="Writes part of a slice to a buffer according to indices specified in z2event." alt="" coords="165,256,278,283"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#adc4a77886dc856d69a483188a54331db" title="checks input vector of sigmas for not strictly positive values" alt="" coords="336,5,521,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_exp_data.html#aabab4dfc080fdf961b6a3bbf1aebd631" title="get function that returns a pointer to standard deviation of observed event data at ieth occurence" alt="" coords="331,56,526,99"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#a7270ea1362212e4dc344e24dc01b70ee" title="get function that checks whether event data at specified indices has been set" alt="" coords="326,123,531,166"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#a29530529cf50b9fa791e02fed620ea7a" title="get function that checks whether standard deviation of even data at specified indices has been set" alt="" coords="326,190,531,232"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title=" " alt="" coords="579,164,676,191"/>
+<area shape="rect" id="node9" href="$namespaceamici.html#a30dd37b560d7bcc5b0f26279ecdbabee" title="local helper to check whether the provided buffer has the expected size" alt="" coords="351,256,506,283"/>
+<area shape="rect" id="node10" href="$namespaceamici.html#a9b4db946a8f31b40a70266bb91841ab5" title="creates a slice from existing data" alt="" coords="385,307,472,334"/>
+</map>

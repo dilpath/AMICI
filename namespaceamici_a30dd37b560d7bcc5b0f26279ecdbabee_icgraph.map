@@ -1,0 +1,16 @@
+<map id="checkBufferSize" name="checkBufferSize">
+<area shape="rect" id="node1" title="local helper to check whether the provided buffer has the expected size" alt="" coords="537,176,654,203"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a6108459cb07d306418e90a73e5c71eac" title="Sensitivity of z at final timepoint (ignores sensitivity of timepoint), total derivative." alt="" coords="295,72,489,115"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#acb122a34e836b05e7ae405e9fb59528e" title="Writes part of a sensitivity slice to a buffer according to indices specified in z2event." alt="" coords="296,139,488,181"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#ab6363cf4e0abdfd138fb33270bb425a6" title="local helper function to write computed slice to provided buffer" alt="" coords="353,205,431,232"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a2054555e8d40c4ea6e7f562c335ab984" title="Writes part of a slice to a buffer according to indices specified in z2event." alt="" coords="311,407,472,449"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a89aad8dfe8896d8682f81eada0ddefab" title="Sensitivities of event&#45;resolved observable standard deviations, total derivative (only forward sensit..." alt="" coords="29,5,223,48"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a6ad52765b87568f131a18db39939105b" title="State sensitivity of the negative loglikelihood Jz, partial derivative (to be used with adjoint senst..." alt="" coords="45,72,207,115"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#ac66f4b4fe55ee5a1e6527b4fb743d215" title="State sensitivity of the negative loglikelihood Jy, partial derivative (to be used with adjoint senst..." alt="" coords="44,139,208,181"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a27a73579cfa3fbec5d9fd4e0edeee4e0" title="Time&#45;resolved observables,." alt="" coords="31,205,221,232"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a6d69e9d069a75dc6f2856a16ddf01e0c" title="Time&#45;resolved observable standard deviations." alt="" coords="31,256,221,299"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a438cbd56ad9ee77f9ee2a8a5d919584b" title="Sensitivity of time&#45;resolved observable standard deviation, total derivative (can be used with both a..." alt="" coords="31,323,221,365"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#ac0c041886a527c0517aac6312d59185d" title="Event&#45;resolved observables." alt="" coords="48,389,204,416"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#a2c8c64a4176f95eb0615762b4ac2dcef" title="Regularization for event&#45;resolved observables." alt="" coords="5,440,247,467"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#ae365d77c1eb06d0cbe2303ed3627f7ed" title="Event&#45;resolved observable standard deviations." alt="" coords="29,490,223,518"/>
+</map>

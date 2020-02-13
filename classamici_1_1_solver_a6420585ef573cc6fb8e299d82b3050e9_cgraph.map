@@ -1,0 +1,15 @@
+<map id="writeSolution" name="writeSolution">
+<area shape="rect" id="node1" title="write solution from forward simulation" alt="" coords="5,148,103,175"/>
+<area shape="rect" id="node2" href="$classamici_1_1_ami_vector.html#a30c98bf8f33d174e936f8a0522085396" title="copies data from another AmiVector" alt="" coords="151,5,307,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector_array.html#aaa979b44841f94510b6481c53d826075" title="copies data from another AmiVectorArray" alt="" coords="153,56,305,99"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#a65b472423554d7c3c28fde14010d3338" title="Access derivative state solution at time t." alt="" coords="164,123,294,150"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#ac964cec4839a463d816eeae0aca71993" title="Access state solution at time t." alt="" coords="194,173,265,201"/>
+<area shape="rect" id="node9" href="$classamici_1_1_solver.html#a2ce4f693b9a7df86285918d00ab39efa" title="Access state sensitivity solution at time t." alt="" coords="164,224,295,251"/>
+<area shape="rect" id="node13" href="$classamici_1_1_solver.html#a1582a658df3f51a8c88b6f22b4205b3f" title="current solver timepoint" alt="" coords="207,275,251,302"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="355,5,543,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector_array.html#a5f00d4dc3e7866d193ce926f35542801" title="length of AmiVectorArray" alt="" coords="373,56,525,99"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#aed7206cd845eb0ae060060b6dfa3c483" title="interpolates the (derivative of the) solution at the requested timepoint" alt="" coords="417,123,480,150"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#adb95560b4cc88c3e353fbbb92c843ef5" title="extracts the state sensitivity at the current timepoint from solver memory and writes it to the sx me..." alt="" coords="414,173,484,201"/>
+<area shape="rect" id="node11" href="$classamici_1_1_solver.html#a9c5dfcede005c555593ecad166a31fa0" title="interpolates the (derivative of the) solution at the requested timepoint" alt="" coords="402,224,495,251"/>
+<area shape="rect" id="node12" href="$classamici_1_1_ami_vector_array.html#ad20897c5c8bd47f5d4005989bead0e55" title="resets every AmiVector in AmiVectorArray" alt="" coords="373,275,525,318"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="setParameterByName" name="setParameterByName">
+<area shape="rect" id="node1" title="Set value of first model parameter with the specified name." alt="" coords="5,81,158,109"/>
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aa99eb9052c2bbddc98547a0ad9a3c7bf" title="Get names of the model parameters." alt="" coords="454,5,599,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a7b51ed26a01b793c832fe680d9543763" title="Reports whether the model has parameter names set. Also returns true if the number of corresponding v..." alt="" coords="220,56,367,83"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#acddd6b0e711271688de09e8fbca5856e" title="local helper function to set parameters" alt="" coords="224,107,362,134"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#ad1acbd1f317ba4fa5ea410911a5af275" title="Remove parameter scaling according to the parameter scaling in pscale." alt="" coords="206,157,381,185"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ae296546c9fd4d7c4ad3b7000aa9e22ef" title="Total number of model parameters." alt="" coords="507,56,546,83"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#a7e1720941869974da1ca8dbd6cd9e936" title="Remove parameter scaling according to scaling" alt="" coords="429,157,625,185"/>
+</map>

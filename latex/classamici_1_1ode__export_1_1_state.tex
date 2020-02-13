@@ -1,0 +1,150 @@
+\hypertarget{classamici_1_1ode__export_1_1_state}{}\doxysubsection{State Class Reference}
+\label{classamici_1_1ode__export_1_1_state}\index{State@{State}}
+
+
+A \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} variable defines an entity that evolves with time according to the provided time derivative, abbreviated by {\ttfamily x}  
+
+
+
+
+Inheritance diagram for State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classamici_1_1ode__export_1_1_state__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, identifier, name, value, dt)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} instance. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_state_a2b2539f11e691051b47456a8191aa91b}{set\+\_\+conservation\+\_\+law}} (self, law)
+\begin{DoxyCompactList}\small\item\em Sets the conservation law of a state. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_state_ab241f0ff9ea890217ba44ec670c9dbbd}{set\+\_\+dt}} (self, dt)
+\begin{DoxyCompactList}\small\item\em Sets the time derivative. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_state_a76a215855520a5ed9d41bfddf22b1162}{get\+\_\+dt}} (self)
+\begin{DoxyCompactList}\small\item\em Sets the time derivative. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_state_a8cc98ce254708f8d4c493455d6492802}{conservation\+\_\+law}} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+\begin{DoxyVerb}    species according to a conservation law
+\end{DoxyVerb}
+ 
+
+Definition at line 373 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}\label{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}} 
+\index{State@{State}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!State@{State}}
+\doxyparagraph{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{identifier,  }\item[{}]{name,  }\item[{}]{value,  }\item[{}]{dt }\end{DoxyParamCaption})}
+
+Extends \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}{Model\+Quantity.\+\_\+\+\_\+init\+\_\+\+\_\+}} by dt
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & unique identifier of the state ~\newline
+{\bfseries{Type}}\+: sympy.\+Symbol\\
+\hline
+{\em name} & individual name of the state (does not need to be unique) ~\newline
+{\bfseries{Type}}\+: str\\
+\hline
+{\em value} & initial value ~\newline
+{\bfseries{Type}}\+: symengine.\+Basic\\
+\hline
+{\em dt} & time derivative ~\newline
+{\bfseries{Type}}\+: symengine.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if input types do not match documented types 
+\end{DoxyParagraph}
+
+
+Definition at line 396 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_a2b2539f11e691051b47456a8191aa91b}\label{classamici_1_1ode__export_1_1_state_a2b2539f11e691051b47456a8191aa91b}} 
+\index{State@{State}!set\_conservation\_law@{set\_conservation\_law}}
+\index{set\_conservation\_law@{set\_conservation\_law}!State@{State}}
+\doxyparagraph{\texorpdfstring{set\_conservation\_law()}{set\_conservation\_law()}}
+{\footnotesize\ttfamily def set\+\_\+conservation\+\_\+law (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{law }\end{DoxyParamCaption})}
+
+If the a conservation law is set, the respective state will be replaced by an algebraic formula according to the respective conservation law.
+
+
+\begin{DoxyParams}{Parameters}
+{\em law} & linear sum of states that if added to this state remain constant over time\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if law type does not match documented type 
+\end{DoxyParagraph}
+
+
+Definition at line 419 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_ab241f0ff9ea890217ba44ec670c9dbbd}\label{classamici_1_1ode__export_1_1_state_ab241f0ff9ea890217ba44ec670c9dbbd}} 
+\index{State@{State}!set\_dt@{set\_dt}}
+\index{set\_dt@{set\_dt}!State@{State}}
+\doxyparagraph{\texorpdfstring{set\_dt()}{set\_dt()}}
+{\footnotesize\ttfamily def set\+\_\+dt (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{dt }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & time derivative ~\newline
+{\bfseries{Type}}\+: symengine.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if dt type does not match documented type 
+\end{DoxyParagraph}
+
+
+Definition at line 437 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_a76a215855520a5ed9d41bfddf22b1162}\label{classamici_1_1ode__export_1_1_state_a76a215855520a5ed9d41bfddf22b1162}} 
+\index{State@{State}!get\_dt@{get\_dt}}
+\index{get\_dt@{get\_dt}!State@{State}}
+\doxyparagraph{\texorpdfstring{get\_dt()}{get\_dt()}}
+{\footnotesize\ttfamily def get\+\_\+dt (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+time derivative ~\newline
+{\bfseries{Type}}\+: symengine.\+Basic 
+\end{DoxyReturn}
+
+
+Definition at line 452 of file ode\+\_\+export.\+py.
+
+
+
+\doxysubsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_a8cc98ce254708f8d4c493455d6492802}\label{classamici_1_1ode__export_1_1_state_a8cc98ce254708f8d4c493455d6492802}} 
+\index{State@{State}!conservation\_law@{conservation\_law}}
+\index{conservation\_law@{conservation\_law}!State@{State}}
+\doxyparagraph{\texorpdfstring{conservation\_law}{conservation\_law}}
+{\footnotesize\ttfamily conservation\+\_\+law = None\hspace{0.3cm}{\ttfamily [static]}}
+
+algebraic formula that allows computation of this 
+
+Definition at line 378 of file ode\+\_\+export.\+py.
+

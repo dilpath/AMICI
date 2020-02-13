@@ -1,0 +1,9 @@
+<map id="setInternalSensitivityMethod" name="setInternalSensitivityMethod">
+<area shape="rect" id="node1" title="sets the internal sensitivity method" alt="" coords="5,76,193,103"/>
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of parameters with which the solver was initialized" alt="" coords="439,13,491,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a5df527ca34def937e6ca2835fc644ec3" title="number of quadratures with which the solver was initialized" alt="" coords="436,126,494,154"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#ad5665a34d43b7022af0fc096c204ee34" title="number of states with which the solver was initialized" alt="" coords="446,76,485,103"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#adadf5f53f5e713fdca870877af5563a1" title="resets solverMemory and solverMemoryB" alt="" coords="241,50,388,78"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector_array.html#a5f00d4dc3e7866d193ce926f35542801" title="length of AmiVectorArray" alt="" coords="560,5,712,48"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="returns the length of the vector" alt="" coords="542,93,730,120"/>
+</map>

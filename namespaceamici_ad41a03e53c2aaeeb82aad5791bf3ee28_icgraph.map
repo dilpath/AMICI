@@ -1,0 +1,12 @@
+<map id="getNaN" name="getNaN">
+<area shape="rect" id="node1" title=" " alt="" coords="723,168,790,195"/>
+<area shape="rect" id="node2" href="$classamici_1_1_exp_data.html#ae0f51d05d7fbaf7f61e0795301bad084" title="resizes observedData and observedDataStdDev" alt="" coords="494,72,672,115"/>
+<area shape="rect" id="node6" href="$classamici_1_1_exp_data.html#ae872e294aa6f34e90844905fd203eb16" title="resizes observedEvents and observedEventsStdDev" alt="" coords="491,5,675,48"/>
+<area shape="rect" id="node7" href="$classamici_1_1_return_data.html#ad31e876560a505c588ea7d6dc27221b7" title="Set likelihood, state variables, outputs and respective sensitivities to NaN (typically after integra..." alt="" coords="265,189,401,232"/>
+<area shape="rect" id="node8" href="$classamici_1_1_return_data.html#a03e88745280c032d3b59fd7235665e17" title="Set likelihood and chi2 to NaN (typically after integration failure)" alt="" coords="515,189,651,232"/>
+<area shape="rect" id="node9" href="$classamici_1_1_return_data.html#ae0c35d3a9e0f0d4d0903b795bc6e222f" title="Set likelihood sensitivities to NaN (typically after integration failure)" alt="" coords="515,256,651,299"/>
+<area shape="rect" id="node10" href="$classamici_1_1_return_data.html#a8074ea697eda3da616136da2c30bc503" title="ReturnData." alt="" coords="515,323,651,365"/>
+<area shape="rect" id="node3" href="$classamici_1_1_exp_data.html#a81a6a21cd5d905d5b6199f3a97030f61" title="resizes observedData, observedDataStdDev, observedEvents and observedEventsStdDev" alt="" coords="223,21,443,48"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#a058fb6c96339b5116b1af937bc77c2e4" title="set function that copies data from input to ExpData::ts" alt="" coords="232,80,433,107"/>
+<area shape="rect" id="node4" href="$classamici_1_1_exp_data.html#af2322d528ad31a4335b0e5178b373649" title="constructor that only initializes dimensions" alt="" coords="5,21,175,48"/>
+</map>

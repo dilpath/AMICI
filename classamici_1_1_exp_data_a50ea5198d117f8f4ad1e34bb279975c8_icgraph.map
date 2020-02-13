@@ -1,0 +1,5 @@
+<map id="getTimepoints" name="getTimepoints">
+<area shape="rect" id="node1" title="get function that copies data from ExpData::ts to output" alt="" coords="426,13,530,40"/>
+<area shape="rect" id="node2" href="$classamici_1_1_condition_context.html#a3afbbd4b46cbd46cbc07960705492843" title="Apply condition&#45;specific settings from edata to the constructor&#45;supplied model, not changing the sett..." alt="" coords="215,5,378,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_condition_context.html#a00922f8e090c4171074b23690161c3bd" title="Apply condition&#45;specific settings from edata to model while keeping a backup of the original values." alt="" coords="5,5,167,48"/>
+</map>
