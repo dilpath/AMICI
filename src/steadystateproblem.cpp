@@ -67,7 +67,7 @@ void SteadystateProblem::workSteadyStateProblem(ReturnData *rdata,
             if (it < 0) {
                 /* Preequilibration? -> Create a new CVode object for sim */
                 auto newtonSimSolver =
-                    createSteadystateSimSolver(solver, model);
+                    createSteadystateSimSolver(solver, model, false);
                 getSteadystateSimulation(rdata, newtonSimSolver.get(), model);
             } else {
                 /* Solver was already created, use this one */
@@ -129,8 +129,20 @@ void SteadystateProblem::workSteadyStateBackwardProblem(ReturnData *rdata, Solve
             rhs[ix + iJ * model->nxtrue_solver] = dJydx[iJ + ix * model->nJ];
     }
 
-    newtonSolver->prepareLinearSystemB(0, -1);
-    newtonSolver->solveLinearSystem(rhs);
+    try {
+        /* If no factorization of Jacobian wanted, skip this step */
+        if (solver->getNewtonSolverBackward() == false)
+            throw NewtonFailure(AMICI_TOO_MUCH_WORK, "workSteadyStateBackwardProblem");
+
+        /* Try to algebraically solve the problem */
+        newtonSolver->prepareLinearSystemB(0, -1);
+        newtonSolver->solveLinearSystem(rhs);
+    } catch (NewtonFailure const &ex1) {
+        /* Integrate the simplified backward ODE with quadrature over xB */
+        auto newtonSimSolverB =
+            createSteadystateSimSolver(solver, model, true);
+        getSteadystateSimulation(rdata, newtonSimSolver.get(), model);
+    }
 
     // Compute the inner product v*dxotdp
     if (model->pythonGenerated)
@@ -143,7 +155,8 @@ void SteadystateProblem::workSteadyStateBackwardProblem(ReturnData *rdata, Solve
     }
     else
     {
-      for (int ip=0; ip<model->nplist(); ++ip)
+        // Matlab generated
+        for (int ip=0; ip<model->nplist(); ++ip)
         xQB[ip] = N_VDotProd(rhs.getNVector(), model->dxdotdp.getNVector(ip));
     }
 }
@@ -355,12 +368,10 @@ void SteadystateProblem::getSteadystateSimulation(ReturnData *rdata,
 }
 
 std::unique_ptr<Solver> SteadystateProblem::createSteadystateSimSolver(
-        const Solver *solver, Model *model) const
+        const Solver *solver, Model *model, const bool backward) const
 {
     /* Create new CVode solver object */
-
     auto newton_solver = std::unique_ptr<Solver>(solver->clone());
-
     switch(solver->getLinearSolver()) {
         case LinearSolver::dense:
         case LinearSolver::KLU:
@@ -369,14 +380,25 @@ std::unique_ptr<Solver> SteadystateProblem::createSteadystateSimSolver(
         default:
             throw NewtonFailure(AMICI_NOT_IMPLEMENTED, "invalid solver for steadystate simulation");
     }
+
+    /* Do we have to integrate sensitivities? */
+    newton_solver->setSensitivityMethod(SensitivityMethod::none);
     if (solver->getSensitivityMethod() != SensitivityMethod::none
+        && model->getSensitivityMethod() == SensitivityMethod::forward
         && model->getSteadyStateSensitivityMode() == SteadyStateSensitivityMode::simulationFSA)
-        newton_solver->setSensitivityMethod(SensitivityMethod::forward); //need forward to compute sx0
-    else
-        newton_solver->setSensitivityMethod(SensitivityMethod::none);
+        newton_solver->setSensitivityMethod(SensitivityMethod::forward);
 
     // use x and sx as dummies for dx and sdx (they wont get touched in a CVodeSolver)
     newton_solver->setup(model->t0(), model, x, x, sx, sx);
+
+    // If we do the simplified backward integration, we have some changes
+    if (backward) {
+        // model->fxdot = <use backward dummy>;
+        /* Initialise quadrature calculation */
+        // newton_solver->qinit(0, xQB0);
+        /* set quadrature tolerances */
+        newton_solver->applyQuadTolerancesASA(*which);
+    }
 
     return newton_solver;
 }

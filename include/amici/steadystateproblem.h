@@ -99,10 +99,12 @@ class SteadystateProblem {
      *
      * @param solver pointer to the AMICI solver object
      * @param model pointer to the AMICI model object
+     * @param backward flag indicating whether it's the backward ODE
      * @return solver instance
      */
     std::unique_ptr<Solver> createSteadystateSimSolver(const Solver *solver,
-                                                       Model *model) const;
+                                                       Model *model,
+                                                       const bool backward) const;
 
     /**
      * @brief constructor
