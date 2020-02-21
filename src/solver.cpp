@@ -109,7 +109,8 @@ void Solver::setup(const realtype t0, Model *model, const AmiVector &x0,
             setSensParams(par.data(), nullptr, plist.data());
 
             applyTolerancesFSA();
-        } else if (sensi_meth == SensitivityMethod::adjoint) {
+        } else if (sensi_meth == SensitivityMethod::adjoint &&
+                   !(std::isinf(t0))) {
             /* Allocate space for the adjoint computation */
             adjInit();
         }

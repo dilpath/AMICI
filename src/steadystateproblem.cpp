@@ -388,15 +388,18 @@ std::unique_ptr<Solver> SteadystateProblem::createSteadystateSimSolver(
         newton_solver->setSensitivityMethod(SensitivityMethod::forward);
 
     // use x and sx as dummies for dx and sdx (they wont get touched in a CVodeSolver)
-    newton_solver->setup(model->t0(), model, x, x, sx, sx);
+    if (backward) {
+        newton_solver->setup(std::numeric_limits<realtype>::infinity(), model, x, x, sx, sx);
+    } else {
+        newton_solver->setup(model->t0(), model, x, x, sx, sx);
+    }
 
     // If we do the simplified backward integration, we have some changes
     if (backward) {
-        // model->fxdot = <use backward dummy>;
         /* Initialise quadrature calculation */
         // newton_solver->qinit(0, xQB0);
         /* set quadrature tolerances */
-        newton_solver->applyQuadTolerancesASA(*which);
+        // newton_solver->applyQuadTolerancesASA(*which);
     }
 
     return newton_solver;

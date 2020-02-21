@@ -79,6 +79,10 @@ static int fxBdot(realtype t, N_Vector x, N_Vector xB, N_Vector xBdot,
 static int fqBdot(realtype t, N_Vector x, N_Vector xB, N_Vector qBdot,
                   void *user_data);
 
+static int fxSSBdot(realtype t, N_Vector x, N_Vector xdot, void *user_data);
+
+static int fqSSBdot(realtype t, N_Vector x, N_Vector xdot, void *user_data);
+
 static int fsxdot(int Ns, realtype t, N_Vector x, N_Vector xdot, int ip,
                   N_Vector sx, N_Vector sxdot, void *user_data,
                   N_Vector tmp1, N_Vector tmp2);
@@ -92,12 +96,22 @@ void CVodeSolver::init(const realtype t0, const AmiVector &x0,
     t = t0;
     x.copy(x0);
     int status;
-    if (getInitDone()) {
-        status = CVodeReInit(solverMemory.get(), t0, x.getNVector());
+    if (std::isinf(t0)) {
+        if (getInitDone()) {
+            status = CVodeReInit(solverMemory.get(), 0, x.getNVector());
+        } else {
+            status = CVodeInit(solverMemory.get(), fxSSBdot, 0, x.getNVector());
+            setInitDone();
+        }
     } else {
-        status = CVodeInit(solverMemory.get(), fxdot, t0, x.getNVector());
-        setInitDone();
+        if (getInitDone()) {
+            status = CVodeReInit(solverMemory.get(), t0, x.getNVector());
+        } else {
+            status = CVodeInit(solverMemory.get(), fxdot, t0, x.getNVector());
+            setInitDone();
+        }
     }
+
     if (status != CV_SUCCESS)
         throw CvodeException(status, "CVodeInit");
 }
