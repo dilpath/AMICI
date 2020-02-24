@@ -183,6 +183,8 @@ class CVodeSolver : public Solver {
 
     void qbinit(int which, const AmiVector &xQB0) const override;
 
+    void qinit(const AmiVector &xQ0) const override;
+
     void rootInit(int ne) const override;
 
     void setDenseJacFn() const override;

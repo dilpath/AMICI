@@ -1227,6 +1227,13 @@ class Solver {
     bool getAdjInitDone() const;
 
     /**
+     * @brief checks whether memory for quadratures has been allocated (only SS)
+     *
+     * @return proxy for solverMemory->(cv|ida)_quadMallocDone
+     */
+    bool getQuadInitDone() const;
+
+    /**
      * @brief checks whether memory for the backward problem has been allocated
      * @param which adjoint problem index
      * @return proxy for solverMemoryB->(cv|ida)_MallocDone

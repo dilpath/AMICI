@@ -165,6 +165,20 @@ void CVodeSolver::qbinit(const int which, const AmiVector &xQB0) const {
         throw CvodeException(status, "CVodeQuadInitB");
 }
 
+void CVodeSolver::qinit(const AmiVector &xQ0) const {
+    xQ.copy(xQ0);
+    int status;
+    if (getQuadInitDone() {
+        status = CVodeQuadReInit(solverMemory.get(), xQ.getNVector());
+    } else {
+        status =
+        CVodeQuadInit(solverMemory.get(), fqSSBdot, xQ.getNVector());
+        setQuadInitDone();
+    }
+    if (status != CV_SUCCESS)
+        throw CvodeException(status, "CVodeQuadInit");
+}
+
 void CVodeSolver::rootInit(int ne) const {
     int status = CVodeRootInit(solverMemory.get(), ne, froot);
     if (status != CV_SUCCESS)

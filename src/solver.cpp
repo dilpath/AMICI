@@ -864,6 +864,8 @@ bool Solver::getSensInitDone() const { return sensInitialized; }
 
 bool Solver::getAdjInitDone() const { return adjInitialized; }
 
+bool Solver::getQuadInitDone() const { return quadInitialized; }
+
 bool Solver::getInitDoneB(const int which) const {
     return static_cast<int>(initializedB.size()) > which &&
            initializedB.at(which);
@@ -879,6 +881,8 @@ void Solver::setInitDone() const { initialized = true; };
 void Solver::setSensInitDone() const { sensInitialized = true; }
 
 void Solver::setAdjInitDone() const { adjInitialized = true; }
+
+void Solver::setQuadInitDone() const { quadInitialized = true; };
 
 void Solver::setInitDoneB(const int which) const {
     if (which >= static_cast<int>(initializedB.size()))
