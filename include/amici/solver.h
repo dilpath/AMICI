@@ -793,6 +793,12 @@ class Solver {
     virtual void getQuadB(int which) const = 0;
 
     /**
+     * @brief extracts the quadrature at the current timepoint from solver
+     * memory and writes it to the xQ member variable
+     */
+    virtual void getQuad() const = 0;
+
+    /**
      * @brief Initialises the states at the specified initial timepoint
      *
      * @param t0 initial timepoint
@@ -828,6 +834,14 @@ class Solver {
      * @param xQB0 intial adjoint quadrature state
      */
     virtual void qbinit(int which, const AmiVector &xQB0) const = 0;
+
+    /**
+     * @brief Initialises the quadrature states at final time for ASA with SS
+     *
+     * @param which identifier of the backwards problem
+     * @param xQ0 intial forward quadrature state
+     */
+    virtual void qinit(const AmiVector &xQ0) const = 0;
 
     /**
      * @brief Initialises the rootfinding for events
@@ -1059,6 +1073,15 @@ class Solver {
                              int which) const = 0;
 
     /**
+     * @brief interpolates the (derivative of the) solution at the requested
+     * timepoint
+     *
+     * @param t timepoint
+     * @param k derivative order
+     */
+    virtual void getQuadDky(realtype t, int k) const = 0;
+
+    /**
      * @brief initializes the adjoint problem
      *
      */
@@ -1092,6 +1115,16 @@ class Solver {
      * @param abstolQB absolute tolerances
      */
     virtual void quadSStolerancesB(int which, realtype reltolQB,
+                                   realtype abstolQB) const = 0;
+
+    /**
+     * @brief sets relative and absolute tolerances for the quadrature
+     * problem
+     *
+     * @param reltolQB relative tolerances
+     * @param abstolQB absolute tolerances
+     */
+    virtual void quadSStolerancesB(realtype reltolQB,
                                    realtype abstolQB) const = 0;
 
     /**
@@ -1307,6 +1340,12 @@ class Solver {
     void applyQuadTolerancesASA(int which) const;
 
     /**
+     * @brief updates steady-state solver quadrature tolerances according to the
+     * currently specified member variables
+     */
+    void applyQuadTolerancesSSA() const;
+
+    /**
      * @brief updates all senstivivity solver tolerances according to the
      * currently specified member variables
      */
@@ -1511,6 +1550,9 @@ class Solver {
 
     /** flag indicating whether adjInit was called */
     mutable bool adjInitialized = false;
+
+    /** flag indicating whether adjInit was called */
+    mutable bool quadInitialized = false;
 
     /** vector of flags indicating whether binit was called for respective
      which */

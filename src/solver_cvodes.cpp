@@ -268,6 +268,12 @@ void CVodeSolver::setQuadErrConB(const int which, const bool flag) const {
         throw CvodeException(status, "CVodeSetQuadErrConB");
 }
 
+void CVodeSolver::setQuadErrCon(const bool flag) const {
+    int status = CVodeSetQuadErrCon(solverMemory.get(), flag);
+    if (status != CV_SUCCESS)
+        throw CvodeException(status, "CVodeSetQuadErrCon");
+}
+
 void CVodeSolver::getRootInfo(int *rootsfound) const {
     int status = CVodeGetRootInfo(solverMemory.get(), rootsfound);
     if (status != CV_SUCCESS)
@@ -577,6 +583,19 @@ void CVodeSolver::getQuadDkyB(const realtype t, const int k, int which) const {
         throw CvodeException(status, "CVodeGetQuadDkyB");
 }
 
+void CVodeSolver::getQuad() const {
+    realtype tDummy = 0;
+    int status = CVodeGetQuad(solverMemory.get(), &tDummy, xQ.getNVector());
+    if (status != CV_SUCCESS)
+        throw CvodeException(status, "CVodeGetQuad");
+}
+
+void CVodeSolver::getQuadDky(const realtype t, const int k) const {
+    int status = CVodeGetQuadDky(solverMemory.get(), t, k, xQ.getNVector());
+    if (status != CV_SUCCESS)
+        throw CvodeException(status, "CVodeGetQuadDky");
+}
+
 void CVodeSolver::adjInit() const {
     int status;
     if (getAdjInitDone()) {
@@ -619,6 +638,13 @@ void CVodeSolver::quadSStolerancesB(const int which, const realtype reltolQB,
         CVodeQuadSStolerancesB(solverMemory.get(), which, reltolQB, abstolQB);
     if (status != CV_SUCCESS)
         throw CvodeException(status, "CVodeQuadSStolerancesB");
+}
+
+void CVodeSolver::quadSStolerances(const realtype reltolQB,
+                                   const realtype abstolQB) const {
+    int status = CVodeQuadSStolerances(solverMemory.get(), reltolQB, abstolQB);
+    if (status != CV_SUCCESS)
+        throw CvodeException(status, "CVodeQuadSStolerances");
 }
 
 void CVodeSolver::getB(const int which) const {

@@ -397,9 +397,9 @@ std::unique_ptr<Solver> SteadystateProblem::createSteadystateSimSolver(
     // If we do the simplified backward integration, we have some changes
     if (backward) {
         /* Initialise quadrature calculation */
-        // newton_solver->qinit(0, xQB0);
+        newton_solver->qinit(xQ0);
         /* set quadrature tolerances */
-        // newton_solver->applyQuadTolerancesASA(*which);
+        newton_solver->applyQuadTolerancesSSA();
     }
 
     return newton_solver;

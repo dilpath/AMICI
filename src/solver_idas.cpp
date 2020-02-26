@@ -148,6 +148,20 @@ void IDASolver::qbinit(const int which, const AmiVector &xQB0) const {
         throw IDAException(status, "IDAQuadInitB");
 }
 
+void CVodeSolver::qinit(const AmiVector &xQ0) const {
+    xQ.copy(xQ0);
+    int status;
+    if (getQuadInitDone() {
+        status = IDAQuadReInit(solverMemory.get(), xQ.getNVector());
+    } else {
+        status =
+        IDAQuadInit(solverMemory.get(), fqSSBdot, xQ.getNVector());
+        setQuadInitDone();
+    }
+    if (status != IDA_SUCCESS)
+        throw IDAException(status, "IDAQuadInit");
+}
+
 void IDASolver::rootInit(int ne) const {
     int status = IDARootInit(solverMemory.get(), ne, froot);
     if (status != IDA_SUCCESS)
@@ -234,6 +248,12 @@ void IDASolver::setQuadErrConB(const int which, const bool flag) const {
     int status = IDASetQuadErrConB(solverMemory.get(), which, flag);
     if (status != IDA_SUCCESS)
         throw IDAException(status, "IDASetQuadErrConB");
+}
+
+void IDASolver::setQuadErrCon(const bool flag) const {
+    int status = IDASetQuadErrCon(solverMemory.get(), flag);
+    if (status != IDA_SUCCESS)
+        throw IDAException(status, "IDASetQuadErrCon");
 }
 
 void IDASolver::getRootInfo(int *rootsfound) const {
@@ -476,6 +496,7 @@ void IDASolver::getDkyB(const realtype t, int k, const int which) const {
     if (status != IDA_SUCCESS)
         throw IDAException(status, "IDAGetB");
 }
+
 void IDASolver::getQuadB(int which) const {
     realtype tDummy = 0;
     int status =
@@ -489,6 +510,20 @@ void IDASolver::getQuadDkyB(const realtype t, int k, const int which) const {
                                k, xQB.getNVector());
     if (status != IDA_SUCCESS)
         throw IDAException(status, "IDAGetB");
+}
+
+void IDASolver::getQuad() const {
+    realtype tDummy = 0;
+    int status =
+    IDAGetQuad(solverMemory.get(), &tDummy, xQ.getNVector());
+    if (status != IDA_SUCCESS)
+        throw IDAException(status, "IDAGetQuad");
+}
+
+void IDASolver::getQuadDky(const realtype t, int k) const {
+    int status = IDAGetQuadDky(solverMemory.get(), t, k, xQ.getNVector());
+    if (status != IDA_SUCCESS)
+        throw IDAException(status, "IDAGetQuad");
 }
 
 void IDASolver::adjInit() const {
@@ -532,6 +567,13 @@ void IDASolver::quadSStolerancesB(const int which, const realtype reltolQB,
         IDAQuadSStolerancesB(solverMemory.get(), which, reltolQB, abstolQB);
     if (status != IDA_SUCCESS)
         throw IDAException(status, "IDAQuadSStolerancesB");
+}
+
+void IDASolver::quadSStolerances(const realtype reltolQB,
+                                 const realtype abstolQB) const {
+    int status = IDAQuadSStolerances(solverMemory.get(), reltolQB, abstolQB);
+    if (status != IDA_SUCCESS)
+        throw IDAException(status, "IDAQuadSStolerances");
 }
 
 int IDASolver::solve(const realtype tout, const int itask) const {

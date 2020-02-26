@@ -50,6 +50,8 @@ class IDASolver : public Solver {
     void quadSStolerancesB(int which, realtype reltolQB,
                            realtype abstolQB) const override;
 
+    void quadSStolerances(realtype reltolQB, realtype abstolQB) const override;
+
     int solve(realtype tout, int itask) const override;
 
     int solveF(realtype tout, int itask,
@@ -72,6 +74,10 @@ class IDASolver : public Solver {
     void getQuadB(int which) const override;
 
     void getQuadDkyB(realtype t, int k, int which) const override;
+
+    void getQuad() const override;
+
+    void getQuadDky(realtype t, int k) const override;
 
     void calcIC(realtype tout1) const override;
 
@@ -108,6 +114,8 @@ class IDASolver : public Solver {
     void setSensErrCon(bool error_corr) const override;
 
     void setQuadErrConB(int which, bool flag) const override;
+
+    void setQuadErrCon(bool flag) const override;
 
     void setErrHandlerFn() const override;
 
@@ -170,6 +178,8 @@ class IDASolver : public Solver {
                const AmiVector &xB0, const AmiVector &dxB0) const override;
 
     void qbinit(int which, const AmiVector &xQB0) const override;
+
+    void qinit(const AmiVector &xQ0) const override;
 
     void rootInit(int ne) const override;
 

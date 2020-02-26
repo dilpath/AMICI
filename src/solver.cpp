@@ -460,6 +460,20 @@ void Solver::applyQuadTolerancesASA(const int which) const {
     quadSStolerancesB(which, quad_rtol, quad_atol);
 }
 
+void Solver::applyQuadTolerancesSSA() const {
+    if (!getQuadInitDone())
+        throw AmiException(("Quadratures in solver instance were not yet set
+                            "up, the tolerances cannot be applied yet!"));
+
+    realtype quad_rtol = isNaN(this->quad_rtol) ? rtol : this->quad_rtol;
+    realtype quad_atol = isNaN(this->quad_atol) ? atol : this->quad_atol;
+
+    /* Enable Quadrature Error Control */
+    setQuadErrCon(!std::isinf(quad_atol) && !std::isinf(quad_rtol));
+
+    quadSStolerances(quad_rtol, quad_atol);
+}
+
 void Solver::applySensitivityTolerances() const {
     if (sensi < SensitivityOrder::first)
         return;
